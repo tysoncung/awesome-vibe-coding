@@ -12,6 +12,7 @@ The future of coding is here - AI assistants that understand context, generate c
   - [Browser Extensions](#browser-extensions)
   - [Specialized Tools](#specialized-tools)
 - [AI Code Completion](#ai-code-completion)
+- [AI Agents & Autonomous Coding](#ai-agents--autonomous-coding)
 - [AI Code Review & Analysis](#ai-code-review--analysis)
 - [AI Debugging & Error Fixing](#ai-debugging--error-fixing)
 - [AI Documentation & Comments](#ai-documentation--comments)
@@ -82,6 +83,13 @@ The future of coding is here - AI assistants that understand context, generate c
   - Multi-repo context
   - Enterprise features
 
+- [Windsurf](https://codeium.com/windsurf) - Codeium's agentic IDE
+  - Built on VSCode
+  - Autonomous coding agent (Cascade)
+  - Multi-file editing
+  - Deep codebase understanding
+  - Free to use
+
 **Open Source:**
 
 - [Continue](https://continue.dev/) - Open-source AI code assistant
@@ -124,6 +132,18 @@ The future of coding is here - AI assistants that understand context, generate c
   - Safe command preview
   - Powered by GPT-3.5/4
 
+- [mods](https://github.com/charmbracelet/mods) - AI on the command line
+  - Multiple AI providers
+  - Markdown output
+  - Pipe support
+  - Standard input/output
+
+- [ShellGPT](https://github.com/TheR1D/shell_gpt) - ChatGPT in terminal
+  - Shell commands from natural language
+  - Code snippet generation
+  - Multiple roles
+  - Conversation history
+
 ### Browser Extensions
 
 - [Warp AI](https://www.warp.dev/) - AI-powered terminal
@@ -156,6 +176,18 @@ The future of coding is here - AI assistants that understand context, generate c
   - Figma integration
   - High-fidelity designs
 
+- [Butterfish](https://butterfi.sh/) - Shell copilot
+  - AI assistance in terminal
+  - Context-aware suggestions
+  - Git integration
+  - Open source
+
+- [Fig](https://fig.io/) - Terminal autocomplete with AI
+  - Visual autocomplete
+  - Script generation
+  - Works with existing tools
+  - Now part of AWS
+
 ## AI Code Completion
 
 - [GitHub Copilot](https://github.com/features/copilot) - Industry standard
@@ -170,6 +202,65 @@ The future of coding is here - AI assistants that understand context, generate c
 - Speed and accuracy
 - Privacy and data handling
 - Cost
+
+## AI Agents & Autonomous Coding
+
+Tools that can autonomously build apps, implement features, or complete coding tasks with minimal human intervention.
+
+- [Bolt.new](https://bolt.new/) - StackBlitz's AI app builder
+  - Build full-stack apps from prompts
+  - Instant preview and deployment
+  - Supports React, Vue, Vite
+  - Runs entirely in browser
+  - Free tier available
+
+- [Lovable (formerly GPT Engineer App)](https://lovable.dev/) - Full-stack app builder
+  - Natural language to full applications
+  - Frontend and backend generation
+  - Database setup
+  - Deployment automation
+  - Iterative refinement
+
+- [Replit Agent](https://replit.com/ai) - Autonomous coding agent in Replit
+  - Build entire apps from description
+  - Multi-file code generation
+  - Integrated with Replit environment
+  - Deploy in one click
+
+- [Devin](https://www.cognition.ai/devin) - AI software engineer
+  - Autonomous coding agent
+  - Can complete entire tasks
+  - Uses own terminal and browser
+  - Still in limited access
+
+- [OpenHands (formerly OpenDevin)](https://github.com/All-Hands-AI/OpenHands) - Open source AI coding agent
+  - Autonomous software development
+  - Terminal and browser access
+  - Open source alternative to Devin
+  - Active community
+
+- [GPT Engineer](https://github.com/gpt-engineer-org/gpt-engineer) - Build entire apps with AI
+  - Full project generation
+  - Iterative development
+  - Multiple LLM support
+  - Open source
+
+- [Mentat](https://mentat.ai/) - AI coding assistant for the terminal
+  - Autonomous code editing
+  - Understands repository context
+  - Git integration
+  - Open source
+
+- [Claude Engineer](https://github.com/Doriandarko/claude-engineer) - Advanced coding agent with Claude
+  - Autonomous coding workflows
+  - File management
+  - Project creation
+  - Open source
+
+- [Agentic Cursor](https://github.com/continuedev/continue) - Agent mode in Continue
+  - Long-running coding tasks
+  - Multi-step operations
+  - Context-aware decisions
 
 ## AI Code Review & Analysis
 
@@ -337,11 +428,45 @@ The future of coding is here - AI assistants that understand context, generate c
 
 ### AI Models for Code
 
+- [Qwen2.5-Coder](https://github.com/QwenLM/Qwen2.5-Coder) - Latest from Alibaba
+  - Multiple sizes (0.5B to 32B parameters)
+  - Excellent code generation
+  - Strong on benchmarks
+  - Multilingual support
+
+- [DeepSeek Coder V2](https://github.com/deepseek-ai/DeepSeek-Coder) - Powerful open code model
+  - 16B and 236B parameter models
+  - Strong performance on HumanEval
+  - Supports 338 programming languages
+  - Fill-in-the-middle capability
+
 - [CodeLlama](https://github.com/facebookresearch/codellama) - Meta's code generation model
-- [StarCoder](https://huggingface.co/bigcode/starcoder) - Open source code LLM
+  - 7B, 13B, 34B, 70B parameters
+  - Python specialist variant
+  - Instruction-tuned versions
+  - Long context (100K tokens)
+
+- [StarCoder 2](https://huggingface.co/bigcode/starcoder2-15b) - Open source code LLM
+  - 3B, 7B, 15B parameters
+  - Trained on The Stack v2
+  - Better than original StarCoder
+  - Multiple language support
+
 - [WizardCoder](https://github.com/nlpxucan/WizardLM/tree/main/WizardCoder) - Empowering Code LLMs
-- [CodeGen](https://github.com/salesforce/CodeGen) - Salesforce's code model
-- [DeepSeek Coder](https://github.com/deepseek-ai/DeepSeek-Coder) - Powerful open code model
+  - Built on StarCoder/CodeLlama
+  - Evol-Instruct method
+  - Strong on HumanEval
+
+- [CodeGen2.5](https://github.com/salesforce/CodeGen) - Salesforce's code model
+  - 7B parameters
+  - Infilling support
+  - Multi-turn conversations
+
+- [Phi-3.5](https://huggingface.co/microsoft/Phi-3.5-mini-instruct) - Microsoft's small model
+  - 3.8B parameters
+  - Excellent code capabilities
+  - Efficient and fast
+  - Good for local use
 
 ### Frameworks & Libraries
 
@@ -359,17 +484,64 @@ The future of coding is here - AI assistants that understand context, generate c
 
 ## Benchmarks & Comparisons
 
-- [HumanEval](https://github.com/openai/human-eval) - Code generation benchmark
-- [MBPP](https://github.com/google-research/google-research/tree/master/mbpp) - Python programming benchmark
-- [BigCodeBench](https://huggingface.co/datasets/bigcode/bigcodebench) - Code completion benchmark
-- [Comparison Matrix](https://www.codingassistants.com/) - Compare features side-by-side
+### Benchmark Datasets
 
-**Key Metrics:**
-- Pass@1 (first attempt success rate)
-- Context length
+- [HumanEval](https://github.com/openai/human-eval) - Code generation benchmark
+  - 164 programming problems
+  - Function-level code generation
+  - Pass@k metric
+  - Industry standard
+
+- [HumanEval+](https://github.com/evalplus/evalplus) - Extended HumanEval
+  - More test cases
+  - Harder evaluation
+  - 80x more tests
+
+- [MBPP](https://github.com/google-research/google-research/tree/master/mbpp) - Python programming benchmark
+  - 1,000 crowd-sourced problems
+  - Entry-level difficulty
+  - Python-focused
+
+- [BigCodeBench](https://huggingface.co/datasets/bigcode/bigcodebench) - Code completion benchmark
+  - Real-world complexity
+  - Library usage
+  - Data science focused
+
+- [SWE-bench](https://www.swebench.com/) - Software Engineering benchmark
+  - Real GitHub issues
+  - Full repository context
+  - Measures ability to solve real bugs
+
+- [LiveCodeBench](https://livecodebench.github.io/) - Continuously updated benchmark
+  - New problems regularly
+  - Prevents data contamination
+  - LeetCode-style problems
+
+### Leaderboards & Comparisons
+
+- [Chatbot Arena - Code](https://chat.lmsys.org/?leaderboard) - Community-driven rankings
+- [Artificial Analysis](https://artificialanalysis.ai/) - Speed and quality metrics
+- [Can AI Code](https://caniaicode.com/) - Code generation evaluations
+- [Comparison Matrix](https://www.codingassistants.com/) - Feature comparison
+
+### Performance Metrics
+
+**Top Models (HumanEval Pass@1, Jan 2025):**
+- Claude 3.5 Sonnet: ~92%
+- GPT-4 Turbo: ~90%
+- Gemini 1.5 Pro: ~88%
+- Qwen2.5-Coder 32B: ~87%
+- DeepSeek-Coder-V2: ~85%
+
+**Key Metrics to Compare:**
+- Pass@1, Pass@10 (success rates)
+- Context length (2K - 200K tokens)
 - Languages supported
-- Speed
-- Cost
+- Speed (tokens/second)
+- Cost (per million tokens)
+- Code quality and style
+- Documentation generation
+- Bug detection accuracy
 
 ## Best Practices & Guides
 
@@ -420,10 +592,12 @@ The future of coding is here - AI assistants that understand context, generate c
 
 ## Related Lists
 
+- [awesome-claude-ai](https://github.com/tysoncung/awesome-claude-ai) - Claude AI tools and resources
+- [awesome-prompt-engineering](https://github.com/tysoncung/awesome-prompt-engineering) - Prompt engineering
+- [awesome-devsecops](https://github.com/tysoncung/awesome-devsecops) - DevSecOps tools and security
 - [awesome-chatgpt](https://github.com/humanloop/awesome-chatgpt) - ChatGPT resources
 - [awesome-gpt4](https://github.com/radi-cho/awesome-gpt4) - GPT-4 resources
 - [awesome-llm](https://github.com/Hannibal046/Awesome-LLM) - Large Language Models
-- [awesome-prompt-engineering](https://github.com/tysoncung/awesome-prompt-engineering) - Prompt engineering
 - [awesome-ai-tools](https://github.com/mahseema/awesome-ai-tools) - AI tools collection
 
 ## Contributing
