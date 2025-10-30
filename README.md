@@ -4,20 +4,6 @@
 
 The future of coding is here - AI assistants that understand context, generate code, debug issues, and pair program with you. This list covers the best tools, platforms, and resources for AI-assisted development.
 
-## 🌟 Editor's Picks (January 2025)
-
-**🔥 Trending Now:**
-- **[Stagehand](https://www.stagehand.dev/)** - Revolutionary browser automation framework by Browserbase
-- **[Claude 3.5 Sonnet](https://claude.ai/)** - #1 on HumanEval benchmark (92% pass rate)
-- **[Cline](https://github.com/cline/cline)** - Free autonomous coding agent for VSCode
-- **[Windsurf](https://codeium.com/windsurf)** - Beautiful AI-first IDE by Codeium, completely free
-
-**🆕 New in 2025:**
-- **OpenAI Operator** - Browser control agent for web automation
-- **Goose** - Open-source AI agent framework by Block (Square)
-- **DeepSeek-V3** - 671B parameter open-source code model
-- **Supermaven** - Ultra-fast code completion with 1M token context
-
 ## Contents
 
 - [AI Coding Assistants](#ai-coding-assistants)
@@ -44,8 +30,21 @@ The future of coding is here - AI assistants that understand context, generate c
 - [Cost Comparison](#cost-comparison)
 - [Best Practices & Guides](#best-practices--guides)
 - [Community & Resources](#community--resources)
-- [Related Lists](#related-lists)
 - [Contributing](#contributing)
+
+## 🌟 Editor's Picks (January 2025)
+
+**🔥 Trending Now:**
+- **[Stagehand](https://www.stagehand.dev/)** - Revolutionary browser automation framework by Browserbase.
+- **[Claude 3.5 Sonnet](https://claude.ai/)** - #1 on HumanEval benchmark (92% pass rate).
+- **[Cline](https://github.com/cline/cline)** - Free autonomous coding agent for VSCode.
+- **[Windsurf](https://codeium.com/windsurf)** - Beautiful AI-first IDE by Codeium, completely free.
+
+**🆕 New in 2025:**
+- **OpenAI Operator** - Browser control agent for web automation.
+- **Goose** - Open-source AI agent framework by Block (Square).
+- **DeepSeek-V3** - 671B parameter open-source code model.
+- **Supermaven** - Ultra-fast code completion with 1M token context.
 
 ## AI Coding Assistants
 
@@ -711,16 +710,16 @@ AI assistants for database queries, schema design, and data analysis.
 
 ### Quick Comparison: Top AI Coding Assistants
 
-| Tool | Price | Context | Best For | Offline |
-|------|-------|---------|----------|---------|
-| Cursor | $20/mo | 200K | Full IDE experience | ❌ |
-| GitHub Copilot | $10/mo | 8K | Code completion | ❌ |
-| Cline | Free | Varies | Autonomous tasks | ❌ |
-| Windsurf | Free | 200K | Clean UI, beginners | ❌ |
-| Continue | Free | Custom | Privacy, flexibility | ✅ |
-| Tabby | Free | Custom | Self-hosted | ✅ |
-| Supermaven | $10/mo | 1M | Ultra-fast completion | ❌ |
-| Zed | Free | Varies | Collaboration | ❌ |
+| Tool           | Price   | Context | Best For                  | Offline |
+| -------------- | ------- | ------- | ------------------------- | ------- |
+| Cursor         | $20/mo  | 200K    | Full IDE experience       | ❌       |
+| GitHub Copilot | $10/mo  | 8K      | Code completion           | ❌       |
+| Cline          | Free    | Varies  | Autonomous tasks          | ❌       |
+| Windsurf       | Free    | 200K    | Clean UI, beginners       | ❌       |
+| Continue       | Free    | Custom  | Privacy, flexibility      | ✅       |
+| Tabby          | Free    | Custom  | Self-hosted               | ✅       |
+| Supermaven     | $10/mo  | 1M      | Ultra-fast completion     | ❌       |
+| Zed            | Free    | Varies  | Collaboration             | ❌       |
 
 ## Cost Comparison
 
@@ -730,98 +729,73 @@ AI assistants for database queries, schema design, and data analysis.
 - ✅ **Cline** - Free VSCode extension with full capabilities
 - ✅ **Continue** - Free and open source, bring your own LLM
 - ✅ **Zed** - Free collaborative editor with AI features
-- ✅ **Tabby** - Free self-hosted option
-
-### Best Value for Money
-- **GitHub Copilot**: $10/mo ($100/year) - Industry standard
-- **Cursor**: $20/mo - Premium IDE with GPT-4 included
-- **Supermaven**: $10/mo - Fastest completion, 1M context
-- **Tabnine**: $12/mo per user - Team-focused with privacy
-
-### Enterprise Options
-- **GitHub Copilot Business**: $19/user/mo - Enterprise features
-- **Tabnine Enterprise**: Custom pricing - On-premises option
-- **Sourcegraph Cody**: Custom pricing - Codebase-aware
-- **JetBrains AI**: Included with subscription
-
-### Cost per 1M Tokens (API/LLM)
-- **Claude 3.5 Sonnet**: $3 input / $15 output
-- **GPT-4 Turbo**: $10 input / $30 output
-- **Gemini 1.5 Pro**: $3.50 input / $10.50 output
-- **DeepSeek-V3**: $0.27 input / $1.10 output (cheapest)
-- **Qwen2.5-Coder**: Open source (free if self-hosted)
+- ✅ **Tabby** - Free self-hosted option.
 
 ## Best Practices & Guides
 
 ### Effective AI-Assisted Coding
 
-- [AI-Enhanced Development Workflow](https://github.blog/2023-06-20-how-to-write-better-prompts-for-github-copilot/) - GitHub's guide
-- [Pair Programming with AI](https://martinfowler.com/articles/ai-pair-programming.html) - Martin Fowler
-- [The Art of AI Coding](https://code.visualstudio.com/docs/editor/artificial-intelligence) - VSCode docs
+- [AI-Enhanced Development Workflow](https://github.blog/2023-06-20-how-to-write-better-prompts-for-github-copilot/) - GitHub's guide.
+- [Pair Programming with AI](https://martinfowler.com/articles/ai-pair-programming.html) - Martin Fowler.
+- [The Art of AI Coding](https://code.visualstudio.com/docs/editor/artificial-intelligence) - VSCode docs.
 
 ### Security & Privacy
 
-- [AI Code Security Best Practices](https://owasp.org/www-project-machine-learning-security-top-10/) - OWASP
-- [Securing AI-Generated Code](https://github.blog/2023-05-09-github-copilot-for-business-is-now-available/) - GitHub
-- [Privacy Considerations](https://www.tabnine.com/blog/ai-code-privacy/) - Tabnine
+- [AI Code Security Best Practices](https://owasp.org/www-project-machine-learning-security-top-10/) - OWASP.
+- [Securing AI-Generated Code](https://github.blog/2023-05-09-github-copilot-for-business-is-now-available/) - GitHub.
+- [Privacy Considerations](https://www.tabnine.com/blog/ai-code-privacy/) - Tabnine.
 
 ### Prompt Engineering for Code
 
-- [Effective Code Prompts](https://www.promptingguide.ai/applications/coding) - Prompting guide
-- [GitHub Copilot Tips](https://github.blog/2023-06-20-how-to-write-better-prompts-for-github-copilot/) - Best practices
-- [Code Generation Patterns](https://github.com/openai/openai-cookbook/blob/main/examples/How_to_format_inputs_to_ChatGPT_models.ipynb) - OpenAI cookbook
+- [Code Generation Patterns](https://github.com/openai/openai-cookbook/blob/main/examples/How_to_format_inputs_to_ChatGPT_models.ipynb) - OpenAI cookbook.
 
 ## Community & Resources
 
 ### Blogs & Articles
 
-- [AI Coding Tools Blog](https://www.cursor.com/blog) - Cursor blog
-- [GitHub Blog AI](https://github.blog/category/ai-and-ml/) - GitHub AI news
-- [Sourcegraph Blog](https://about.sourcegraph.com/blog) - Developer tools insights
+- [AI Coding Tools Blog](https://www.cursor.com/blog) - Cursor blog.
+- [GitHub Blog AI](https://github.blog/category/ai-and-ml/) - GitHub AI news.
+- [Sourcegraph Blog](https://about.sourcegraph.com/blog) - Developer tools insights.
 
 ### YouTube Channels
 
-- [Fireship](https://www.youtube.com/@Fireship) - AI coding tools reviews
-- [ThePrimeagen](https://www.youtube.com/@ThePrimeagen) - Dev tool discussions
-- [Theo - t3.gg](https://www.youtube.com/@t3dotgg) - Modern web development
+- [Fireship](https://www.youtube.com/@Fireship) - AI coding tools reviews.
+- [ThePrimeagen](https://www.youtube.com/@ThePrimeagen) - Dev tool discussions.
+- [Theo - t3.gg](https://www.youtube.com/@t3dotgg) - Modern web development.
 
 ### Podcasts
 
-- [Latent Space](https://www.latent.space/podcast) - AI engineering
-- [Practical AI](https://changelog.com/practicalai) - AI in practice
-- [The Changelog](https://changelog.com/podcast) - Developer tools
+- [Latent Space](https://www.latent.space/podcast) - AI engineering.
+- [Practical AI](https://changelog.com/practicalai) - AI in practice.
+- [The Changelog](https://changelog.com/podcast) - Developer tools.
 
 ### Communities
 
-- [r/ChatGPTCoding](https://www.reddit.com/r/ChatGPTCoding/) - Reddit community
-- [r/cursor](https://www.reddit.com/r/cursor/) - Cursor users
-- [Cursor Community](https://forum.cursor.sh/) - Official forum
-- [GitHub Copilot Discord](https://discord.gg/github-community) - Community support
+- [r/ChatGPTCoding](https://www.reddit.com/r/ChatGPTCoding/) - Reddit community.
+- [r/cursor](https://www.reddit.com/r/cursor/) - Cursor users.
+- [Cursor Community](https://forum.cursor.sh/) - Official forum.
+- [GitHub Copilot Discord](https://discord.gg/github-community) - Community support.
 
 ## Related Lists
 
-- [awesome-claude-ai](https://github.com/tysoncung/awesome-claude-ai) - Claude AI tools and resources
-- [awesome-prompt-engineering](https://github.com/tysoncung/awesome-prompt-engineering) - Prompt engineering
-- [awesome-devsecops](https://github.com/tysoncung/awesome-devsecops) - DevSecOps tools and security
-- [awesome-chatgpt](https://github.com/humanloop/awesome-chatgpt) - ChatGPT resources
-- [awesome-gpt4](https://github.com/radi-cho/awesome-gpt4) - GPT-4 resources
-- [awesome-llm](https://github.com/Hannibal046/Awesome-LLM) - Large Language Models
-- [awesome-ai-tools](https://github.com/mahseema/awesome-ai-tools) - AI tools collection
+- [awesome-claude-ai](https://github.com/tysoncung/awesome-claude-ai) - Claude AI tools and resources.
+- [awesome-prompt-engineering](https://github.com/tysoncung/awesome-prompt-engineering) - Prompt engineering.
+- [awesome-devsecops](https://github.com/tysoncung/awesome-devsecops) - DevSecOps tools and security.
+- [awesome-chatgpt](https://github.com/humanloop/awesome-chatgpt) - ChatGPT resources.
+- [awesome-gpt4](https://github.com/radi-cho/awesome-gpt4) - GPT-4 resources.
+- [awesome-llm](https://github.com/Hannibal046/Awesome-LLM) - Large Language Models.
+- [awesome-ai-tools](https://github.com/mahseema/awesome-ai-tools) - AI tools collection.
 
 ## Contributing
 
 Contributions welcome! Please read the [contribution guidelines](CONTRIBUTING.md) first.
 
 **What to contribute:**
-- New AI coding tools and assistants
-- Benchmarks and comparisons
-- Best practices and guides
-- Use cases and success stories
-- Tutorials and resources
-
-## License
-
-[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
+- New AI coding tools and assistants.
+- Benchmarks and comparisons.
+- Best practices and guides.
+- Use cases and success stories.
+- Tutorials and resources.
 
 To the extent possible under law, [Tyson Cung](https://github.com/tysoncung) has waived all copyright and related or neighboring rights to this work.
 
