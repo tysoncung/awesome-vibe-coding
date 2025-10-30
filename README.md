@@ -11,7 +11,6 @@ The future of coding is here - AI assistants that understand context, generate c
   - [CLI Tools](#cli-tools)
   - [Browser Extensions](#browser-extensions)
   - [Specialized Tools](#specialized-tools)
-- [AI Code Completion](#ai-code-completion)
 - [AI Agents & Autonomous Coding](#ai-agents--autonomous-coding)
 - [Browser Automation & UI Agents](#browser-automation--ui-agents)
 - [AI Code Review & Analysis](#ai-code-review--analysis)
@@ -30,21 +29,6 @@ The future of coding is here - AI assistants that understand context, generate c
 - [Cost Comparison](#cost-comparison)
 - [Best Practices & Guides](#best-practices--guides)
 - [Community & Resources](#community--resources)
-- [Contributing](#contributing)
-
-## 🌟 Editor's Picks (January 2025)
-
-**🔥 Trending Now:**
-- **[Stagehand](https://www.stagehand.dev/)** - Revolutionary browser automation framework by Browserbase.
-- **[Claude 3.5 Sonnet](https://claude.ai/)** - #1 on HumanEval benchmark (92% pass rate).
-- **[Cline](https://github.com/cline/cline)** - Free autonomous coding agent for VSCode.
-- **[Windsurf](https://codeium.com/windsurf)** - Beautiful AI-first IDE by Codeium, completely free.
-
-**🆕 New in 2025:**
-- **OpenAI Operator** - Browser control agent for web automation.
-- **Goose** - Open-source AI agent framework by Block (Square).
-- **DeepSeek-V3** - 671B parameter open-source code model.
-- **Supermaven** - Ultra-fast code completion with 1M token context.
 
 ## AI Coding Assistants
 
@@ -52,76 +36,76 @@ The future of coding is here - AI assistants that understand context, generate c
 
 **Premium/Commercial:**
 
-- [Cursor](https://cursor.sh/) - AI-first code editor built on VSCode with advanced AI features
+- [Cursor](https://cursor.sh/) - AI-first code editor built on VSCode with advanced AI features.
   - Chat with codebase
   - Multi-file editing
   - Tab completion with GPT-4
   - Codebase indexing
 
-- [GitHub Copilot](https://github.com/features/copilot) - AI pair programmer from GitHub
+- [GitHub Copilot](https://github.com/features/copilot) - AI pair programmer from GitHub.
   - Inline code suggestions
   - Chat interface
   - Works in VSCode, JetBrains, Neovim
   - Trained on billions of lines of code
 
-- [Claude Code](https://claude.ai/claude-code) - Anthropic's AI coding assistant
+- [Claude Code](https://claude.ai/claude-code) - Anthropic's AI coding assistant.
   - Terminal-based coding assistant
   - File operations and editing
   - Bash command execution
   - Advanced reasoning capabilities
 
-- [Tabnine](https://www.tabnine.com/) - AI code completion for teams
+- [Tabnine](https://www.tabnine.com/) - AI code completion for teams.
   - Team-trained models
   - Privacy-focused (on-prem option)
   - Supports 15+ languages
   - IDE integrations
 
-- [Codeium](https://codeium.com/) - Free AI code completion
+- [Codeium](https://codeium.com/) - Free AI code completion.
   - 70+ languages
   - Unlimited usage
   - Chat and search features
   - Fast autocomplete
 
-- [Amazon CodeWhisperer](https://aws.amazon.com/codewhisperer/) - AWS's AI coding companion
+- [Amazon CodeWhisperer](https://aws.amazon.com/codewhisperer/) - AWS's AI coding companion.
   - Optimized for AWS APIs
   - Security scanning
   - Reference tracking
   - Free for individual use
 
-- [Replit Ghostwriter](https://replit.com/ai) - AI pair programmer in Replit
+- [Replit Ghostwriter](https://replit.com/ai) - AI pair programmer in Replit.
   - Generate, transform, explain code
   - Debug and optimize
   - Works in browser
   - Integrated with Replit IDE
 
-- [Sourcegraph Cody](https://sourcegraph.com/cody) - AI coding assistant with codebase awareness
+- [Sourcegraph Cody](https://sourcegraph.com/cody) - AI coding assistant with codebase awareness.
   - Understands entire codebase
   - Code search integration
   - Multi-repo context
   - Enterprise features
 
-- [Windsurf](https://codeium.com/windsurf) - Codeium's agentic IDE
+- [Windsurf](https://codeium.com/windsurf) - Codeium's agentic IDE.
   - Built on VSCode
   - Autonomous coding agent (Cascade)
   - Multi-file editing
   - Deep codebase understanding
   - Free to use
 
-- [JetBrains AI Assistant](https://www.jetbrains.com/ai/) - Built-in AI for IntelliJ IDEA family
+- [JetBrains AI Assistant](https://www.jetbrains.com/ai/) - Built-in AI for IntelliJ IDEA family.
   - Code completion and generation
   - Chat with codebase
   - Refactoring suggestions
   - Works across all JetBrains IDEs
   - Multiple LLM support
 
-- [Zed](https://zed.dev/) - Collaborative code editor with AI
+- [Zed](https://zed.dev/) - Collaborative code editor with AI.
   - Lightning fast performance
   - Built-in AI assistant
   - Real-time collaboration
   - Written in Rust
   - Free and open source
 
-- [Supermaven](https://supermaven.com/) - Ultra-fast AI code completion
+- [Supermaven](https://supermaven.com/) - Ultra-fast AI code completion.
   - 1M token context window
   - Fastest latency (<200ms)
   - High-quality suggestions
@@ -130,60 +114,60 @@ The future of coding is here - AI assistants that understand context, generate c
 
 **Open Source:**
 
-- [Continue](https://continue.dev/) - Open-source AI code assistant
+- [Continue](https://continue.dev/) - Open-source AI code assistant.
   - VSCode and JetBrains
   - Bring your own LLM
   - Customizable
   - Privacy-focused
 
-- [Cline](https://github.com/cline/cline) - Autonomous coding agent for VSCode
+- [Cline](https://github.com/cline/cline) - Autonomous coding agent for VSCode.
   - Formerly Claude Dev
   - Create and edit files
   - Execute terminal commands
   - Multi-step problem solving
   - Free and open source
 
-- [Tabby](https://tabbyml.github.io/tabby/) - Self-hosted AI coding assistant
+- [Tabby](https://tabbyml.github.io/tabby/) - Self-hosted AI coding assistant.
   - Open source
   - Self-hosted
   - No telemetry
   - GPU/CPU support
 
-- [Fauxpilot](https://github.com/fauxpilot/fauxpilot) - Open-source GitHub Copilot server
+- [Fauxpilot](https://github.com/fauxpilot/fauxpilot) - Open-source GitHub Copilot server.
   - Self-hosted
   - Compatible with Copilot clients
   - Uses SalesForce CodeGen
 
 ### CLI Tools
 
-- [aider](https://aider.chat/) - AI pair programming in the terminal
+- [aider](https://aider.chat/) - AI pair programming in the terminal.
   - Edit files with Claude, GPT-4, etc.
   - Git integration
   - Multi-file editing
   - Undo/redo support
 
-- [ChatGPT CLI](https://github.com/j178/chatgpt) - ChatGPT in the terminal
+- [ChatGPT CLI](https://github.com/j178/chatgpt) - ChatGPT in the terminal.
   - Interactive chat
   - Code generation
   - Multiple model support
 
-- [CodeGPT](https://github.com/appleboy/CodeGPT) - CLI for code review and generation
+- [CodeGPT](https://github.com/appleboy/CodeGPT) - CLI for code review and generation.
   - Git commit messages
   - Code review
   - Multiple LLM support
 
-- [AI Shell](https://github.com/BuilderIO/ai-shell) - Natural language to shell commands
+- [AI Shell](https://github.com/BuilderIO/ai-shell) - Natural language to shell commands.
   - Converts English to bash/zsh
   - Safe command preview
   - Powered by GPT-3.5/4
 
-- [mods](https://github.com/charmbracelet/mods) - AI on the command line
+- [mods](https://github.com/charmbracelet/mods) - AI on the command line.
   - Multiple AI providers
   - Markdown output
   - Pipe support
   - Standard input/output
 
-- [ShellGPT](https://github.com/TheR1D/shell_gpt) - ChatGPT in terminal
+- [ShellGPT](https://github.com/TheR1D/shell_gpt) - ChatGPT in terminal.
   - Shell commands from natural language
   - Code snippet generation
   - Multiple roles
@@ -191,13 +175,13 @@ The future of coding is here - AI assistants that understand context, generate c
 
 ### Browser Extensions
 
-- [Warp AI](https://www.warp.dev/) - AI-powered terminal
+- [Warp AI](https://www.warp.dev/) - AI-powered terminal.
   - AI command search
   - Natural language to commands
   - Workflow automation
   - Built-in AI assistant
 
-- [Blackbox AI](https://www.blackbox.ai/) - Code autocomplete anywhere
+- [Blackbox AI](https://www.blackbox.ai/) - Code autocomplete anywhere.
   - Works in browser
   - Chrome extension
   - Multiple languages
@@ -205,122 +189,101 @@ The future of coding is here - AI assistants that understand context, generate c
 
 ### Specialized Tools
 
-- [v0 by Vercel](https://v0.dev/) - Generate UI from text
+- [v0 by Vercel](https://v0.dev/) - Generate UI from text.
   - React/Next.js components
   - Tailwind CSS
   - Interactive preview
   - Iterative refinement
 
-- [Screenshot to Code](https://screenshottocode.com/) - Convert designs to code
+- [Screenshot to Code](https://screenshottocode.com/) - Convert designs to code.
   - GPT-4 Vision powered
   - HTML/Tailwind output
   - React/Vue/Svelte support
 
-- [Galileo AI](https://www.usegalileo.ai/) - AI for UI design
+- [Galileo AI](https://www.usegalileo.ai/) - AI for UI design.
   - Text to UI
   - Figma integration
   - High-fidelity designs
 
-- [Butterfish](https://butterfi.sh/) - Shell copilot
+- [Butterfish](https://butterfi.sh/) - Shell copilot.
   - AI assistance in terminal
   - Context-aware suggestions
   - Git integration
   - Open source
 
-- [Fig](https://fig.io/) - Terminal autocomplete with AI
+- [Fig](https://fig.io/) - Terminal autocomplete with AI.
   - Visual autocomplete
   - Script generation
   - Works with existing tools
   - Now part of AWS
 
-## AI Code Completion
-
-- [GitHub Copilot](https://github.com/features/copilot) - Industry standard
-- [Tabnine](https://www.tabnine.com/) - Team-focused
-- [Codeium](https://codeium.com/) - Free alternative
-- [Amazon CodeWhisperer](https://aws.amazon.com/codewhisperer/) - AWS optimized
-- [IntelliCode](https://visualstudio.microsoft.com/services/intellicode/) - Microsoft's AI completion
-
-**Key Features to Compare:**
-- Context awareness (file, repo, team)
-- Language support
-- Speed and accuracy
-- Privacy and data handling
-- Cost
-
 ## AI Agents & Autonomous Coding
 
 Tools that can autonomously build apps, implement features, or complete coding tasks with minimal human intervention.
 
-- [Bolt.new](https://bolt.new/) - StackBlitz's AI app builder
+- [Bolt.new](https://bolt.new/) - StackBlitz's AI app builder.
   - Build full-stack apps from prompts
   - Instant preview and deployment
   - Supports React, Vue, Vite
   - Runs entirely in browser
   - Free tier available
 
-- [Lovable (formerly GPT Engineer App)](https://lovable.dev/) - Full-stack app builder
+- [Lovable (formerly GPT Engineer App)](https://lovable.dev/) - Full-stack app builder.
   - Natural language to full applications
   - Frontend and backend generation
   - Database setup
   - Deployment automation
   - Iterative refinement
 
-- [Replit Agent](https://replit.com/ai) - Autonomous coding agent in Replit
-  - Build entire apps from description
-  - Multi-file code generation
-  - Integrated with Replit environment
-  - Deploy in one click
-
-- [Devin](https://www.cognition.ai/devin) - AI software engineer
+- [Devin](https://www.cognition.ai/devin) - AI software engineer.
   - Autonomous coding agent
   - Can complete entire tasks
   - Uses own terminal and browser
   - Still in limited access
 
-- [OpenHands (formerly OpenDevin)](https://github.com/All-Hands-AI/OpenHands) - Open source AI coding agent
+- [OpenHands (formerly OpenDevin)](https://github.com/All-Hands-AI/OpenHands) - Open source AI coding agent.
   - Autonomous software development
   - Terminal and browser access
   - Open source alternative to Devin
   - Active community
 
-- [GPT Engineer](https://github.com/gpt-engineer-org/gpt-engineer) - Build entire apps with AI
+- [GPT Engineer](https://github.com/gpt-engineer-org/gpt-engineer) - Build entire apps with AI.
   - Full project generation
   - Iterative development
   - Multiple LLM support
   - Open source
 
-- [Mentat](https://mentat.ai/) - AI coding assistant for the terminal
+- [Mentat](https://mentat.ai/) - AI coding assistant for the terminal.
   - Autonomous code editing
   - Understands repository context
   - Git integration
   - Open source
 
-- [Claude Engineer](https://github.com/Doriandarko/claude-engineer) - Advanced coding agent with Claude
+- [Claude Engineer](https://github.com/Doriandarko/claude-engineer) - Advanced coding agent with Claude.
   - Autonomous coding workflows
   - File management
   - Project creation
   - Open source
 
-- [Agentic Cursor](https://github.com/continuedev/continue) - Agent mode in Continue
+- [Agentic Cursor](https://github.com/continuedev/continue) - Agent mode in Continue.
   - Long-running coding tasks
   - Multi-step operations
   - Context-aware decisions
 
-- [Goose](https://github.com/block/goose) - Open-source AI agent framework by Block
+- [Goose](https://github.com/block/goose) - Open-source AI agent framework by Block.
   - Created by Square/Block
   - Runs entirely locally
   - Extensible toolkit system
   - Goes beyond coding tasks
   - Open source
 
-- [Sweep](https://sweep.dev/) - GitHub bot that turns issues into PRs
+- [Sweep](https://sweep.dev/) - GitHub bot that turns issues into PRs.
   - Automated bug fixes
   - Feature implementation
   - GitHub integration
   - Learning from codebase
 
-- [PR-Agent](https://github.com/Codium-ai/pr-agent) - AI-powered PR analysis
+- [PR-Agent](https://github.com/Codium-ai/pr-agent) - AI-powered PR analysis.
   - Automated PR reviews
   - Code suggestions
   - PR improvements
@@ -330,32 +293,32 @@ Tools that can autonomously build apps, implement features, or complete coding t
 
 AI agents that can interact with websites, automate UI tasks, and perform web-based actions.
 
-- [Stagehand](https://www.stagehand.dev/) - AI browser automation framework
+- [Stagehand](https://www.stagehand.dev/) - AI browser automation framework.
   - Built on Playwright
   - Atomic primitives (act, extract, observe)
   - Dynamic agent for high-level decisions
   - Integrates OpenAI/Anthropic computer use models
   - Production-ready
 
-- [browser-use](https://github.com/browser-use/browser-use) - Open-source AI web automation
+- [browser-use](https://github.com/browser-use/browser-use) - Open-source AI web automation.
   - Make websites accessible for AI agents
   - Automate online tasks
   - Python-based
   - Simple API
 
-- [OpenAI Operator](https://openai.com/index/introducing-operator/) - OpenAI's browser agent
+- [OpenAI Operator](https://openai.com/index/introducing-operator/) - OpenAI's browser agent.
   - Full browser control via AI
   - Natural language automation
   - Computer use capability
   - Research preview
 
-- [Skyvern](https://www.skyvern.com/) - Browser automation API
+- [Skyvern](https://www.skyvern.com/) - Browser automation API.
   - Computer vision based
   - Works without selectors
   - Resilient to UI changes
   - API-first design
 
-- [Browserbase](https://www.browserbase.com/) - Headless browser infrastructure for AI
+- [Browserbase](https://www.browserbase.com/) - Headless browser infrastructure for AI.
   - Serverless browsers for agents
   - Session management
   - Stealth mode
@@ -363,54 +326,54 @@ AI agents that can interact with websites, automate UI tasks, and perform web-ba
 
 ## AI Code Review & Analysis
 
-- [CodeRabbit](https://coderabbit.ai/) - AI code reviews for PRs
+- [CodeRabbit](https://coderabbit.ai/) - AI code reviews for PRs.
   - Line-by-line feedback
   - Security checks
   - Performance suggestions
   - Learning from team feedback
 
-- [Qodo (formerly CodiumAI)](https://www.qodo.ai/) - Code integrity platform
+- [Qodo (formerly CodiumAI)](https://www.qodo.ai/) - Code integrity platform.
   - Test generation
   - Code analysis
   - Bug detection
   - VSCode/JetBrains plugins
 
-- [Snyk Code](https://snyk.io/product/snyk-code/) - Security-focused code analysis
+- [Snyk Code](https://snyk.io/product/snyk-code/) - Security-focused code analysis.
   - Real-time scanning
   - Fix suggestions
   - AI-powered
   - IDE integration
 
-- [DeepSource](https://deepsource.io/) - Automated code review
+- [DeepSource](https://deepsource.io/) - Automated code review.
   - 10+ languages
   - Security & style
   - Fix automation
   - CI/CD integration
 
-- [SonarLint](https://www.sonarsource.com/products/sonarlint/) - IDE code quality
+- [SonarLint](https://www.sonarsource.com/products/sonarlint/) - IDE code quality.
   - Real-time feedback
   - Multiple IDEs
   - Free and open source
 
 ## AI Debugging & Error Fixing
 
-- [Pieces for Developers](https://pieces.app/) - AI coding workflow tool
+- [Pieces for Developers](https://pieces.app/) - AI coding workflow tool.
   - Save and share snippets
   - Context awareness
   - Search codebase
   - Extract from screenshots
 
-- [DebugCode.AI](https://debugcode.ai/) - AI debugging assistant
+- [DebugCode.AI](https://debugcode.ai/) - AI debugging assistant.
   - Error explanation
   - Fix suggestions
   - Multiple languages
 
-- [Phind](https://www.phind.com/) - AI search for developers
+- [Phind](https://www.phind.com/) - AI search for developers.
   - Code-specific search
   - Answer with sources
   - VSCode extension
 
-- [Bito AI](https://bito.ai/) - AI dev assistant
+- [Bito AI](https://bito.ai/) - AI dev assistant.
   - Code explanation
   - Test generation
   - Code review
@@ -418,63 +381,63 @@ AI agents that can interact with websites, automate UI tasks, and perform web-ba
 
 ## AI Documentation & Comments
 
-- [Mintlify](https://mintlify.com/) - AI documentation writer
+- [Mintlify](https://mintlify.com/) - AI documentation writer.
   - Doc generation from code
   - Beautiful doc sites
   - API reference automation
 
-- [Stenography](https://stenography.dev/) - Auto-generate docstrings
+- [Stenography](https://stenography.dev/) - Auto-generate docstrings.
   - VSCode extension
   - Multiple languages
   - Natural language docs
 
-- [DocuWriter.ai](https://www.docuwriter.ai/) - Code documentation automation
+- [DocuWriter.ai](https://www.docuwriter.ai/) - Code documentation automation.
   - Supports 12+ languages
   - API docs
   - Comments generation
 
 ## AI Testing
 
-- [Codium](https://www.codium.ai/) - Test suite generation
+- [Codium](https://www.codium.ai/) - Test suite generation.
   - Intelligent test creation
   - Coverage analysis
   - IDE integration
 
-- [Ponicode](https://www.ponicode.com/) - Unit test generation
+- [Ponicode](https://www.ponicode.com/) - Unit test generation.
   - AI-powered tests
   - Mutation testing
   - IDE plugins
 
-- [Testim](https://www.testim.io/) - AI for test automation
+- [Testim](https://www.testim.io/) - AI for test automation.
   - Self-healing tests
   - Smart locators
   - Fast execution
 
 ## AI Refactoring
 
-- [Sourcery](https://sourcery.ai/) - AI code reviewer for Python
+- [Sourcery](https://sourcery.ai/) - AI code reviewer for Python.
   - Automated refactoring
   - Code quality metrics
   - IDE integration
 
-- [CodeScene](https://codescene.com/) - Behavioral code analysis
+- [CodeScene](https://codescene.com/) - Behavioral code analysis.
   - Hotspot detection
   - Refactoring prioritization
   - Technical debt analysis
 
 ## Voice-Powered Coding
 
-- [Cursorless](https://www.cursorless.org/) - Voice coding in VSCode
+- [Cursorless](https://www.cursorless.org/) - Voice coding in VSCode.
   - Talon Voice integration
   - Grammar-based commands
   - Structural editing
 
-- [Serenade](https://serenade.ai/) - Voice coding assistant
+- [Serenade](https://serenade.ai/) - Voice coding assistant.
   - Natural language coding
   - Works with any editor
   - Custom commands
 
-- [Talon Voice](https://talonvoice.com/) - Hands-free coding
+- [Talon Voice](https://talonvoice.com/) - Hands-free coding.
   - Eye tracking support
   - Custom grammars
   - Developer-focused
@@ -483,46 +446,39 @@ AI agents that can interact with websites, automate UI tasks, and perform web-ba
 
 ### Chat-Based Coding
 
-- [ChatGPT Code Interpreter](https://openai.com/blog/chatgpt-plugins) - Execute Python code
-- [Claude](https://claude.ai/) - Long context coding assistant
-- [Gemini Code Assist](https://cloud.google.com/gemini/docs/codeassist/overview) - Google's coding assistant
-- [Phind](https://www.phind.com/) - Developer-focused AI search
-- [Perplexity](https://www.perplexity.ai/) - AI search with sources
+- [ChatGPT Code Interpreter](https://openai.com/blog/chatgpt-plugins) - Execute Python code.
+- [Claude](https://claude.ai/) - Long context coding assistant.
+- [Gemini Code Assist](https://cloud.google.com/gemini/docs/codeassist/overview) - Google's coding assistant.
+- [Perplexity](https://www.perplexity.ai/) - AI search with sources.
 
 ### Prompt Engineering for Code
 
-- [Meta Prompting](https://github.com/suzuki-shunsuke/awesome-meta-prompting) - Generate better code prompts
-- [LangChain Templates](https://github.com/langchain-ai/langchain/tree/master/templates) - Pre-built code generation chains
-- [Prompt Engineering Guide for Code](https://www.promptingguide.ai/applications/coding) - Best practices
+- [Meta Prompting](https://github.com/suzuki-shunsuke/awesome-meta-prompting) - Generate better code prompts.
+- [LangChain Templates](https://github.com/langchain-ai/langchain/tree/master/templates) - Pre-built code generation chains.
+- [Prompt Engineering Guide for Code](https://www.promptingguide.ai/applications/coding) - Best practices.
 
 ## Infrastructure & DevOps AI
 
 AI tools for infrastructure as code, cloud management, and DevOps automation.
 
-- [Terraform GPT](https://github.com/flavius-dinu/terraform-gpt) - Natural language to Terraform
+- [Terraform GPT](https://github.com/flavius-dinu/terraform-gpt) - Natural language to Terraform.
   - Convert English to IaC
   - AWS, Azure, GCP support
   - Best practices included
 
-- [K8sGPT](https://k8sgpt.ai/) - Kubernetes diagnostic tool
+- [K8sGPT](https://k8sgpt.ai/) - Kubernetes diagnostic tool.
   - AI-powered cluster analysis
   - Problem detection and solutions
   - Multi-language support
   - Open source
 
-- [Pulumi AI](https://www.pulumi.com/ai/) - AI-powered infrastructure code
+- [Pulumi AI](https://www.pulumi.com/ai/) - AI-powered infrastructure code.
   - Natural language to infrastructure
   - Multi-cloud support
   - Real-time preview
   - GPT-4 powered
 
-- [AWS CodeWhisperer](https://aws.amazon.com/codewhisperer/) - AWS-optimized code assistant
-  - IaC generation (CloudFormation, CDK)
-  - Security scanning
-  - Reference tracking
-  - Free for individual use
-
-- [Mancer](https://mancer.tech/) - DevOps automation with AI
+- [Mancer](https://mancer.tech/) - DevOps automation with AI.
   - CI/CD optimization
   - Infrastructure recommendations
   - Cost analysis
@@ -531,31 +487,31 @@ AI tools for infrastructure as code, cloud management, and DevOps automation.
 
 AI assistants for database queries, schema design, and data analysis.
 
-- [AI2sql](https://www.ai2sql.io/) - Natural language to SQL
+- [AI2sql](https://www.ai2sql.io/) - Natural language to SQL.
   - Support for MySQL, PostgreSQL, MongoDB
   - Query optimization
   - Schema understanding
   - Multi-database support
 
-- [Text2SQL.AI](https://www.text2sql.ai/) - Generate SQL from English
+- [Text2SQL.AI](https://www.text2sql.ai/) - Generate SQL from English.
   - Complex query generation
   - Explain existing queries
   - Schema-aware
   - Free tier available
 
-- [Outerbase](https://www.outerbase.com/) - AI-powered database interface
+- [Outerbase](https://www.outerbase.com/) - AI-powered database interface.
   - Visual query builder with AI
   - Data visualization
   - Collaborative features
   - Connect to any database
 
-- [Supabase Studio AI](https://supabase.com/) - PostgreSQL with AI features
+- [Supabase Studio AI](https://supabase.com/) - PostgreSQL with AI features.
   - Schema generation
   - Query assistance
   - Real-time data
   - Open source
 
-- [Chat2Query](https://www.chat2query.com/) - Query databases conversationally
+- [Chat2Query](https://www.chat2query.com/) - Query databases conversationally.
   - Natural language interface
   - Data exploration
   - Chart generation
@@ -563,71 +519,71 @@ AI assistants for database queries, schema design, and data analysis.
 
 ## Learning & Education
 
-- [Exercism](https://exercism.org/) - Code practice with AI mentorship
-- [Codewars](https://www.codewars.com/) - Coding challenges
-- [LeetCode](https://leetcode.com/) - Interview prep (some AI features)
-- [CodeAcademy](https://www.codecademy.com/) - Interactive learning
-- [Brilliant](https://brilliant.org/) - CS fundamentals with AI
+- [Exercism](https://exercism.org/) - Code practice with AI mentorship.
+- [Codewars](https://www.codewars.com/) - Coding challenges.
+- [LeetCode](https://leetcode.com/) - Interview prep (some AI features).
+- [CodeAcademy](https://www.codecademy.com/) - Interactive learning.
+- [Brilliant](https://brilliant.org/) - CS fundamentals with AI.
 
 ## Productivity Tools
 
 ### Code Organization
 
-- [Linear](https://linear.app/) - Issue tracking with AI features
-- [Height](https://height.app/) - AI-powered project management
-- [Notion AI](https://www.notion.so/product/ai) - Docs with AI
+- [Linear](https://linear.app/) - Issue tracking with AI features.
+- [Height](https://height.app/) - AI-powered project management.
+- [Notion AI](https://www.notion.so/product/ai) - Docs with AI.
 
 ### Git & Version Control
 
-- [GitClear](https://www.gitclear.com/) - Code review metrics
-- [What The Diff](https://whatthediff.ai/) - AI-powered PR descriptions
-- [Gitsense](https://gitsense.com/) - Analytics and insights
+- [GitClear](https://www.gitclear.com/) - Code review metrics.
+- [What The Diff](https://whatthediff.ai/) - AI-powered PR descriptions.
+- [Gitsense](https://gitsense.com/) - Analytics and insights.
 
 ### CI/CD & DevOps
 
-- [Harness](https://www.harness.io/) - AI-powered CI/CD
-- [DevZero](https://www.devzero.io/) - Cloud development environments
-- [Gitpod](https://www.gitpod.io/) - Automated dev environments
+- [Harness](https://www.harness.io/) - AI-powered CI/CD.
+- [DevZero](https://www.devzero.io/) - Cloud development environments.
+- [Gitpod](https://www.gitpod.io/) - Automated dev environments.
 
 ## Open Source Projects
 
 ### AI Models for Code
 
-- [Qwen2.5-Coder](https://github.com/QwenLM/Qwen2.5-Coder) - Latest from Alibaba
+- [Qwen2.5-Coder](https://github.com/QwenLM/Qwen2.5-Coder) - Latest from Alibaba.
   - Multiple sizes (0.5B to 32B parameters)
   - Excellent code generation
   - Strong on benchmarks
   - Multilingual support
 
-- [DeepSeek Coder V2](https://github.com/deepseek-ai/DeepSeek-Coder) - Powerful open code model
+- [DeepSeek Coder V2](https://github.com/deepseek-ai/DeepSeek-Coder) - Powerful open code model.
   - 16B and 236B parameter models
   - Strong performance on HumanEval
   - Supports 338 programming languages
   - Fill-in-the-middle capability
 
-- [CodeLlama](https://github.com/facebookresearch/codellama) - Meta's code generation model
+- [CodeLlama](https://github.com/facebookresearch/codellama) - Meta's code generation model.
   - 7B, 13B, 34B, 70B parameters
   - Python specialist variant
   - Instruction-tuned versions
   - Long context (100K tokens)
 
-- [StarCoder 2](https://huggingface.co/bigcode/starcoder2-15b) - Open source code LLM
+- [StarCoder 2](https://huggingface.co/bigcode/starcoder2-15b) - Open source code LLM.
   - 3B, 7B, 15B parameters
   - Trained on The Stack v2
   - Better than original StarCoder
   - Multiple language support
 
-- [WizardCoder](https://github.com/nlpxucan/WizardLM/tree/main/WizardCoder) - Empowering Code LLMs
+- [WizardCoder](https://github.com/nlpxucan/WizardLM/tree/main/WizardCoder) - Empowering Code LLMs.
   - Built on StarCoder/CodeLlama
   - Evol-Instruct method
   - Strong on HumanEval
 
-- [CodeGen2.5](https://github.com/salesforce/CodeGen) - Salesforce's code model
+- [CodeGen2.5](https://github.com/salesforce/CodeGen) - Salesforce's code model.
   - 7B parameters
   - Infilling support
   - Multi-turn conversations
 
-- [Phi-3.5](https://huggingface.co/microsoft/Phi-3.5-mini-instruct) - Microsoft's small model
+- [Phi-3.5](https://huggingface.co/microsoft/Phi-3.5-mini-instruct) - Microsoft's small model.
   - 3.8B parameters
   - Excellent code capabilities
   - Efficient and fast
@@ -635,59 +591,58 @@ AI assistants for database queries, schema design, and data analysis.
 
 ### Frameworks & Libraries
 
-- [LangChain](https://github.com/langchain-ai/langchain) - Build LLM apps
-- [LlamaIndex](https://github.com/run-llama/llama_index) - Data framework for LLMs
-- [Guidance](https://github.com/guidance-ai/guidance) - Control LLM generation
-- [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) - Autonomous AI agent
-- [GPT Engineer](https://github.com/gpt-engineer-org/gpt-engineer) - Build entire apps with AI
+- [LangChain](https://github.com/langchain-ai/langchain) - Build LLM apps.
+- [LlamaIndex](https://github.com/run-llama/llama_index) - Data framework for LLMs.
+- [Guidance](https://github.com/guidance-ai/guidance) - Control LLM generation.
+- [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) - Autonomous AI agent.
 
 ### Tools
 
-- [LocalGPT](https://github.com/PromtEngineer/localGPT) - Private document Q&A
-- [PrivateGPT](https://github.com/imartinez/privateGPT) - Local document analysis
-- [GPT4All](https://gpt4all.io/) - Local LLM runner
+- [LocalGPT](https://github.com/PromtEngineer/localGPT) - Private document Q&A.
+- [PrivateGPT](https://github.com/imartinez/privateGPT) - Local document analysis.
+- [GPT4All](https://gpt4all.io/) - Local LLM runner.
 
 ## Benchmarks & Comparisons
 
 ### Benchmark Datasets
 
-- [HumanEval](https://github.com/openai/human-eval) - Code generation benchmark
+- [HumanEval](https://github.com/openai/human-eval) - Code generation benchmark.
   - 164 programming problems
   - Function-level code generation
   - Pass@k metric
   - Industry standard
 
-- [HumanEval+](https://github.com/evalplus/evalplus) - Extended HumanEval
+- [HumanEval+](https://github.com/evalplus/evalplus) - Extended HumanEval.
   - More test cases
   - Harder evaluation
   - 80x more tests
 
-- [MBPP](https://github.com/google-research/google-research/tree/master/mbpp) - Python programming benchmark
+- [MBPP](https://github.com/google-research/google-research/tree/master/mbpp) - Python programming benchmark.
   - 1,000 crowd-sourced problems
   - Entry-level difficulty
   - Python-focused
 
-- [BigCodeBench](https://huggingface.co/datasets/bigcode/bigcodebench) - Code completion benchmark
+- [BigCodeBench](https://huggingface.co/datasets/bigcode/bigcodebench) - Code completion benchmark.
   - Real-world complexity
   - Library usage
   - Data science focused
 
-- [SWE-bench](https://www.swebench.com/) - Software Engineering benchmark
+- [SWE-bench](https://www.swebench.com/) - Software Engineering benchmark.
   - Real GitHub issues
   - Full repository context
   - Measures ability to solve real bugs
 
-- [LiveCodeBench](https://livecodebench.github.io/) - Continuously updated benchmark
+- [LiveCodeBench](https://livecodebench.github.io/) - Continuously updated benchmark.
   - New problems regularly
   - Prevents data contamination
   - LeetCode-style problems
 
 ### Leaderboards & Comparisons
 
-- [Chatbot Arena - Code](https://chat.lmsys.org/?leaderboard) - Community-driven rankings
-- [Artificial Analysis](https://artificialanalysis.ai/) - Speed and quality metrics
-- [Can AI Code](https://caniaicode.com/) - Code generation evaluations
-- [Comparison Matrix](https://www.codingassistants.com/) - Feature comparison
+- [Chatbot Arena - Code](https://chat.lmsys.org/?leaderboard) - Community-driven rankings.
+- [Artificial Analysis](https://artificialanalysis.ai/) - Speed and quality metrics.
+- [Can AI Code](https://caniaicode.com/) - Code generation evaluations.
+- [Comparison Matrix](https://www.codingassistants.com/) - Feature comparison.
 
 ### Performance Metrics
 
