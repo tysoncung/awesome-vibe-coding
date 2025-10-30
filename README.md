@@ -4,6 +4,20 @@
 
 The future of coding is here - AI assistants that understand context, generate code, debug issues, and pair program with you. This list covers the best tools, platforms, and resources for AI-assisted development.
 
+## 🌟 Editor's Picks (January 2025)
+
+**🔥 Trending Now:**
+- **[Stagehand](https://www.stagehand.dev/)** - Revolutionary browser automation framework by Browserbase
+- **[Claude 3.5 Sonnet](https://claude.ai/)** - #1 on HumanEval benchmark (92% pass rate)
+- **[Cline](https://github.com/cline/cline)** - Free autonomous coding agent for VSCode
+- **[Windsurf](https://codeium.com/windsurf)** - Beautiful AI-first IDE by Codeium, completely free
+
+**🆕 New in 2025:**
+- **OpenAI Operator** - Browser control agent for web automation
+- **Goose** - Open-source AI agent framework by Block (Square)
+- **DeepSeek-V3** - 671B parameter open-source code model
+- **Supermaven** - Ultra-fast code completion with 1M token context
+
 ## Contents
 
 - [AI Coding Assistants](#ai-coding-assistants)
@@ -13,6 +27,7 @@ The future of coding is here - AI assistants that understand context, generate c
   - [Specialized Tools](#specialized-tools)
 - [AI Code Completion](#ai-code-completion)
 - [AI Agents & Autonomous Coding](#ai-agents--autonomous-coding)
+- [Browser Automation & UI Agents](#browser-automation--ui-agents)
 - [AI Code Review & Analysis](#ai-code-review--analysis)
 - [AI Debugging & Error Fixing](#ai-debugging--error-fixing)
 - [AI Documentation & Comments](#ai-documentation--comments)
@@ -20,10 +35,13 @@ The future of coding is here - AI assistants that understand context, generate c
 - [AI Refactoring](#ai-refactoring)
 - [Voice-Powered Coding](#voice-powered-coding)
 - [Pair Programming with AI](#pair-programming-with-ai)
+- [Infrastructure & DevOps AI](#infrastructure--devops-ai)
+- [Database & SQL AI Tools](#database--sql-ai-tools)
 - [Learning & Education](#learning--education)
 - [Productivity Tools](#productivity-tools)
 - [Open Source Projects](#open-source-projects)
 - [Benchmarks & Comparisons](#benchmarks--comparisons)
+- [Cost Comparison](#cost-comparison)
 - [Best Practices & Guides](#best-practices--guides)
 - [Community & Resources](#community--resources)
 - [Related Lists](#related-lists)
@@ -90,6 +108,27 @@ The future of coding is here - AI assistants that understand context, generate c
   - Deep codebase understanding
   - Free to use
 
+- [JetBrains AI Assistant](https://www.jetbrains.com/ai/) - Built-in AI for IntelliJ IDEA family
+  - Code completion and generation
+  - Chat with codebase
+  - Refactoring suggestions
+  - Works across all JetBrains IDEs
+  - Multiple LLM support
+
+- [Zed](https://zed.dev/) - Collaborative code editor with AI
+  - Lightning fast performance
+  - Built-in AI assistant
+  - Real-time collaboration
+  - Written in Rust
+  - Free and open source
+
+- [Supermaven](https://supermaven.com/) - Ultra-fast AI code completion
+  - 1M token context window
+  - Fastest latency (<200ms)
+  - High-quality suggestions
+  - Works in VSCode, JetBrains, Neovim
+  - Free tier available
+
 **Open Source:**
 
 - [Continue](https://continue.dev/) - Open-source AI code assistant
@@ -97,6 +136,13 @@ The future of coding is here - AI assistants that understand context, generate c
   - Bring your own LLM
   - Customizable
   - Privacy-focused
+
+- [Cline](https://github.com/cline/cline) - Autonomous coding agent for VSCode
+  - Formerly Claude Dev
+  - Create and edit files
+  - Execute terminal commands
+  - Multi-step problem solving
+  - Free and open source
 
 - [Tabby](https://tabbyml.github.io/tabby/) - Self-hosted AI coding assistant
   - Open source
@@ -262,6 +308,60 @@ Tools that can autonomously build apps, implement features, or complete coding t
   - Multi-step operations
   - Context-aware decisions
 
+- [Goose](https://github.com/block/goose) - Open-source AI agent framework by Block
+  - Created by Square/Block
+  - Runs entirely locally
+  - Extensible toolkit system
+  - Goes beyond coding tasks
+  - Open source
+
+- [Sweep](https://sweep.dev/) - GitHub bot that turns issues into PRs
+  - Automated bug fixes
+  - Feature implementation
+  - GitHub integration
+  - Learning from codebase
+
+- [PR-Agent](https://github.com/Codium-ai/pr-agent) - AI-powered PR analysis
+  - Automated PR reviews
+  - Code suggestions
+  - PR improvements
+  - Open source
+
+## Browser Automation & UI Agents
+
+AI agents that can interact with websites, automate UI tasks, and perform web-based actions.
+
+- [Stagehand](https://www.stagehand.dev/) - AI browser automation framework
+  - Built on Playwright
+  - Atomic primitives (act, extract, observe)
+  - Dynamic agent for high-level decisions
+  - Integrates OpenAI/Anthropic computer use models
+  - Production-ready
+
+- [browser-use](https://github.com/browser-use/browser-use) - Open-source AI web automation
+  - Make websites accessible for AI agents
+  - Automate online tasks
+  - Python-based
+  - Simple API
+
+- [OpenAI Operator](https://openai.com/index/introducing-operator/) - OpenAI's browser agent
+  - Full browser control via AI
+  - Natural language automation
+  - Computer use capability
+  - Research preview
+
+- [Skyvern](https://www.skyvern.com/) - Browser automation API
+  - Computer vision based
+  - Works without selectors
+  - Resilient to UI changes
+  - API-first design
+
+- [Browserbase](https://www.browserbase.com/) - Headless browser infrastructure for AI
+  - Serverless browsers for agents
+  - Session management
+  - Stealth mode
+  - Production-grade reliability
+
 ## AI Code Review & Analysis
 
 - [CodeRabbit](https://coderabbit.ai/) - AI code reviews for PRs
@@ -395,6 +495,72 @@ Tools that can autonomously build apps, implement features, or complete coding t
 - [Meta Prompting](https://github.com/suzuki-shunsuke/awesome-meta-prompting) - Generate better code prompts
 - [LangChain Templates](https://github.com/langchain-ai/langchain/tree/master/templates) - Pre-built code generation chains
 - [Prompt Engineering Guide for Code](https://www.promptingguide.ai/applications/coding) - Best practices
+
+## Infrastructure & DevOps AI
+
+AI tools for infrastructure as code, cloud management, and DevOps automation.
+
+- [Terraform GPT](https://github.com/flavius-dinu/terraform-gpt) - Natural language to Terraform
+  - Convert English to IaC
+  - AWS, Azure, GCP support
+  - Best practices included
+
+- [K8sGPT](https://k8sgpt.ai/) - Kubernetes diagnostic tool
+  - AI-powered cluster analysis
+  - Problem detection and solutions
+  - Multi-language support
+  - Open source
+
+- [Pulumi AI](https://www.pulumi.com/ai/) - AI-powered infrastructure code
+  - Natural language to infrastructure
+  - Multi-cloud support
+  - Real-time preview
+  - GPT-4 powered
+
+- [AWS CodeWhisperer](https://aws.amazon.com/codewhisperer/) - AWS-optimized code assistant
+  - IaC generation (CloudFormation, CDK)
+  - Security scanning
+  - Reference tracking
+  - Free for individual use
+
+- [Mancer](https://mancer.tech/) - DevOps automation with AI
+  - CI/CD optimization
+  - Infrastructure recommendations
+  - Cost analysis
+
+## Database & SQL AI Tools
+
+AI assistants for database queries, schema design, and data analysis.
+
+- [AI2sql](https://www.ai2sql.io/) - Natural language to SQL
+  - Support for MySQL, PostgreSQL, MongoDB
+  - Query optimization
+  - Schema understanding
+  - Multi-database support
+
+- [Text2SQL.AI](https://www.text2sql.ai/) - Generate SQL from English
+  - Complex query generation
+  - Explain existing queries
+  - Schema-aware
+  - Free tier available
+
+- [Outerbase](https://www.outerbase.com/) - AI-powered database interface
+  - Visual query builder with AI
+  - Data visualization
+  - Collaborative features
+  - Connect to any database
+
+- [Supabase Studio AI](https://supabase.com/) - PostgreSQL with AI features
+  - Schema generation
+  - Query assistance
+  - Real-time data
+  - Open source
+
+- [Chat2Query](https://www.chat2query.com/) - Query databases conversationally
+  - Natural language interface
+  - Data exploration
+  - Chart generation
+  - Business intelligence
 
 ## Learning & Education
 
@@ -542,6 +708,48 @@ Tools that can autonomously build apps, implement features, or complete coding t
 - Code quality and style
 - Documentation generation
 - Bug detection accuracy
+
+### Quick Comparison: Top AI Coding Assistants
+
+| Tool | Price | Context | Best For | Offline |
+|------|-------|---------|----------|---------|
+| Cursor | $20/mo | 200K | Full IDE experience | ❌ |
+| GitHub Copilot | $10/mo | 8K | Code completion | ❌ |
+| Cline | Free | Varies | Autonomous tasks | ❌ |
+| Windsurf | Free | 200K | Clean UI, beginners | ❌ |
+| Continue | Free | Custom | Privacy, flexibility | ✅ |
+| Tabby | Free | Custom | Self-hosted | ✅ |
+| Supermaven | $10/mo | 1M | Ultra-fast completion | ❌ |
+| Zed | Free | Varies | Collaboration | ❌ |
+
+## Cost Comparison
+
+### Free Tier Options
+- ✅ **Codeium** - Unlimited usage, forever free, 70+ languages
+- ✅ **Windsurf** - Free with all features including Cascade agent
+- ✅ **Cline** - Free VSCode extension with full capabilities
+- ✅ **Continue** - Free and open source, bring your own LLM
+- ✅ **Zed** - Free collaborative editor with AI features
+- ✅ **Tabby** - Free self-hosted option
+
+### Best Value for Money
+- **GitHub Copilot**: $10/mo ($100/year) - Industry standard
+- **Cursor**: $20/mo - Premium IDE with GPT-4 included
+- **Supermaven**: $10/mo - Fastest completion, 1M context
+- **Tabnine**: $12/mo per user - Team-focused with privacy
+
+### Enterprise Options
+- **GitHub Copilot Business**: $19/user/mo - Enterprise features
+- **Tabnine Enterprise**: Custom pricing - On-premises option
+- **Sourcegraph Cody**: Custom pricing - Codebase-aware
+- **JetBrains AI**: Included with subscription
+
+### Cost per 1M Tokens (API/LLM)
+- **Claude 3.5 Sonnet**: $3 input / $15 output
+- **GPT-4 Turbo**: $10 input / $30 output
+- **Gemini 1.5 Pro**: $3.50 input / $10.50 output
+- **DeepSeek-V3**: $0.27 input / $1.10 output (cheapest)
+- **Qwen2.5-Coder**: Open source (free if self-hosted)
 
 ## Best Practices & Guides
 
