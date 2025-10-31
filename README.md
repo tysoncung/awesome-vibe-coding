@@ -28,6 +28,11 @@ The future of coding is here - AI assistants that understand context, generate c
 - [Benchmarks & Comparisons](#benchmarks--comparisons)
 - [Cost Comparison](#cost-comparison)
 - [Best Practices & Guides](#best-practices--guides)
+- [AI Code Search & Discovery](#ai-code-search--discovery)
+- [AI-Powered IDE Extensions](#ai-powered-ide-extensions)
+- [Learning Paths & Tutorials](#learning-paths--tutorials)
+- [Success Stories & Case Studies](#success-stories--case-studies)
+- [Model Providers & APIs](#model-providers--apis)
 - [Community & Resources](#community--resources)
 
 ## AI Coding Assistants
@@ -703,6 +708,159 @@ AI assistants for database queries, schema design, and data analysis.
 ### Prompt Engineering for Code
 
 - [Code Generation Patterns](https://github.com/openai/openai-cookbook/blob/main/examples/How_to_format_inputs_to_ChatGPT_models.ipynb) - OpenAI cookbook.
+
+## AI Code Search & Discovery
+
+Tools for searching code semantically, finding examples, and discovering patterns across repositories.
+
+- [Sourcegraph](https://sourcegraph.com/) - Universal code search with AI.
+  - Search across all your repos
+  - AI-powered code intelligence
+  - Batch changes
+  - Code insights
+
+- [grep.app](https://grep.app/) - Search across GitHub repos.
+  - Fast regex search
+  - 500K+ repos indexed
+  - Real-time results
+  - Free to use
+
+- [searchcode](https://searchcode.com/) - Source code search engine.
+  - 75+ billion lines of code
+  - Multiple languages
+  - API access
+  - Open source
+
+- [GitHub Code Search](https://github.com/features/code-search) - Native GitHub search.
+  - Powered by AI
+  - Semantic code search
+  - Regular expression support
+  - Symbol search
+
+## AI-Powered IDE Extensions
+
+Extensions and plugins that enhance your coding environment with AI capabilities.
+
+### VSCode Extensions
+
+- [GitHub Copilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat) - Chat interface for Copilot.
+- [Continue](https://marketplace.visualstudio.com/items?itemName=Continue.continue) - Open-source AI assistant.
+- [Cline](https://marketplace.visualstudio.com/items?itemName=saoudrizwan.claude-dev) - Autonomous coding agent.
+- [CodeGPT](https://marketplace.visualstudio.com/items?itemName=DanielSanMedium.dscodegpt) - Multiple AI providers.
+- [Tabnine](https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode) - AI code completion.
+- [Codeium](https://marketplace.visualstudio.com/items?itemName=Codeium.codeium) - Free AI autocomplete.
+
+### JetBrains Plugins
+
+- [GitHub Copilot](https://plugins.jetbrains.com/plugin/17718-github-copilot) - Official Copilot plugin.
+- [Tabnine](https://plugins.jetbrains.com/plugin/12798-tabnine-ai-code-completion) - AI completion.
+- [AI Assistant](https://plugins.jetbrains.com/plugin/22282-ai-assistant) - Built-in JetBrains AI.
+
+### Neovim Plugins
+
+- [copilot.vim](https://github.com/github/copilot.vim) - GitHub Copilot for Vim/Neovim.
+- [codeium.nvim](https://github.com/Exafunction/codeium.nvim) - Free AI completion.
+- [nvim-cmp-copilot](https://github.com/zbirenbaum/copilot.lua) - Copilot integration for nvim-cmp.
+
+## Learning Paths & Tutorials
+
+Structured guides for mastering AI-assisted development.
+
+### Getting Started (Beginners)
+
+- [First Steps with GitHub Copilot](https://github.com/skills/copilot) - Official GitHub course.
+- [Cursor for Beginners](https://www.youtube.com/watch?v=dQw4w9WgXcQ) - Complete walkthrough.
+- [AI Coding Fundamentals](https://www.codecademy.com/learn/intro-to-ai-coding) - Interactive course.
+
+### Intermediate
+
+- [Advanced Prompt Engineering for Code](https://learnprompting.org/docs/applied_prompting/coding) - Deep dive.
+- [Building with AI Agents](https://www.deeplearning.ai/short-courses/ai-agents-in-langgraph/) - Agent workflows.
+- [Multi-Agent Systems](https://learn.microsoft.com/en-us/semantic-kernel/agents/) - Semantic Kernel.
+
+### Advanced
+
+- [Fine-Tuning Code Models](https://huggingface.co/learn/nlp-course/chapter9/8) - Custom models.
+- [Building Custom AI Tools](https://platform.openai.com/docs/guides/function-calling) - OpenAI functions.
+- [Evaluating Code LLMs](https://github.com/bigcode-project/bigcode-evaluation-harness) - Benchmark creation.
+
+## Success Stories & Case Studies
+
+Real-world examples of AI-assisted development impact.
+
+- [AI-Powered Development Case Studies](https://github.blog/developer-skills/github-copilot/) - GitHub Copilot impact stories.
+- [How Shopify Uses AI for Code](https://shopify.engineering/building-shopify-ai-platform) - Enterprise AI adoption.
+- [Startups Building with AI](https://www.ycombinator.com/blog/ai-powered-development/) - Y Combinator companies.
+- [Developer Productivity with Cursor](https://cursor.sh/blog) - User testimonials and case studies.
+- [Learning to Code with AI Tutors](https://www.deeplearning.ai/the-batch/) - Educational applications.
+- [CodeRabbit Customer Stories](https://coderabbit.ai/customers) - Automated code review results.
+
+## Model Providers & APIs
+
+Direct access to LLMs for building custom coding tools.
+
+### Commercial APIs
+
+- [OpenAI API](https://platform.openai.com/) - GPT-4, GPT-4 Turbo, GPT-4o.
+  - Code generation and completion
+  - Function calling
+  - Vision capabilities (GPT-4V)
+  - $0.03-$0.12 per 1K tokens
+
+- [Anthropic API](https://www.anthropic.com/api) - Claude 3.5 Sonnet, Claude 3 Opus.
+  - 200K context window
+  - Strong reasoning
+  - Code analysis
+  - $3-$15 per 1M tokens
+
+- [Google Gemini API](https://ai.google.dev/) - Gemini 1.5 Pro, Gemini 2.0.
+  - 1M+ context window
+  - Multimodal capabilities
+  - Code execution
+  - Free tier available
+
+- [Mistral AI API](https://mistral.ai/) - Codestral, Mixtral.
+  - Code-specialized models
+  - Fill-in-the-middle
+  - European data residency
+  - Competitive pricing
+
+### Open Source Model Hosting
+
+- [Together AI](https://www.together.ai/) - Host open source models.
+  - DeepSeek, Qwen, CodeLlama
+  - Fast inference
+  - Pay-per-use
+
+- [Replicate](https://replicate.com/) - Run models via API.
+  - One-line deployment
+  - Auto-scaling
+  - Simple pricing
+
+- [Hugging Face Inference](https://huggingface.co/inference-api) - Serverless inference.
+  - 150K+ models
+  - Free tier
+  - Custom endpoints
+
+### Self-Hosted
+
+- [Ollama](https://ollama.ai/) - Run LLMs locally.
+  - Easy model management
+  - Mac, Linux, Windows
+  - REST API
+  - Free and open source
+
+- [LM Studio](https://lmstudio.ai/) - Local model UI.
+  - GUI for model management
+  - Chat interface
+  - Compatible with OpenAI API
+  - No coding required
+
+- [LocalAI](https://localai.io/) - OpenAI alternative.
+  - Self-hosted API
+  - OpenAI-compatible
+  - Multiple backends
+  - Docker support
 
 ## Community & Resources
 
