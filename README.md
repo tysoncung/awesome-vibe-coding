@@ -25,7 +25,7 @@ The future of coding is here - AI assistants that understand context, generate c
 - [Learning & Education](#learning--education)
 - [Productivity Tools](#productivity-tools)
 - [Open Source Projects](#open-source-projects)
-- [Benchmarks & Comparisons](#benchmarks--comparisons)
+- [Benchmarks & Evaluation](#benchmarks--evaluation)
 - [Cost Comparison](#cost-comparison)
 - [Best Practices & Guides](#best-practices--guides)
 - [AI Code Search & Discovery](#ai-code-search--discovery)
@@ -35,7 +35,6 @@ The future of coding is here - AI assistants that understand context, generate c
 - [Model Providers & APIs](#model-providers--apis)
 - [Enterprise & Team Tools](#enterprise--team-tools)
 - [Code Quality & Refactoring](#code-quality--refactoring)
-- [Benchmarks & Comparisons](#benchmarks--comparisons)
 - [Security & Privacy](#security--privacy)
 - [Workflow Integration](#workflow-integration)
 - [Community & Resources](#community--resources)
@@ -612,56 +611,23 @@ AI assistants for database queries, schema design, and data analysis.
 - [PrivateGPT](https://github.com/imartinez/privateGPT) - Local document analysis.
 - [GPT4All](https://gpt4all.io/) - Local LLM runner.
 
-## Benchmarks & Comparisons
+## Benchmarks & Evaluation
 
 ### Benchmark Datasets
 
-- [HumanEval](https://github.com/openai/human-eval) - Code generation benchmark.
-  - 164 programming problems
-  - Function-level code generation
-  - Pass@k metric
-  - Industry standard
-
-- [HumanEval+](https://github.com/evalplus/evalplus) - Extended HumanEval.
-  - More test cases
-  - Harder evaluation
-  - 80x more tests
-
-- [MBPP](https://github.com/google-research/google-research/tree/master/mbpp) - Python programming benchmark.
-  - 1,000 crowd-sourced problems
-  - Entry-level difficulty
-  - Python-focused
-
-- [BigCodeBench](https://huggingface.co/datasets/bigcode/bigcodebench) - Code completion benchmark.
-  - Real-world complexity
-  - Library usage
-  - Data science focused
-
-- [SWE-bench](https://www.swebench.com/) - Software Engineering benchmark.
-  - Real GitHub issues
-  - Full repository context
-  - Measures ability to solve real bugs
-
-- [LiveCodeBench](https://livecodebench.github.io/) - Continuously updated benchmark.
-  - New problems regularly
-  - Prevents data contamination
-  - LeetCode-style problems
+- [HumanEval](https://github.com/openai/human-eval) - Code generation benchmark with 164 programming problems.
+- [HumanEval+](https://github.com/evalplus/evalplus) - Extended HumanEval with 80x more test cases.
+- [MBPP](https://github.com/google-research/google-research/tree/master/mbpp) - Python programming benchmark with 1,000 crowd-sourced problems.
+- [BigCodeBench](https://huggingface.co/datasets/bigcode/bigcodebench) - Code completion benchmark focused on real-world complexity.
+- [SWE-bench](https://www.swebench.com/) - Software Engineering benchmark using real GitHub issues.
+- [LiveCodeBench](https://livecodebench.github.io/) - Continuously updated benchmark to prevent data contamination.
 
 ### Leaderboards & Comparisons
 
-- [Chatbot Arena - Code](https://chat.lmsys.org/?leaderboard) - Community-driven rankings.
-- [Artificial Analysis](https://artificialanalysis.ai/) - Speed and quality metrics.
-- [Can AI Code](https://caniaicode.com/) - Code generation evaluations.
-- [Comparison Matrix](https://www.codingassistants.com/) - Feature comparison.
-
-### Performance Metrics
-
-**Top Models (HumanEval Pass@1, Jan 2025):**
-- Claude 3.5 Sonnet: ~92%
-- GPT-4 Turbo: ~90%
-- Gemini 1.5 Pro: ~88%
-- Qwen2.5-Coder 32B: ~87%
-- DeepSeek-Coder-V2: ~85%
+- [Chatbot Arena - Code](https://chat.lmsys.org/?leaderboard) - Community-driven rankings for code generation models.
+- [Artificial Analysis](https://artificialanalysis.ai/) - Speed and quality metrics across AI models.
+- [Can AI Code](https://caniaicode.com/) - Comprehensive code generation evaluations.
+- [Coding Assistants Comparison](https://www.codingassistants.com/) - Feature comparison matrix for AI coding tools.
 
 **Key Metrics to Compare:**
 - Pass@1, Pass@10 (success rates)
@@ -890,32 +856,15 @@ Direct access to LLMs for building custom coding tools.
 
 ### Code Review Assistants
 
-- [CodeRabbit](https://coderabbit.ai/) - AI-powered code reviews.
-  - Pull request analysis
-  - Security vulnerability detection
-  - Code quality insights
-  - Free for open source
-
 - [Codacy](https://www.codacy.com/) - Automated code reviews.
   - Static analysis
   - Coverage tracking
   - Security scanning
   - CI/CD integration
 
-- [What The Diff](https://whatthediff.ai/) - AI-powered PR summaries.
-  - Automated descriptions
-  - Code review assistance
-  - GitHub integration
-
 ## Code Quality & Refactoring
 
 ### Refactoring Tools
-
-- [Sourcery](https://sourcery.ai/) - Python refactoring assistant.
-  - Instant refactorings
-  - Code quality checks
-  - VS Code extension
-  - Free tier available
 
 - [Rope](https://github.com/python-rope/rope) - Python refactoring library.
   - Automated refactorings
@@ -936,43 +885,6 @@ Direct access to LLMs for building custom coding tools.
   - Fast and precise
   - Free for individuals
 
-- [CodeScene](https://codescene.com/) - Behavioral code analysis.
-  - Hotspot detection
-  - Technical debt
-  - Team collaboration
-  - Refactoring guidance
-
-## Benchmarks & Comparisons
-
-### Performance Benchmarks
-
-- [HumanEval](https://github.com/openai/human-eval) - Code generation benchmark.
-  - Python problems
-  - Industry standard
-  - Open source
-
-- [MBPP](https://github.com/google-research/google-research/tree/master/mbpp) - Mostly Basic Python Problems.
-  - 974 programming tasks
-  - Beginner to advanced
-
-- [CodeXGLUE](https://github.com/microsoft/CodeXGLUE) - Multi-task benchmark.
-  - 10+ tasks
-  - 6 languages
-  - Microsoft Research
-
-### Comparison Resources
-
-- [Artificial Analysis](https://artificialanalysis.ai/) - LLM performance comparison.
-  - Speed benchmarks
-  - Quality metrics
-  - Cost analysis
-  - Updated weekly
-
-- [LMSys Chatbot Arena](https://chat.lmsys.org/?arena) - Model rankings.
-  - Community voting
-  - Blind comparisons
-  - Elo ratings
-
 ## Security & Privacy
 
 ### Secure Coding Tools
@@ -989,18 +901,7 @@ Direct access to LLMs for building custom coding tools.
   - Policy enforcement
   - Free for individuals
 
-- [Snyk Code](https://snyk.io/product/snyk-code/) - Developer-first security.
-  - AI-powered scanning
-  - Fix suggestions
-  - IDE integration
-  - Free tier available
-
 ### Privacy-First Alternatives
-
-- [Fauxpilot](https://github.com/fauxpilot/fauxpilot) - Self-hosted Copilot alternative.
-  - Full privacy control
-  - Open source models
-  - Docker deployment
 
 - [Tabby](https://github.com/TabbyML/tabby) - Self-hosted AI coding assistant.
   - Local deployment
@@ -1028,19 +929,6 @@ Direct access to LLMs for building custom coding tools.
   - Queue management
   - AI-assisted reviews
   - Free for open source
-
-### Project Management
-
-- [Linear](https://linear.app/) - Issue tracking.
-  - Smart issue creation
-  - Cycle analytics
-  - AI features
-  - Free tier available
-
-- [Notion AI](https://www.notion.so/product/ai) - AI-powered workspace.
-  - Document generation
-  - Summaries
-  - Action items
 
 ## Community & Resources
 
