@@ -1,0 +1,68 @@
+name: Auto Update What's New
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'README.md'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-whats-new:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push' && !contains(github.event.head_commit.message, '[skip ci]')
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 10
+
+    - name: Update What's New section
+      run: |
+        # Get the last 5 commits that modified README.md
+        git log -5 --pretty=format:"%s" --grep="Add\|Update\|New tool" -- README.md > recent_changes.txt || true
+        
+        # Extract tool additions from recent commits
+        MONTH=$(date +'%B %Y')
+        
+        # Check if we have the What's New section
+        if grep -q "## 🌟 What's New" README.md; then
+          # Create a script to update the section
+          cat > update_whats_new.py << 'EOF'
+        import re
+        import sys
+        from datetime import datetime
+        
+        with open('README.md', 'r') as f:
+            content = f.read()
+        
+        # Find the What's New section
+        pattern = r'(## 🌟 What\'s New[^\n]*\n)((?:(?!##).*\n)*)'
+        match = re.search(pattern, content)
+        
+        if match:
+            # Update the month
+            month = datetime.now().strftime('%B %Y')
+            new_header = f"## 🌟 What's New ({month})\n"
+            
+            # Keep existing content but update header
+            updated_content = content.replace(match.group(1), new_header)
+            
+            with open('README.md', 'w') as f:
+                f.write(updated_content)
+        EOF
+          
+          python update_whats_new.py
+        fi
+
+    - name: Commit changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add README.md
+        git diff --staged --quiet || git commit -m "🤖 Update What's New section [skip ci]"
+        git push || echo "No changes to push"
