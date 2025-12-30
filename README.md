@@ -2,7 +2,20 @@
 
 > A curated list of AI-powered coding assistants, tools, and resources for enhancing the modern developer experience
 
+🔥 **100+ AI coding tools** | 🆓 **Free alternatives included** | 📊 **Cost comparisons** | 🚀 **Updated weekly**
+
+⭐ **Star this repo** to keep up with the AI coding revolution!
+
 The future of coding is here - AI assistants that understand context, generate code, debug issues, and pair program with you. This list covers the best tools, platforms, and resources for AI-assisted development.
+
+## 🌟 What's New (December 2025)
+
+- **Windsurf** - Codeium's free agentic IDE is gaining massive traction
+- **Claude Code** - Anthropic's official coding assistant launched
+- **Stagehand** - Revolutionary browser automation framework
+- **Goose** - Block/Square's open-source AI agent
+- **Qwen2.5-Coder** - Alibaba's powerful code model
+- **Cost comparison table** - Find the best tool for your budget
 
 ## Contents
 
