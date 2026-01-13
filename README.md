@@ -8,14 +8,14 @@
 
 The future of coding is here - AI assistants that understand context, generate code, debug issues, and pair program with you. This list covers the best tools, platforms, and resources for AI-assisted development.
 
-## 🌟 What's New (December 2025)
+## 🌟 What's New (January 2026)
 
-- **Windsurf** - Codeium's free agentic IDE is gaining massive traction
-- **Claude Code** - Anthropic's official coding assistant launched
-- **Stagehand** - Revolutionary browser automation framework
-- **Goose** - Block/Square's open-source AI agent
-- **Qwen2.5-Coder** - Alibaba's powerful code model
-- **Cost comparison table** - Find the best tool for your budget
+- **Claude Opus 4.5** - Anthropic's most advanced model with exceptional coding capabilities
+- **DeepSeek-R1** - New code-specialized model optimized for on-premises deployment
+- **Continue.dev v1.0** - Open-source framework hits 20K+ stars with new hub feature
+- **GPT-5.1 & Gemini 3** - Latest models now available in Windsurf and other tools
+- **MCP (Model Context Protocol)** - Emerging standard for tool integration gaining adoption
+- **85% developer adoption** - AI coding tools now mainstream with most developers using them regularly
 
 ## Contents
 
@@ -136,14 +136,16 @@ The future of coding is here - AI assistants that understand context, generate c
 
 **Open Source:**
 
-- [Continue](https://continue.dev/) - Open-source AI code assistant.
+- [Continue](https://continue.dev/) - Open-source AI code assistant (v1.0).
   - VSCode and JetBrains
   - Bring your own LLM
-  - Customizable
+  - New hub feature for sharing custom assistants
+  - 20K+ GitHub stars
   - Privacy-focused
 
 - [Cline](https://github.com/cline/cline) - Autonomous coding agent for VSCode.
   - Formerly Claude Dev
+  - Plan and Act modes for autonomous workflows
   - Create and edit files
   - Execute terminal commands
   - Multi-step problem solving
@@ -583,6 +585,12 @@ AI assistants for database queries, schema design, and data analysis.
   - Supports 338 programming languages
   - Fill-in-the-middle capability
 
+- [DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1) - Code-specialized reasoning model.
+  - Optimized for 10-15B parameter deployments
+  - Strong reasoning capabilities
+  - Suitable for on-premises enterprise use
+  - Distilled from larger models
+
 - [CodeLlama](https://github.com/facebookresearch/codellama) - Meta's code generation model.
   - 7B, 13B, 34B, 70B parameters
   - Python specialist variant
@@ -785,19 +793,21 @@ Direct access to LLMs for building custom coding tools.
 
 ### Commercial APIs
 
-- [OpenAI API](https://platform.openai.com/) - GPT-4, GPT-4 Turbo, GPT-4o.
-  - Code generation and completion
+- [OpenAI API](https://platform.openai.com/) - GPT-5, GPT-4o, GPT-4 Turbo.
+  - Advanced code generation and completion
   - Function calling
-  - Vision capabilities (GPT-4V)
-  - $0.03-$0.12 per 1K tokens
+  - Vision capabilities
+  - o1/o3 reasoning models for complex coding tasks
+  - $0.03-$0.15 per 1K tokens
 
-- [Anthropic API](https://www.anthropic.com/api) - Claude 3.5 Sonnet, Claude 3 Opus.
+- [Anthropic API](https://www.anthropic.com/api) - Claude Opus 4.5, Claude 3.5 Sonnet.
   - 200K context window
-  - Strong reasoning
-  - Code analysis
+  - Exceptional coding and reasoning capabilities
+  - Code analysis and generation
+  - Claude Code CLI for terminal-based development
   - $3-$15 per 1M tokens
 
-- [Google Gemini API](https://ai.google.dev/) - Gemini 1.5 Pro, Gemini 2.0.
+- [Google Gemini API](https://ai.google.dev/) - Gemini 3 Pro, Gemini 2.0.
   - 1M+ context window
   - Multimodal capabilities
   - Code execution
