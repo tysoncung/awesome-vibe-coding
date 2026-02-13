@@ -8,15 +8,6 @@
 
 The future of coding is here - AI assistants that understand context, generate code, debug issues, and pair program with you. This list covers the best tools, platforms, and resources for AI-assisted development.
 
-## 🌟 What's New (January 2026)
-
-- **Claude Opus 4.5** - Anthropic's most advanced model with exceptional coding capabilities
-- **DeepSeek-R1** - New code-specialized model optimized for on-premises deployment
-- **Continue.dev v1.0** - Open-source framework hits 20K+ stars with new hub feature
-- **GPT-5.1 & Gemini 3** - Latest models now available in Windsurf and other tools
-- **MCP (Model Context Protocol)** - Emerging standard for tool integration gaining adoption
-- **85% developer adoption** - AI coding tools now mainstream with most developers using them regularly
-
 ## Contents
 
 - [AI Coding Assistants](#ai-coding-assistants)
