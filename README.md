@@ -133,6 +133,7 @@ The future of coding is here - AI assistants that understand context, generate c
   - New hub feature for sharing custom assistants
   - 20K+ GitHub stars
   - Privacy-focused
+- [Toprank](https://github.com/nowork-studio/toprank) - Open-source Claude Code plugin for SEO, Google Ads, content writing, CMS setup, and optimization workflows.
 
 - [Cline](https://github.com/cline/cline) - Autonomous coding agent for VSCode.
   - Formerly Claude Dev
