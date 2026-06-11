@@ -539,6 +539,7 @@ AI assistants for database queries, schema design, and data analysis.
 - [LeetCode](https://leetcode.com/) - Interview prep (some AI features).
 - [CodeAcademy](https://www.codecademy.com/) - Interactive learning.
 - [Brilliant](https://brilliant.org/) - CS fundamentals with AI.
+- [Wikivibe](https://wikivibe.ru/en/) - Practical knowledge base for AI-assisted development with guides, a glossary, jobs, and a public MCP endpoint.
 
 ## Productivity Tools
 
