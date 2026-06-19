@@ -156,6 +156,12 @@ The future of coding is here - AI assistants that understand context, generate c
 
 ### CLI Tools
 
+- [vnsh](https://github.com/raullenchai/vnsh) - Ephemeral encrypted file sharing for AI.
+  - Pipe logs, diffs, files to secure URLs
+  - Client-side AES-256 encryption
+  - Claude reads vnsh links directly via MCP
+  - Auto-vaporizes in 24 hours
+
 - [aider](https://aider.chat/) - AI pair programming in the terminal.
   - Edit files with Claude, GPT-4, etc.
   - Git integration
