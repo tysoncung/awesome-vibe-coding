@@ -250,6 +250,12 @@ Tools that can autonomously build apps, implement features, or complete coding t
   - Deployment automation
   - Iterative refinement
 
+- [Playcode](https://playcode.io/ai-website-builder) - AI website and app builder.
+  - Natural language to hosted sites and web apps
+  - Visual editing and AI chat iteration
+  - One-click publishing
+  - Custom domains and Playcode Cloud hosting
+
 - [Devin](https://www.cognition.ai/devin) - AI software engineer.
   - Autonomous coding agent
   - Can complete entire tasks
