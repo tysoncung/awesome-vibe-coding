@@ -951,6 +951,11 @@ Direct access to LLMs for building custom coding tools.
   - Pipeline generation
   - Security scanning
 
+- [agenttrace](https://github.com/luoyuctl/agenttrace) - Local TUI and report generator for AI coding-agent sessions.
+  - Audits tokens, costs, tool calls, and run history
+  - Supports local Claude Code, Codex CLI, Gemini CLI, Aider, Cursor, Qwen Code, Cline, OpenCode/OpenClaw, Kimi CLI, and JSON/JSONL traces
+  - Provides Markdown/JSON reports and CI health gates
+
 - [Mergify](https://mergify.com/) - PR automation.
   - Auto-merge rules
   - Queue management
