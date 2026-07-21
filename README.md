@@ -317,6 +317,12 @@ Tools that can autonomously build apps, implement features, or complete coding t
   - PR improvements
   - Open source
 
+- [Better Agent](https://github.com/ofekron/better-agent) - Local workspace for running coding agents in one inspectable hub.
+  - Supports Claude, Codex, and Gemini sessions
+  - Forks and delegates work across parallel agents
+  - Persists and recovers sessions across restarts
+  - Source-available for non-commercial use; commercial use requires permission
+
 ## Browser Automation & UI Agents
 
 AI agents that can interact with websites, automate UI tasks, and perform web-based actions.
