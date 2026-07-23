@@ -156,6 +156,11 @@ The future of coding is here - AI assistants that understand context, generate c
 
 ### CLI Tools
 
+- [codex-profiles](https://github.com/Ducksss/codex-profiles) - Manage named Codex CLI profiles with separate local `CODEX_HOME` state.
+  - Run Codex CLI and one-shot commands in a selected profile
+  - Supports per-profile login, status, and diagnostics
+  - Can launch matching isolated ChatGPT Desktop windows on macOS
+
 - [vnsh](https://github.com/raullenchai/vnsh) - Ephemeral encrypted file sharing for AI.
   - Pipe logs, diffs, files to secure URLs
   - Client-side AES-256 encryption
