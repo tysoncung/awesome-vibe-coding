@@ -168,6 +168,8 @@ The future of coding is here - AI assistants that understand context, generate c
   - Multi-file editing
   - Undo/redo support
 
+- [cursor-bridge](https://github.com/hkc5/cursor-bridge) - Claude Code that runs on your Cursor subscription. One Rust binary, zero config.
+
 - [ChatGPT CLI](https://github.com/j178/chatgpt) - ChatGPT in the terminal.
   - Interactive chat
   - Code generation
