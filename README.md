@@ -232,6 +232,12 @@ The future of coding is here - AI assistants that understand context, generate c
   - Figma integration
   - High-fidelity designs
 
+- [UIZZE](https://uizze.com) - UI reference catalogue and finish-gate skill for coding agents.
+  - Search 800,000+ real web and iOS screens for interface evidence
+  - Free anti-UI-slop skill for Codex, Claude Code, Cursor, and Copilot
+  - Design contract and finish gate for generic layouts and missing states
+  - Optional MCP integration for automated search and audits
+
 - [Butterfish](https://butterfi.sh/) - Shell copilot.
   - AI assistance in terminal
   - Context-aware suggestions
