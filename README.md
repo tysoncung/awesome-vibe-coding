@@ -564,6 +564,7 @@ AI assistants for database queries, schema design, and data analysis.
 - [CodeAcademy](https://www.codecademy.com/) - Interactive learning.
 - [Brilliant](https://brilliant.org/) - CS fundamentals with AI.
 - [Wikivibe](https://wikivibe.ru/en/) - Practical knowledge base for AI-assisted development with guides, a glossary, jobs, and a public MCP endpoint.
+- [Vibe Coding with Confidence](https://zalt.me/guides/vibe-coding) - Web handbook on building AI-assisted apps that work beyond the demo: plan, build, debug, harden, ship, operate, and scale.
 
 ## Productivity Tools
 
