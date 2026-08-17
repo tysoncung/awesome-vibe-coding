@@ -330,6 +330,11 @@ Tools that can autonomously build apps, implement features, or complete coding t
   - Persists and recovers sessions across restarts
   - Source-available for non-commercial use; commercial use requires permission
 
+- [Kolega Code](https://github.com/kolega-ai/kolega-code) - Open-source terminal coding agent where the model writes its own multi-agent workflows.
+  - Gigacode: model-authored orchestration programs with parallel phases and pipelines
+  - 15+ model providers, MCP support, and a Textual TUI
+  - Local-first sessions with journaled resume
+
 ## Browser Automation & UI Agents
 
 AI agents that can interact with websites, automate UI tasks, and perform web-based actions.
