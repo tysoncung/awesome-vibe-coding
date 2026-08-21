@@ -497,6 +497,7 @@ AI agents that can interact with websites, automate UI tasks, and perform web-ba
 - [Meta Prompting](https://github.com/suzuki-shunsuke/awesome-meta-prompting) - Generate better code prompts.
 - [LangChain Templates](https://github.com/langchain-ai/langchain/tree/master/templates) - Pre-built code generation chains.
 - [Prompt Engineering Guide for Code](https://www.promptingguide.ai/applications/coding) - Best practices.
+- [Vibe-Coding Prompt Template](https://github.com/KhazP/vibe-coding-prompt-template) - Five-step prompt workflow: deep research, PRD, tech design, AGENTS.md, build.
 
 ## Infrastructure & DevOps AI
 
