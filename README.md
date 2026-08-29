@@ -524,6 +524,11 @@ AI tools for infrastructure as code, cloud management, and DevOps automation.
   - Infrastructure recommendations
   - Cost analysis
 
+- [d1v](https://github.com/d1vai/d1v-cli) - CLI deployment workflow for AI-built web projects.
+  - Claude Code and Codex Skill support
+  - Waits for a verified Preview deployment state
+  - Requires interactive confirmation before Production release
+
 ## Database & SQL AI Tools
 
 AI assistants for database queries, schema design, and data analysis.
