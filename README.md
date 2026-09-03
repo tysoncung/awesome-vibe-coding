@@ -2,7 +2,7 @@
 
 > A curated list of AI-powered coding assistants, tools, and resources for enhancing the modern developer experience
 
-🔥 **100+ AI coding tools** | 🆓 **Free alternatives included** | 📊 **Cost comparisons** | 🚀 **Updated weekly**
+🔥 **246+ AI coding tools** | 🆓 **Free alternatives included** | 📊 **Cost comparisons** | 🚀 **Updated weekly**
 
 ⭐ **Star this repo** to keep up with the AI coding revolution!
 
@@ -49,99 +49,93 @@ The future of coding is here - AI assistants that understand context, generate c
 
 **Premium/Commercial:**
 
-- [Cursor](https://cursor.sh/) - AI-first code editor built on VSCode with advanced AI features.
-  - Chat with codebase
-  - Multi-file editing
-  - Tab completion with GPT-4
-  - Codebase indexing
+- [Cursor](https://cursor.com/) - AI-first code editor built on VSCode with agent, chat, and Tab completion.
+  - Agent mode with Cursor's own Composer models plus Claude, GPT, and Gemini
+  - Tab completion powered by Cursor's in-house models
+  - Background agents, Bugbot PR review, and a CLI
+  - Free Hobby plan; Pro $20/mo, with Pro+ and Ultra tiers
 
 - [GitHub Copilot](https://github.com/features/copilot) - AI pair programmer from GitHub.
-  - Inline code suggestions
-  - Chat interface
-  - Works in VSCode, JetBrains, Neovim
-  - Trained on billions of lines of code
+  - Inline completions, chat, and agent mode in VSCode, JetBrains, Neovim, and Xcode
+  - Multiple models (Claude, GPT-5.x, Gemini) with context windows up to 1M tokens
+  - Cloud coding agent that takes issues and opens pull requests
+  - Free plan (2,000 completions and 50 chat requests per month); Pro $10/mo
 
-- [Claude Code](https://claude.ai/claude-code) - Anthropic's AI coding assistant.
-  - Terminal-based coding assistant
-  - File operations and editing
-  - Bash command execution
-  - Advanced reasoning capabilities
+- [Claude Code](https://claude.com/product/claude-code) - Anthropic's agentic coding tool.
+  - Terminal agent with VSCode and JetBrains extensions, a desktop app, and a web version
+  - Subagents, hooks, skills, and MCP support
+  - Powered by Claude Fable 5.1, Opus 5, and Sonnet 5
+  - Included with Claude Pro ($20/mo) and Max plans, or pay per API token
 
-- [Tabnine](https://www.tabnine.com/) - AI code completion for teams.
-  - Team-trained models
-  - Privacy-focused (on-prem option)
-  - Supports 15+ languages
-  - IDE integrations
+- [Tabnine](https://www.tabnine.com/) - Enterprise AI coding platform, acquired by Tricentis in July 2026.
+  - Team-trained and private models
+  - On-prem and air-gapped deployment
+  - IDE integrations for VSCode and JetBrains
+  - No free or individual plan; enterprise pricing from $39 per user per month
 
-- [Codeium](https://codeium.com/) - Free AI code completion.
-  - 70+ languages
-  - Unlimited usage
-  - Chat and search features
-  - Fast autocomplete
+- [Kiro](https://kiro.dev/) - AWS's spec-driven agentic IDE and CLI, successor to Amazon Q Developer and CodeWhisperer.
+  - Specs, hooks, and steering files for structured agent work
+  - Kiro CLI, web, and mobile apps alongside the IDE
+  - Multi-model (Claude and others) with MCP and skills support
+  - Free tier; credit-based paid plans
 
-- [Amazon CodeWhisperer](https://aws.amazon.com/codewhisperer/) - AWS's AI coding companion.
-  - Optimized for AWS APIs
-  - Security scanning
-  - Reference tracking
-  - Free for individual use
-
-- [Replit Ghostwriter](https://replit.com/ai) - AI pair programmer in Replit.
-  - Generate, transform, explain code
-  - Debug and optimize
-  - Works in browser
-  - Integrated with Replit IDE
+- [Replit Agent](https://replit.com/products/agent) - Replit's autonomous app builder (formerly Ghostwriter).
+  - Builds and deploys full apps from a prompt
+  - Agent 4 with long-running autonomous tasks
+  - Works entirely in the browser
+  - Integrated with Replit hosting and databases
 
 - [Sourcegraph Cody](https://sourcegraph.com/cody) - AI coding assistant with codebase awareness.
   - Understands entire codebase
   - Code search integration
   - Multi-repo context
-  - Enterprise features
+  - Enterprise only since July 2025; individual users are directed to Amp
 
-- [Windsurf](https://codeium.com/windsurf) - Codeium's agentic IDE.
-  - Built on VSCode
-  - Autonomous coding agent (Cascade)
-  - Multi-file editing
-  - Deep codebase understanding
-  - Free to use
+- [Windsurf (now Devin Desktop)](https://devin.ai/desktop) - Agentic IDE from Cognition, formerly Codeium.
+  - Built on VSCode with the Cascade agent
+  - Windsurf Plugin (formerly Codeium) for other editors with unlimited free autocomplete
+  - Multi-file editing and deep codebase understanding
+  - Free plan with a limited agent quota; paid Pro plan
 
 - [JetBrains AI Assistant](https://www.jetbrains.com/ai/) - Built-in AI for IntelliJ IDEA family.
   - Code completion and generation
   - Chat with codebase
-  - Refactoring suggestions
+  - Junie coding agent for autonomous tasks
   - Works across all JetBrains IDEs
-  - Multiple LLM support
+  - Free tier included with JetBrains IDEs; AI Pro from $10/mo
 
-- [Zed](https://zed.dev/) - Collaborative code editor with AI.
-  - Lightning fast performance
-  - Built-in AI assistant
-  - Real-time collaboration
-  - Written in Rust
-  - Free and open source
+- [Zed](https://zed.dev/) - High-performance collaborative code editor with AI.
+  - Written in Rust, open source
+  - Built-in agent panel and edit prediction
+  - Local models via Ollama or LM Studio, or bring your own API keys
+  - Free Personal plan; Pro $10/mo for hosted models
 
-- [Supermaven](https://supermaven.com/) - Ultra-fast AI code completion.
-  - 1M token context window
-  - Fastest latency (<200ms)
-  - High-quality suggestions
-  - Works in VSCode, JetBrains, Neovim
-  - Free tier available
+- [Google Antigravity](https://antigravity.google/) - Google's agent-first development platform.
+  - IDE, CLI, and SDK with a multi-agent command center
+  - Manages multiple local agents, projects, and scheduled tasks
+  - Replaces Gemini Code Assist for individual developers
+  - Free tier; Google AI Pro and Ultra plans
 
 **Open Source:**
 
-- [Continue](https://continue.dev/) - Open-source AI code assistant (v1.0).
+- [Cline](https://github.com/cline/cline) - Autonomous coding agent for VSCode, JetBrains, and the CLI.
+  - Plan and Act modes for autonomous workflows
+  - Create and edit files, run terminal commands
+  - Local models via Ollama or LM Studio, or bring your own keys
+  - Apache 2.0, free
+
+- [Kilo Code](https://github.com/Kilo-Org/kilocode) - Open-source coding agent for VSCode, JetBrains, and the CLI.
+  - Code, Plan, Ask, Debug, and Review modes
+  - 500+ models with mid-task switching, zero markup on provider rates
+  - MCP marketplace and autonomous CI mode
+  - MIT licensed
+
+- [Continue](https://continue.dev/) - Open-source AI code assistant, acquired by Cursor in June 2026.
   - VSCode and JetBrains
   - Bring your own LLM
-  - New hub feature for sharing custom assistants
-  - 20K+ GitHub stars
-  - Privacy-focused
-- [Toprank](https://github.com/nowork-studio/toprank) - Open-source Claude Code plugin for SEO, Google Ads, content writing, CMS setup, and optimization workflows.
+  - Apache 2.0 code still available, but the repository is read-only and unmaintained
 
-- [Cline](https://github.com/cline/cline) - Autonomous coding agent for VSCode.
-  - Formerly Claude Dev
-  - Plan and Act modes for autonomous workflows
-  - Create and edit files
-  - Execute terminal commands
-  - Multi-step problem solving
-  - Free and open source
+- [NotFair Plugin (formerly Toprank)](https://github.com/nowork-studio/notfair-plugin) - Open-source SEO, GEO, and marketing skills for AI coding agents.
 
 - [Tabby](https://tabbyml.github.io/tabby/) - Self-hosted AI coding assistant.
   - Open source
@@ -149,12 +143,76 @@ The future of coding is here - AI assistants that understand context, generate c
   - No telemetry
   - GPU/CPU support
 
-- [Fauxpilot](https://github.com/fauxpilot/fauxpilot) - Open-source GitHub Copilot server.
-  - Self-hosted
-  - Compatible with Copilot clients
-  - Uses SalesForce CodeGen
-
 ### CLI Tools
+
+- [OpenAI Codex CLI](https://github.com/openai/codex) - OpenAI's open-source terminal coding agent.
+  - Sandboxed local execution with approval modes
+  - IDE extensions, desktop app, and a cloud version for background tasks
+  - Sign in with a ChatGPT plan or use an API key
+  - Apache 2.0; included with ChatGPT Plus, Pro, and Business
+
+- [Gemini CLI](https://github.com/google-gemini/gemini-cli) - Google's open-source terminal agent for Gemini models.
+  - 1M-token context with built-in Google Search grounding
+  - File, shell, and web tools plus MCP support
+  - GitHub Actions integration for PR review and issue triage
+  - Apache 2.0; free tier with Google sign-in
+
+- [OpenCode](https://github.com/anomalyco/opencode) - Open-source, provider-agnostic terminal coding agent.
+  - Build and plan agents with a permissioned read-only plan mode
+  - Works with any model provider, including local models
+  - Desktop app for macOS, Windows, and Linux
+  - MIT licensed, bring your own keys
+
+- [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) - Plugin-based open-source agent harness from DeepSeek.
+  - Providers, tools, and context injection are all swappable plugins
+  - Trajectory view for auditing every tool call
+  - Works with DeepSeek, OpenRouter, and other providers
+  - MIT licensed, developer preview
+
+- [GitHub Copilot CLI](https://github.com/github/copilot-cli) - GitHub's terminal agent with native repo, issue, and PR access.
+  - Agentic build, edit, and debug with action previews
+  - MCP extensibility and LSP support
+  - Multiple models including Claude and GPT-5
+  - Requires a paid Copilot subscription
+
+- [Pi](https://github.com/badlogic/pi-mono) - Minimal, self-extending TypeScript coding agent and toolkit.
+  - Four core tools and a very small system prompt
+  - The agent writes its own extensions
+  - Reusable packages for LLM access, agent core, and TUI
+  - MIT licensed
+
+- [Crush](https://github.com/charmbracelet/crush) - Charm's terminal coding agent, successor to mods.
+  - Switch models mid-session
+  - LSP and MCP integration
+  - Local models via Ollama, llama.cpp, or LM Studio
+  - FSL-1.1-MIT licensed
+
+- [Qwen Code](https://github.com/QwenLM/qwen-code) - Alibaba's open-source terminal agent for Qwen and compatible models.
+  - Subagents, agent teams, and MCP support
+  - VSCode, Zed, and JetBrains plugins plus a desktop app
+  - Apache 2.0
+
+- [Grok Build](https://github.com/xai-org/grok-build) - xAI's open-source Rust terminal coding agent.
+  - Full-screen TUI, headless CI mode, and editor embedding
+  - Up to eight subagents in isolated worktrees
+  - Apache 2.0; requires a SuperGrok or X Premium+ subscription
+
+- [Muse Code](https://developer.meta.com/ai/products/muse-code/) - Meta's terminal coding agent powered by Muse Spark models.
+  - Lead session spawns child agents in per-child Git worktrees
+  - Voice mode, computer use, and a GitHub bot
+  - Open-source CLI client with hosted inference; subscriptions from $5/mo
+
+- [Mistral Vibe](https://github.com/mistralai/mistral-vibe) - Mistral's open-source coding agent CLI built around Devstral 2.
+  - Works with Mistral API models
+  - Apache 2.0
+
+- [Kimi Code CLI](https://github.com/MoonshotAI/kimi-code) - Moonshot AI's TypeScript terminal coding agent for Kimi models.
+  - MIT licensed
+
+- [Warp](https://www.warp.dev/) - AI-powered terminal with a built-in coding agent.
+  - Natural language to commands and agent mode
+  - Source-available; free plan with limited credits
+  - Build $20/mo, Max $200/mo
 
 - [codex-profiles](https://github.com/Ducksss/codex-profiles) - Manage named Codex CLI profiles with separate local `CODEX_HOME` state.
   - Run Codex CLI and one-shot commands in a selected profile
@@ -168,7 +226,7 @@ The future of coding is here - AI assistants that understand context, generate c
   - Auto-vaporizes in 24 hours
 
 - [aider](https://aider.chat/) - AI pair programming in the terminal.
-  - Edit files with Claude, GPT-4, etc.
+  - Works with Claude, GPT-5, Gemini, DeepSeek, and local models
   - Git integration
   - Multi-file editing
   - Undo/redo support
@@ -188,13 +246,7 @@ The future of coding is here - AI assistants that understand context, generate c
 - [AI Shell](https://github.com/BuilderIO/ai-shell) - Natural language to shell commands.
   - Converts English to bash/zsh
   - Safe command preview
-  - Powered by GPT-3.5/4
-
-- [mods](https://github.com/charmbracelet/mods) - AI on the command line.
-  - Multiple AI providers
-  - Markdown output
-  - Pipe support
-  - Standard input/output
+  - Uses OpenAI models (configurable)
 
 - [ShellGPT](https://github.com/TheR1D/shell_gpt) - ChatGPT in terminal.
   - Shell commands from natural language
@@ -203,12 +255,6 @@ The future of coding is here - AI assistants that understand context, generate c
   - Conversation history
 
 ### Browser Extensions
-
-- [Warp AI](https://www.warp.dev/) - AI-powered terminal.
-  - AI command search
-  - Natural language to commands
-  - Workflow automation
-  - Built-in AI assistant
 
 - [Blackbox AI](https://www.blackbox.ai/) - Code autocomplete anywhere.
   - Works in browser
@@ -225,14 +271,14 @@ The future of coding is here - AI assistants that understand context, generate c
   - Iterative refinement
 
 - [Screenshot to Code](https://screenshottocode.com/) - Convert designs to code.
-  - GPT-4 Vision powered
+  - Works with OpenAI, Claude, and Gemini vision models
   - HTML/Tailwind output
   - React/Vue/Svelte support
 
-- [Galileo AI](https://www.usegalileo.ai/) - AI for UI design.
-  - Text to UI
-  - Figma integration
-  - High-fidelity designs
+- [Google Stitch (formerly Galileo AI)](https://stitch.withgoogle.com/) - AI for UI design.
+  - Text and image to UI designs
+  - Export to Figma or code
+  - Free Google Labs product
 
 - [Butterfish](https://butterfi.sh/) - Shell copilot.
   - AI assistance in terminal
@@ -240,11 +286,34 @@ The future of coding is here - AI assistants that understand context, generate c
   - Git integration
   - Open source
 
-- [Fig](https://fig.io/) - Terminal autocomplete with AI.
-  - Visual autocomplete
-  - Script generation
-  - Works with existing tools
-  - Now part of AWS
+- [GitHub Spec Kit](https://github.com/github/spec-kit) - GitHub's toolkit for spec-driven development.
+  - Constitution, specify, plan, tasks, and implement commands
+  - Works with 30+ coding agents
+  - MIT licensed
+
+- [OpenSpec](https://github.com/Fission-AI/OpenSpec) - Spec-driven development workflow for coding agents.
+  - Change proposals and specs kept alongside the code
+  - Slash commands for Claude Code, Cursor, Codex, and others
+  - MIT licensed
+
+- [BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD) - Multi-agent framework covering the full software lifecycle.
+  - Analyst, PM, architect, and developer agent roles
+  - Works with major coding agents
+
+- [Superpowers](https://github.com/obra/superpowers) - Skills library and methodology for coding agents.
+  - Brainstorm, plan, TDD, and review workflows
+  - Works with Claude Code, Cursor, Codex, and Copilot CLI
+  - MIT licensed
+
+- [Context7](https://github.com/upstash/context7) - MCP server that injects current, version-specific library docs into agent prompts.
+  - Works with 30+ agents
+  - Automatic version matching
+  - MIT licensed
+
+- [Serena](https://github.com/oraios/serena) - MCP toolkit giving agents symbol-level code retrieval and editing via language servers.
+  - 40+ languages
+  - Rename, move, and safe-delete refactors with cross-file references
+  - MIT licensed
 
 ## AI Agents & Autonomous Coding
 
@@ -270,72 +339,61 @@ Tools that can autonomously build apps, implement features, or complete coding t
   - One-click publishing
   - Custom domains and Playcode Cloud hosting
 
-- [Devin](https://www.cognition.ai/devin) - AI software engineer.
-  - Autonomous coding agent
-  - Can complete entire tasks
-  - Uses own terminal and browser
-  - Still in limited access
+- [Devin](https://devin.ai/) - Cognition's autonomous AI software engineer.
+  - Completes entire tasks with its own terminal and browser
+  - Self-serve since April 2025
+  - Also powers Devin Desktop (formerly Windsurf)
+  - Pro from $20/mo
 
-- [OpenHands (formerly OpenDevin)](https://github.com/All-Hands-AI/OpenHands) - Open source AI coding agent.
+- [OpenHands (formerly OpenDevin)](https://github.com/OpenHands/OpenHands) - Open source AI coding agent.
   - Autonomous software development
   - Terminal and browser access
   - Open source alternative to Devin
   - Active community
 
-- [GPT Engineer](https://github.com/gpt-engineer-org/gpt-engineer) - Build entire apps with AI.
-  - Full project generation
-  - Iterative development
-  - Multiple LLM support
-  - Open source
+- [Dyad](https://github.com/dyad-sh/dyad) - Local, open-source app builder, an alternative to Lovable and Bolt.
+  - Runs on your machine with your own API keys
+  - Free and open source, with an optional Pro tier
 
-- [Mentat](https://mentat.ai/) - AI coding assistant for the terminal.
-  - Autonomous code editing
-  - Understands repository context
-  - Git integration
-  - Open source
+- [GitHub Copilot coding agent](https://docs.github.com/en/copilot/concepts/agents/coding-agent/about-coding-agent) - Background agent that turns issues into pull requests.
+  - Assign an issue to Copilot and get a PR built on GitHub Actions
+  - Teams and Slack integrations
+  - Available on all paid Copilot plans
 
-- [Claude Engineer](https://github.com/Doriandarko/claude-engineer) - Advanced coding agent with Claude.
-  - Autonomous coding workflows
-  - File management
-  - Project creation
-  - Open source
+- [Jules](https://jules.google/) - Google's cloud coding agent.
+  - Takes a GitHub repo and a prompt, plans, and returns a PR
+  - Plan and diff approval before commit
+  - Free tier of 15 tasks per day; Pro and Ultra plans
 
-- [Agentic Cursor](https://github.com/continuedev/continue) - Agent mode in Continue.
-  - Long-running coding tasks
-  - Multi-step operations
-  - Context-aware decisions
+- [Amp](https://ampcode.com/) - Multi-model coding agent, spun out of Sourcegraph.
+  - Web, macOS, iOS, and CLI surfaces
+  - Shareable threads
+  - Successor to Cody for individual developers
 
-- [Goose](https://github.com/block/goose) - Open-source AI agent framework by Block.
-  - Created by Square/Block
+- [Factory Droid](https://docs.factory.ai/) - Enterprise agent covering coding, review, QA, and docs.
+  - Desktop, CLI, web, and headless modes
+  - Connectors, skills, plugins, and hooks
+  - Enterprise pricing
+
+- [Goose](https://github.com/aaif-goose/goose) - Open-source AI agent framework, originally from Block.
+  - Now governed by the Linux Foundation's Agentic AI Foundation
   - Runs entirely locally
   - Extensible toolkit system
   - Goes beyond coding tasks
-  - Open source
+  - Apache 2.0
 
-- [Sweep](https://sweep.dev/) - GitHub bot that turns issues into PRs.
-  - Automated bug fixes
-  - Feature implementation
-  - GitHub integration
-  - Learning from codebase
-
-- [PR-Agent](https://github.com/Codium-ai/pr-agent) - AI-powered PR analysis.
+- [PR-Agent](https://github.com/The-PR-Agent/pr-agent) - AI-powered PR analysis, community-maintained since April 2026 (formerly Codium/Qodo).
   - Automated PR reviews
   - Code suggestions
   - PR improvements
-  - Open source
-
-- [Better Agent](https://github.com/ofekron/better-agent) - Local workspace for running coding agents in one inspectable hub.
-  - Supports Claude, Codex, and Gemini sessions
-  - Forks and delegates work across parallel agents
-  - Persists and recovers sessions across restarts
-  - Source-available for non-commercial use; commercial use requires permission
+  - Apache 2.0
 
 ## Browser Automation & UI Agents
 
 AI agents that can interact with websites, automate UI tasks, and perform web-based actions.
 
 - [Stagehand](https://www.stagehand.dev/) - AI browser automation framework.
-  - Built on Playwright
+  - Driver-agnostic (CDP) with SDKs for TypeScript, Python, Go, Java, Ruby, and Rust
   - Atomic primitives (act, extract, observe)
   - Dynamic agent for high-level decisions
   - Integrates OpenAI/Anthropic computer use models
@@ -347,11 +405,10 @@ AI agents that can interact with websites, automate UI tasks, and perform web-ba
   - Python-based
   - Simple API
 
-- [OpenAI Operator](https://openai.com/index/introducing-operator/) - OpenAI's browser agent.
+- [ChatGPT agent](https://help.openai.com/en/articles/11752874-chatgpt-agent) - OpenAI's browser and computer-use agent (formerly Operator).
   - Full browser control via AI
   - Natural language automation
-  - Computer use capability
-  - Research preview
+  - Built into ChatGPT
 
 - [Skyvern](https://www.skyvern.com/) - Browser automation API.
   - Computer vision based
@@ -391,10 +448,20 @@ AI agents that can interact with websites, automate UI tasks, and perform web-ba
   - Fix automation
   - CI/CD integration
 
-- [SonarLint](https://www.sonarsource.com/products/sonarlint/) - IDE code quality.
+- [SonarQube for IDE (formerly SonarLint)](https://www.sonarsource.com/products/sonarlint/) - IDE code quality.
   - Real-time feedback
   - Multiple IDEs
   - Free and open source
+
+- [Greptile](https://www.greptile.com/) - AI PR reviewer that indexes the whole codebase.
+  - Learns standards from team comments
+  - Plain-English custom rules
+  - Free tier; Pro $30 per seat per month
+
+- [Cursor Bugbot](https://cursor.com/bugbot) - Cursor's GitHub PR review bot focused on logic bugs.
+  - Direct PR comments with fix suggestions
+  - Bugbot rules
+  - 14-day free trial, then paid
 
 ## AI Debugging & Error Fixing
 
@@ -403,22 +470,6 @@ AI agents that can interact with websites, automate UI tasks, and perform web-ba
   - Context awareness
   - Search codebase
   - Extract from screenshots
-
-- [DebugCode.AI](https://debugcode.ai/) - AI debugging assistant.
-  - Error explanation
-  - Fix suggestions
-  - Multiple languages
-
-- [Phind](https://www.phind.com/) - AI search for developers.
-  - Code-specific search
-  - Answer with sources
-  - VSCode extension
-
-- [Bito AI](https://bito.ai/) - AI dev assistant.
-  - Code explanation
-  - Test generation
-  - Code review
-  - CLI and IDE support
 
 ## AI Documentation & Comments
 
@@ -439,17 +490,7 @@ AI agents that can interact with websites, automate UI tasks, and perform web-ba
 
 ## AI Testing
 
-- [Codium](https://www.codium.ai/) - Test suite generation.
-  - Intelligent test creation
-  - Coverage analysis
-  - IDE integration
-
-- [Ponicode](https://www.ponicode.com/) - Unit test generation.
-  - AI-powered tests
-  - Mutation testing
-  - IDE plugins
-
-- [Testim](https://www.testim.io/) - AI for test automation.
+- [Testim (Tricentis)](https://www.testim.io/) - AI for test automation.
   - Self-healing tests
   - Smart locators
   - Fast execution
@@ -476,7 +517,7 @@ AI agents that can interact with websites, automate UI tasks, and perform web-ba
 - [Serenade](https://serenade.ai/) - Voice coding assistant.
   - Natural language coding
   - Works with any editor
-  - Custom commands
+  - Low activity since 2024; community-maintained fork
 
 - [Talon Voice](https://talonvoice.com/) - Hands-free coding.
   - Eye tracking support
@@ -487,25 +528,19 @@ AI agents that can interact with websites, automate UI tasks, and perform web-ba
 
 ### Chat-Based Coding
 
-- [ChatGPT Code Interpreter](https://openai.com/blog/chatgpt-plugins) - Execute Python code.
+- [ChatGPT](https://chatgpt.com/) - Chat, data analysis, and Codex cloud coding tasks.
 - [Claude](https://claude.ai/) - Long context coding assistant.
-- [Gemini Code Assist](https://cloud.google.com/gemini/docs/codeassist/overview) - Google's coding assistant.
+- [Gemini Code Assist](https://cloud.google.com/gemini/docs/codeassist/overview) - Google's coding assistant for Business and Enterprise; the individual tier ended in June 2026 in favour of Antigravity.
 - [Perplexity](https://www.perplexity.ai/) - AI search with sources.
 
 ### Prompt Engineering for Code
 
-- [Meta Prompting](https://github.com/suzuki-shunsuke/awesome-meta-prompting) - Generate better code prompts.
-- [LangChain Templates](https://github.com/langchain-ai/langchain/tree/master/templates) - Pre-built code generation chains.
 - [Prompt Engineering Guide for Code](https://www.promptingguide.ai/applications/coding) - Best practices.
+- [Code Generation Patterns](https://github.com/openai/openai-cookbook/blob/main/examples/How_to_format_inputs_to_ChatGPT_models.ipynb) - OpenAI cookbook.
 
 ## Infrastructure & DevOps AI
 
 AI tools for infrastructure as code, cloud management, and DevOps automation.
-
-- [Terraform GPT](https://github.com/flavius-dinu/terraform-gpt) - Natural language to Terraform.
-  - Convert English to IaC
-  - AWS, Azure, GCP support
-  - Best practices included
 
 - [K8sGPT](https://k8sgpt.ai/) - Kubernetes diagnostic tool.
   - AI-powered cluster analysis
@@ -513,16 +548,10 @@ AI tools for infrastructure as code, cloud management, and DevOps automation.
   - Multi-language support
   - Open source
 
-- [Pulumi AI](https://www.pulumi.com/ai/) - AI-powered infrastructure code.
+- [Pulumi Neo](https://www.pulumi.com/product/neo) - Pulumi's AI agent for infrastructure code (formerly Pulumi AI).
   - Natural language to infrastructure
   - Multi-cloud support
-  - Real-time preview
-  - GPT-4 powered
-
-- [Mancer](https://mancer.tech/) - DevOps automation with AI.
-  - CI/CD optimization
-  - Infrastructure recommendations
-  - Cost analysis
+  - Plans and applies changes with review
 
 ## Database & SQL AI Tools
 
@@ -540,23 +569,11 @@ AI assistants for database queries, schema design, and data analysis.
   - Schema-aware
   - Free tier available
 
-- [Outerbase](https://www.outerbase.com/) - AI-powered database interface.
-  - Visual query builder with AI
-  - Data visualization
-  - Collaborative features
-  - Connect to any database
-
 - [Supabase Studio AI](https://supabase.com/) - PostgreSQL with AI features.
   - Schema generation
   - Query assistance
   - Real-time data
   - Open source
-
-- [Chat2Query](https://www.chat2query.com/) - Query databases conversationally.
-  - Natural language interface
-  - Data exploration
-  - Chart generation
-  - Business intelligence
 
 ## Learning & Education
 
@@ -573,7 +590,6 @@ AI assistants for database queries, schema design, and data analysis.
 ### Code Organization
 
 - [Linear](https://linear.app/) - Issue tracking with AI features.
-- [Height](https://height.app/) - AI-powered project management.
 - [Notion AI](https://www.notion.so/product/ai) - Docs with AI.
 
 ### Git & Version Control
@@ -585,58 +601,48 @@ AI assistants for database queries, schema design, and data analysis.
 ### CI/CD & DevOps
 
 - [Harness](https://www.harness.io/) - AI-powered CI/CD.
-- [DevZero](https://www.devzero.io/) - Cloud development environments.
-- [Gitpod](https://www.gitpod.io/) - Automated dev environments.
+- [Ona (formerly Gitpod)](https://ona.com/) - Cloud development environments and background agents.
+- [Bito Governor](https://bito.ai/) - Model router and cost optimizer for Claude Code, Cursor, and Codex.
+- [ccusage](https://github.com/ryoppippi/ccusage) - Token and cost reports for Claude Code and other coding agents.
 
 ## Open Source Projects
 
 ### AI Models for Code
 
-- [Qwen2.5-Coder](https://github.com/QwenLM/Qwen2.5-Coder) - Latest from Alibaba.
-  - Multiple sizes (0.5B to 32B parameters)
-  - Excellent code generation
-  - Strong on benchmarks
-  - Multilingual support
+- [Qwen3-Coder](https://github.com/QwenLM/Qwen3-Coder) - Alibaba's open-weight coding models.
+  - 480B-A35B and 30B-A3B mixture-of-experts variants plus Qwen3-Coder-Next
+  - 256K native context
+  - Strong on agentic coding benchmarks
+  - Apache 2.0
 
-- [DeepSeek Coder V2](https://github.com/deepseek-ai/DeepSeek-Coder) - Powerful open code model.
-  - 16B and 236B parameter models
-  - Strong performance on HumanEval
-  - Supports 338 programming languages
-  - Fill-in-the-middle capability
+- [DeepSeek V4](https://api-docs.deepseek.com/) - DeepSeek's current open-weight model family.
+  - V4-Pro and V4-Flash with 1M context
+  - Available via the DeepSeek API and as open weights
+  - Successor to DeepSeek Coder V2, V3, and R1
 
-- [DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1) - Code-specialized reasoning model.
-  - Optimized for 10-15B parameter deployments
-  - Strong reasoning capabilities
-  - Suitable for on-premises enterprise use
-  - Distilled from larger models
+- [Devstral 2](https://mistral.ai/news/devstral-2-vibe-cli/) - Mistral's open-weight agentic coding models.
+  - Devstral 2 (123B) and Devstral Small 2 (24B)
+  - 256K context
+  - Pairs with the Mistral Vibe CLI
 
-- [CodeLlama](https://github.com/facebookresearch/codellama) - Meta's code generation model.
-  - 7B, 13B, 34B, 70B parameters
-  - Python specialist variant
-  - Instruction-tuned versions
-  - Long context (100K tokens)
+- [gpt-oss](https://openai.com/index/introducing-gpt-oss/) - OpenAI's open-weight models.
+  - gpt-oss-120b and gpt-oss-20b
+  - Apache 2.0
+  - Runs locally via Ollama, LM Studio, and vLLM
 
-- [StarCoder 2](https://huggingface.co/bigcode/starcoder2-15b) - Open source code LLM.
-  - 3B, 7B, 15B parameters
-  - Trained on The Stack v2
-  - Better than original StarCoder
-  - Multiple language support
+- [Kimi K2](https://github.com/MoonshotAI/Kimi-K2) - Moonshot AI's open-weight agentic model.
+  - Mixture-of-experts with strong tool use
+  - Powers Kimi Code CLI
 
-- [WizardCoder](https://github.com/nlpxucan/WizardLM/tree/main/WizardCoder) - Empowering Code LLMs.
-  - Built on StarCoder/CodeLlama
-  - Evol-Instruct method
-  - Strong on HumanEval
+- [GLM-5](https://github.com/zai-org/GLM-5) - Z.ai's open-weight coding and agent model.
+  - Available through the GLM Coding Plan and as open weights
 
-- [CodeGen2.5](https://github.com/salesforce/CodeGen) - Salesforce's code model.
-  - 7B parameters
-  - Infilling support
-  - Multi-turn conversations
+- [Phi-4](https://huggingface.co/microsoft/phi-4) - Microsoft's small models.
+  - Phi-4 (14B), Phi-4-mini (3.8B), and Phi-4-reasoning
+  - Efficient and good for local use
 
-- [Phi-3.5](https://huggingface.co/microsoft/Phi-3.5-mini-instruct) - Microsoft's small model.
-  - 3.8B parameters
-  - Excellent code capabilities
-  - Efficient and fast
-  - Good for local use
+- [CodeLlama](https://github.com/meta-llama/codellama) - Meta's 2023 code model (legacy, repository archived).
+- [StarCoder 2](https://huggingface.co/bigcode/starcoder2-15b) - BigCode's 2024 open code LLM (legacy).
 
 ### Frameworks & Libraries
 
@@ -644,12 +650,15 @@ AI assistants for database queries, schema design, and data analysis.
 - [LlamaIndex](https://github.com/run-llama/llama_index) - Data framework for LLMs.
 - [Guidance](https://github.com/guidance-ai/guidance) - Control LLM generation.
 - [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) - Autonomous AI agent.
+- [Vercel AI SDK](https://github.com/vercel/ai) - TypeScript toolkit for building AI apps and agents.
+- [FastMCP](https://github.com/jlowin/fastmcp) - Pythonic framework for building MCP servers and clients.
 
 ### Tools
 
 - [LocalGPT](https://github.com/PromtEngineer/localGPT) - Private document Q&A.
-- [PrivateGPT](https://github.com/imartinez/privateGPT) - Local document analysis.
+- [PrivateGPT](https://github.com/zylon-ai/private-gpt) - Local document analysis.
 - [GPT4All](https://gpt4all.io/) - Local LLM runner.
+- [MCP Inspector](https://github.com/modelcontextprotocol/inspector) - Reference tool for testing and debugging MCP servers.
 
 ## Benchmarks & Evaluation
 
@@ -659,19 +668,21 @@ AI assistants for database queries, schema design, and data analysis.
 - [HumanEval+](https://github.com/evalplus/evalplus) - Extended HumanEval with 80x more test cases.
 - [MBPP](https://github.com/google-research/google-research/tree/master/mbpp) - Python programming benchmark with 1,000 crowd-sourced problems.
 - [BigCodeBench](https://huggingface.co/datasets/bigcode/bigcodebench) - Code completion benchmark focused on real-world complexity.
-- [SWE-bench](https://www.swebench.com/) - Software Engineering benchmark using real GitHub issues.
+- [SWE-bench](https://www.swebench.com/) - Software engineering benchmark using real GitHub issues; SWE-bench Verified is the 500-task human-validated subset.
+- [SWE-bench Pro](https://labs.scale.com/leaderboard/swe_bench_pro_public) - Harder long-horizon successor with 1,865 tasks across 41 repositories.
+- [Terminal-Bench](https://www.tbench.ai/) - Benchmark of agentic tasks carried out in a terminal.
+- [Aider Polyglot](https://aider.chat/docs/leaderboards/) - 225 Exercism exercises across six languages.
+- [SWE-rebench](https://swe-rebench.com/) - Monthly refreshed, contamination-resistant issue benchmark.
 - [LiveCodeBench](https://livecodebench.github.io/) - Continuously updated benchmark to prevent data contamination.
 
 ### Leaderboards & Comparisons
 
-- [Chatbot Arena - Code](https://chat.lmsys.org/?leaderboard) - Community-driven rankings for code generation models.
-- [Artificial Analysis](https://artificialanalysis.ai/) - Speed and quality metrics across AI models.
-- [Can AI Code](https://caniaicode.com/) - Comprehensive code generation evaluations.
-- [Coding Assistants Comparison](https://www.codingassistants.com/) - Feature comparison matrix for AI coding tools.
+- [Arena Code Leaderboard](https://arena.ai/leaderboard/code/webdev/) - Community-voted rankings for web development and agentic coding (formerly Chatbot Arena / LMArena).
+- [Artificial Analysis](https://artificialanalysis.ai/) - Speed, price, and quality metrics, including a Coding Agent Index.
 
 **Key Metrics to Compare:**
 - Pass@1, Pass@10 (success rates)
-- Context length (2K - 200K tokens)
+- Context length (128K - 1M+ tokens)
 - Languages supported
 - Speed (tokens/second)
 - Cost (per million tokens)
@@ -681,44 +692,43 @@ AI assistants for database queries, schema design, and data analysis.
 
 ### Quick Comparison: Top AI Coding Assistants
 
-| Tool           | Price   | Context | Best For                  | Offline |
-| -------------- | ------- | ------- | ------------------------- | ------- |
-| Cursor         | $20/mo  | 200K    | Full IDE experience       | ❌       |
-| GitHub Copilot | $10/mo  | 8K      | Code completion           | ❌       |
-| Cline          | Free    | Varies  | Autonomous tasks          | ❌       |
-| Windsurf       | Free    | 200K    | Clean UI, beginners       | ❌       |
-| Continue       | Free    | Custom  | Privacy, flexibility      | ✅       |
-| Tabby          | Free    | Custom  | Self-hosted               | ✅       |
-| Supermaven     | $10/mo  | 1M      | Ultra-fast completion     | ❌       |
-| Zed            | Free    | Varies  | Collaboration             | ❌       |
+| Tool                     | Price                | Context                    | Best For                   | Offline           |
+| ------------------------ | -------------------- | -------------------------- | -------------------------- | ----------------- |
+| Cursor                   | Free / $20/mo        | 200K (1M in Max mode)      | Full IDE experience        | ❌                 |
+| GitHub Copilot           | Free / $10/mo        | Up to 1M (model dependent) | Completion and agents      | ❌                 |
+| Claude Code              | $20/mo Pro or API    | 1M                         | Terminal agent             | ❌                 |
+| Codex CLI                | ChatGPT plan or API  | Model dependent            | Terminal agent             | ❌                 |
+| Cline                    | Free (BYOK)          | Varies                     | Autonomous tasks           | ✅ (local models)  |
+| Windsurf (Devin Desktop) | Free tier / Pro      | Varies by model            | Agentic IDE, beginners     | ❌                 |
+| OpenCode                 | Free (BYOK)          | Varies                     | Open-source terminal agent | ✅ (local models)  |
+| Tabby                    | Free                 | Custom                     | Self-hosted                | ✅                 |
+| Zed                      | Free / $10/mo Pro    | Varies                     | Fast editor, collaboration | ✅ (local models)  |
 
 ## Cost Comparison
 
 ### Free Tier Options
-- ✅ **Codeium** - Unlimited usage, forever free, 70+ languages
-- ✅ **Windsurf** - Free with all features including Cascade agent
-- ✅ **Cline** - Free VSCode extension with full capabilities
-- ✅ **Continue** - Free and open source, bring your own LLM
-- ✅ **Zed** - Free collaborative editor with AI features
-- ✅ **Tabby** - Free self-hosted option.
+
+- ✅ **GitHub Copilot Free** - 2,000 completions and 50 chat requests per month
+- ✅ **Cline** - Free, open-source extension; bring your own keys or local models
+- ✅ **OpenCode** - Free, MIT-licensed terminal agent; bring your own keys or local models
+- ✅ **Gemini CLI** - Free tier with Google sign-in
+- ✅ **Windsurf Plugin (formerly Codeium)** - Unlimited autocomplete on the free tier; agent use is quota-limited
+- ✅ **Zed** - Free editor; unlimited AI with your own keys or local models, 2,000 free edit predictions
+- ✅ **Tabby** - Free self-hosted Community edition (up to 5 users)
+- ✅ **Bolt.new** - Free plan with a monthly token allowance
+- ✅ **JetBrains AI** - Free tier included with JetBrains IDEs
 
 ## Best Practices & Guides
 
 ### Effective AI-Assisted Coding
 
 - [AI-Enhanced Development Workflow](https://github.blog/2023-06-20-how-to-write-better-prompts-for-github-copilot/) - GitHub's guide.
-- [Pair Programming with AI](https://martinfowler.com/articles/ai-pair-programming.html) - Martin Fowler.
 - [The Art of AI Coding](https://code.visualstudio.com/docs/editor/artificial-intelligence) - VSCode docs.
 
 ### Security & Privacy
 
 - [AI Code Security Best Practices](https://owasp.org/www-project-machine-learning-security-top-10/) - OWASP.
 - [Securing AI-Generated Code](https://github.blog/2023-05-09-github-copilot-for-business-is-now-available/) - GitHub.
-- [Privacy Considerations](https://www.tabnine.com/blog/ai-code-privacy/) - Tabnine.
-
-### Prompt Engineering for Code
-
-- [Code Generation Patterns](https://github.com/openai/openai-cookbook/blob/main/examples/How_to_format_inputs_to_ChatGPT_models.ipynb) - OpenAI cookbook.
 
 ## AI Code Search & Discovery
 
@@ -755,23 +765,25 @@ Extensions and plugins that enhance your coding environment with AI capabilities
 ### VSCode Extensions
 
 - [GitHub Copilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat) - Chat interface for Copilot.
-- [Continue](https://marketplace.visualstudio.com/items?itemName=Continue.continue) - Open-source AI assistant.
 - [Cline](https://marketplace.visualstudio.com/items?itemName=saoudrizwan.claude-dev) - Autonomous coding agent.
 - [CodeGPT](https://marketplace.visualstudio.com/items?itemName=DanielSanMedium.dscodegpt) - Multiple AI providers.
-- [Tabnine](https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode) - AI code completion.
-- [Codeium](https://marketplace.visualstudio.com/items?itemName=Codeium.codeium) - Free AI autocomplete.
+- [Windsurf Plugin (formerly Codeium)](https://docs.devin.ai/windsurf/plugins/getting-started) - Free AI autocomplete.
+- [Continue](https://marketplace.visualstudio.com/items?itemName=Continue.continue) - Open-source AI assistant (unmaintained since June 2026).
+- [Tabnine](https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode) - AI code completion (legacy listing, enterprise only).
 
 ### JetBrains Plugins
 
 - [GitHub Copilot](https://plugins.jetbrains.com/plugin/17718-github-copilot) - Official Copilot plugin.
-- [Tabnine](https://plugins.jetbrains.com/plugin/12798-tabnine-ai-code-completion) - AI completion.
 - [AI Assistant](https://plugins.jetbrains.com/plugin/22282-ai-assistant) - Built-in JetBrains AI.
+- [Junie](https://www.jetbrains.com/junie/) - JetBrains' coding agent.
+- [Sweep](https://sweep.dev/) - AI autocomplete and coding agent for JetBrains.
+- [Tabnine](https://plugins.jetbrains.com/plugin/12798-tabnine-ai-code-completion) - AI completion (legacy listing, enterprise only).
 
 ### Neovim Plugins
 
 - [copilot.vim](https://github.com/github/copilot.vim) - GitHub Copilot for Vim/Neovim.
-- [codeium.nvim](https://github.com/Exafunction/codeium.nvim) - Free AI completion.
-- [nvim-cmp-copilot](https://github.com/zbirenbaum/copilot.lua) - Copilot integration for nvim-cmp.
+- [windsurf.nvim](https://github.com/Exafunction/windsurf.nvim) - Free AI completion (formerly codeium.nvim).
+- [copilot.lua](https://github.com/zbirenbaum/copilot.lua) - Lua Copilot client for Neovim.
 
 ## Learning Paths & Tutorials
 
@@ -779,19 +791,19 @@ Structured guides for mastering AI-assisted development.
 
 ### Getting Started (Beginners)
 
-- [First Steps with GitHub Copilot](https://github.com/skills/copilot) - Official GitHub course.
-- [Cursor for Beginners](https://www.youtube.com/watch?v=dQw4w9WgXcQ) - Complete walkthrough.
-- [AI Coding Fundamentals](https://www.codecademy.com/learn/intro-to-ai-coding) - Interactive course.
+- [Getting Started with GitHub Copilot](https://github.com/skills/getting-started-with-github-copilot) - Official GitHub Skills course.
+- [Intro to AI Agents](https://www.codecademy.com/learn/intro-to-ai-agents) - Codecademy interactive course.
+- [AI Python for Beginners](https://www.deeplearning.ai/short-courses/ai-python-for-beginners/) - DeepLearning.AI course that teaches Python with an AI assistant.
 
 ### Intermediate
 
-- [Advanced Prompt Engineering for Code](https://learnprompting.org/docs/applied_prompting/coding) - Deep dive.
+- [Advanced Prompt Engineering for Code](https://learnprompting.org/docs/basic_applications/coding_assistance) - Deep dive.
 - [Building with AI Agents](https://www.deeplearning.ai/short-courses/ai-agents-in-langgraph/) - Agent workflows.
-- [Multi-Agent Systems](https://learn.microsoft.com/en-us/semantic-kernel/agents/) - Semantic Kernel.
+- [Multi-Agent Systems](https://learn.microsoft.com/en-us/semantic-kernel/frameworks/agent/) - Semantic Kernel.
 
 ### Advanced
 
-- [Fine-Tuning Code Models](https://huggingface.co/learn/nlp-course/chapter9/8) - Custom models.
+- [Hugging Face LLM Course](https://huggingface.co/learn/llm-course) - Transformers, fine-tuning, and evaluation.
 - [Building Custom AI Tools](https://platform.openai.com/docs/guides/function-calling) - OpenAI functions.
 - [Evaluating Code LLMs](https://github.com/bigcode-project/bigcode-evaluation-harness) - Benchmark creation.
 
@@ -799,11 +811,10 @@ Structured guides for mastering AI-assisted development.
 
 Real-world examples of AI-assisted development impact.
 
-- [AI-Powered Development Case Studies](https://github.blog/developer-skills/github-copilot/) - GitHub Copilot impact stories.
-- [How Shopify Uses AI for Code](https://shopify.engineering/building-shopify-ai-platform) - Enterprise AI adoption.
-- [Startups Building with AI](https://www.ycombinator.com/blog/ai-powered-development/) - Y Combinator companies.
-- [Developer Productivity with Cursor](https://cursor.sh/blog) - User testimonials and case studies.
-- [Learning to Code with AI Tutors](https://www.deeplearning.ai/the-batch/) - Educational applications.
+- [GitHub Customer Stories](https://github.com/customer-stories) - Attributed Copilot impact stories from Duolingo, Uber, and others.
+- [Under the River: Shopify's AI coding agent](https://shopify.engineering/under-the-river) - How Shopify's River agent co-authors one in eight merged pull requests.
+- [A quarter of YC W25 startups have mostly AI-generated codebases](https://techcrunch.com/2025/03/06/a-quarter-of-startups-in-ycs-current-cohort-have-codebases-that-are-almost-entirely-ai-generated) - Jared Friedman (YC) on AI-written code in the W25 batch.
+- [Cursor Customer Stories](https://cursor.com/customers) - Attributed case studies from Coinbase, Brex, Nokia, and Vercel.
 - [CodeRabbit Customer Stories](https://coderabbit.ai/customers) - Automated code review results.
 
 ## Model Providers & APIs
@@ -812,36 +823,34 @@ Direct access to LLMs for building custom coding tools.
 
 ### Commercial APIs
 
-- [OpenAI API](https://platform.openai.com/) - GPT-5, GPT-4o, GPT-4 Turbo.
-  - Advanced code generation and completion
-  - Function calling
-  - Vision capabilities
-  - o1/o3 reasoning models for complex coding tasks
-  - $0.03-$0.15 per 1K tokens
+- [OpenAI API](https://platform.openai.com/) - GPT-5.6, GPT-5.5, GPT-5.3-Codex.
+  - Codex models tuned for agentic coding
+  - Function calling and vision
+  - Codex CLI and cloud agent
+  - $0.20-$5 input / $1.20-$30 output per 1M tokens
 
-- [Anthropic API](https://www.anthropic.com/api) - Claude Opus 4.5, Claude 3.5 Sonnet.
-  - 200K context window
-  - Exceptional coding and reasoning capabilities
-  - Code analysis and generation
-  - Claude Code CLI for terminal-based development
-  - $3-$15 per 1M tokens
+- [Anthropic API](https://platform.claude.com/) - Claude Fable 5.1, Opus 5, Sonnet 5, Haiku 4.5.
+  - 1M context window (200K for Haiku)
+  - Strong agentic coding and reasoning
+  - Claude Code and the Claude Agent SDK
+  - $1-$10 input / $5-$50 output per 1M tokens
 
-- [Google Gemini API](https://ai.google.dev/) - Gemini 3 Pro, Gemini 2.0.
-  - 1M+ context window
+- [Google Gemini API](https://ai.google.dev/) - Gemini 3.1 Pro, Gemini 3.8 Flash, Flash-Lite.
+  - 1M context window
   - Multimodal capabilities
   - Code execution
-  - Free tier available
+  - Free tier for Flash models
 
-- [Mistral AI API](https://mistral.ai/) - Codestral, Mixtral.
+- [Mistral AI API](https://mistral.ai/) - Codestral 25.08, Devstral 2, Devstral Small 2.
   - Code-specialized models
   - Fill-in-the-middle
   - European data residency
-  - Competitive pricing
+  - Open-source Mistral Vibe CLI
 
 ### Open Source Model Hosting
 
 - [Together AI](https://www.together.ai/) - Host open source models.
-  - DeepSeek, Qwen, CodeLlama
+  - DeepSeek, Qwen, Kimi, GLM, gpt-oss
   - Fast inference
   - Pay-per-use
 
@@ -850,14 +859,14 @@ Direct access to LLMs for building custom coding tools.
   - Auto-scaling
   - Simple pricing
 
-- [Hugging Face Inference](https://huggingface.co/inference-api) - Serverless inference.
-  - 150K+ models
-  - Free tier
+- [Hugging Face Inference Providers](https://huggingface.co/docs/inference-providers) - Serverless inference across many providers.
+  - Access to open models on Hugging Face through one API
+  - Free monthly credits
   - Custom endpoints
 
 ### Self-Hosted
 
-- [Ollama](https://ollama.ai/) - Run LLMs locally.
+- [Ollama](https://ollama.com/) - Run LLMs locally.
   - Easy model management
   - Mac, Linux, Windows
   - REST API
@@ -885,16 +894,11 @@ Direct access to LLMs for building custom coding tools.
   - Usage analytics
   - Admin controls
 
-- [Tabnine Enterprise](https://www.tabnine.com/pricing) - Self-hosted AI code completion.
+- [Tabnine Enterprise](https://www.tabnine.com/pricing) - Self-hosted AI coding platform, now part of Tricentis.
   - On-premise deployment
   - Custom models
   - IP protection
-  - SOC 2 compliant
-
-- [Amazon CodeWhisperer Professional](https://aws.amazon.com/codewhisperer/pricing/) - AWS-integrated AI coding.
-  - Security scanning
-  - Reference tracking
-  - Admin dashboard
+  - Code Assistant $39 and Agentic Platform $59 per user per month
 
 ### Code Review Assistants
 
@@ -961,7 +965,7 @@ Direct access to LLMs for building custom coding tools.
   - Workflow automation
   - Free for public repos
 
-- [GitLab AI](https://about.gitlab.com/solutions/ai/) - DevOps AI platform.
+- [GitLab Duo Agent Platform](https://about.gitlab.com/gitlab-duo-agent-platform/) - GitLab's AI agent platform.
   - Code suggestions
   - Pipeline generation
   - Security scanning
@@ -1001,7 +1005,7 @@ Direct access to LLMs for building custom coding tools.
 
 - [r/ChatGPTCoding](https://www.reddit.com/r/ChatGPTCoding/) - Reddit community.
 - [r/cursor](https://www.reddit.com/r/cursor/) - Cursor users.
-- [Cursor Community](https://forum.cursor.sh/) - Official forum.
+- [Cursor Community](https://forum.cursor.com/) - Official forum.
 - [GitHub Copilot Discord](https://discord.gg/github-community) - Community support.
 
 ## Related Lists
@@ -1010,7 +1014,6 @@ Direct access to LLMs for building custom coding tools.
 - [awesome-prompt-engineering](https://github.com/tysoncung/awesome-prompt-engineering) - Prompt engineering.
 - [awesome-devsecops](https://github.com/tysoncung/awesome-devsecops) - DevSecOps tools and security.
 - [awesome-chatgpt](https://github.com/humanloop/awesome-chatgpt) - ChatGPT resources.
-- [awesome-gpt4](https://github.com/radi-cho/awesome-gpt4) - GPT-4 resources.
 - [awesome-llm](https://github.com/Hannibal046/Awesome-LLM) - Large Language Models.
 - [awesome-ai-tools](https://github.com/mahseema/awesome-ai-tools) - AI tools collection.
 
@@ -1030,3 +1033,7 @@ To the extent possible under law, [Tyson Cung](https://github.com/tysoncung) has
 ---
 
 **Star ⭐ this repo if you find it useful! Share with fellow developers!**
+
+---
+
+*Last updated: September 03, 2026*

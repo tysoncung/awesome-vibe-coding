@@ -45,10 +45,10 @@ jobs:
         echo "Found $TOOL_COUNT tools"
         
         # Update the tool count in the header
-        sed -i "s/🔥 \*\*[0-9]\+\+ AI coding tools\*\*/🔥 **$TOOL_COUNT+ AI coding tools**/" README.md
+        sed -i "s/🔥 \*\*[0-9][0-9]*+ AI coding tools\*\*/🔥 **$TOOL_COUNT+ AI coding tools**/" README.md
 
     - name: Create Pull Request
-      uses: peter-evans/create-pull-request@v5
+      uses: peter-evans/create-pull-request@v7
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         commit-message: '🤖 Daily update'
