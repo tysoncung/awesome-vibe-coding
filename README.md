@@ -797,9 +797,9 @@ Structured guides for mastering AI-assisted development.
 
 ### Intermediate
 
-- [Advanced Prompt Engineering for Code](https://learnprompting.org/docs/basic_applications/coding) - Deep dive.
+- [Advanced Prompt Engineering for Code](https://learnprompting.org/docs/basic_applications/coding_assistance) - Deep dive.
 - [Building with AI Agents](https://www.deeplearning.ai/short-courses/ai-agents-in-langgraph/) - Agent workflows.
-- [Multi-Agent Systems](https://learn.microsoft.com/en-us/semantic-kernel/concepts/agents/) - Semantic Kernel.
+- [Multi-Agent Systems](https://learn.microsoft.com/en-us/semantic-kernel/frameworks/agent/) - Semantic Kernel.
 
 ### Advanced
 
