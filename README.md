@@ -254,6 +254,13 @@ The future of coding is here - AI assistants that understand context, generate c
   - Multiple roles
   - Conversation history
 
+- [Claude Code on Vintage & Exotic Hardware](https://github.com/Scottcjn/claude-code-power8) - Community ports that run Anthropic's Claude Code CLI on platforms it does not officially support.
+  - [IBM POWER8 / ppc64le](https://github.com/Scottcjn/claude-code-power8)
+  - [PowerPC G5, Mac OS X Leopard (2007)](https://github.com/Scottcjn/claude-code-ppc) - runs natively with direct TLS 1.2
+  - [PowerPC G4, Mac OS X Tiger](https://github.com/Scottcjn/claude-code-g4) - QuickJS runtime with a Python TLS shim
+  - [macOS Monterey 12.7.6](https://github.com/Scottcjn/claude-code-monterey) - compatibility notes for older Intel Macs
+  - Open source, unofficial, maintained by Elyan Labs
+
 ### Browser Extensions
 
 - [Blackbox AI](https://www.blackbox.ai/) - Code autocomplete anywhere.
