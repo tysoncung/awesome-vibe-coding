@@ -388,6 +388,12 @@ Tools that can autonomously build apps, implement features, or complete coding t
   - PR improvements
   - Apache 2.0
 
+- [Kolega Code](https://github.com/kolega-ai/kolega-code) - Source-available terminal coding agent where the model writes its own multi-agent workflows.
+  - Gigacode: model-authored orchestration programs with parallel phases and pipelines
+  - 15+ model providers, MCP support, and a Textual TUI
+  - Local-first sessions with journaled resume
+  - BSL 1.1 licensed; production use allowed except competing hosted offerings
+
 ## Browser Automation & UI Agents
 
 AI agents that can interact with websites, automate UI tasks, and perform web-based actions.
