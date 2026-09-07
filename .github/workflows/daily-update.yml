@@ -33,7 +33,7 @@ jobs:
         DATE=$(date +'%B %d, %Y')
         # Add or update the last updated line
         if grep -q "Last updated:" README.md; then
-          sed -i "s/Last updated: .*/Last updated: $DATE/" README.md
+          sed -i "s/^\*Last updated: .*\*$/*Last updated: $DATE*/" README.md
         else
           echo -e "\n---\n\n*Last updated: $DATE*" >> README.md
         fi
@@ -62,5 +62,5 @@ jobs:
           - ✅ Checked for broken links
           
           Please review and merge if everything looks good!
-        branch: daily-update-${{ github.run_number }}
+        branch: daily-update
         delete-branch: true
