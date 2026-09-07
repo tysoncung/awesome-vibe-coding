@@ -254,6 +254,12 @@ The future of coding is here - AI assistants that understand context, generate c
   - Multiple roles
   - Conversation history
 
+- [YYLO](https://github.com/yylo-dev/yylo) - Command-line orchestrator for coding agents, repeatable workflows, and receipt-backed repository changes.
+  - Typed task, validation, merge, and release-readiness boundaries
+  - Each task gets a dedicated branch/worktree; the merge queue owns risk-based review
+  - Orchestrates Pi and Codex subagents
+  - MIT licensed; install via npm as @yylo/cli
+
 ### Browser Extensions
 
 - [Blackbox AI](https://www.blackbox.ai/) - Code autocomplete anywhere.
