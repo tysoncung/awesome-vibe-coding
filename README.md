@@ -254,12 +254,10 @@ The future of coding is here - AI assistants that understand context, generate c
   - Multiple roles
   - Conversation history
 
-- [Claude Code on Vintage & Exotic Hardware](https://github.com/Scottcjn/claude-code-power8) - Community ports that run Anthropic's Claude Code CLI on platforms it does not officially support.
-  - [IBM POWER8 / ppc64le](https://github.com/Scottcjn/claude-code-power8)
-  - [PowerPC G5, Mac OS X Leopard (2007)](https://github.com/Scottcjn/claude-code-ppc) - runs natively with direct TLS 1.2
-  - [PowerPC G4, Mac OS X Tiger](https://github.com/Scottcjn/claude-code-g4) - QuickJS runtime with a Python TLS shim
-  - [macOS Monterey 12.7.6](https://github.com/Scottcjn/claude-code-monterey) - compatibility notes for older Intel Macs
-  - Open source, unofficial, maintained by Elyan Labs
+- [Claude Code on Vintage & Exotic Hardware](https://github.com/Scottcjn/claude-code-power8) - Community ports that run Anthropic's Claude Code CLI on platforms it does not officially support, starting with IBM POWER8 / ppc64le. Open source and unofficial, maintained by Elyan Labs.
+  - [Claude Code on PowerPC G5](https://github.com/Scottcjn/claude-code-ppc) - Runs natively on a 2007 PowerPC G5 with direct TLS 1.2.
+  - [Claude Code on PowerPC G4](https://github.com/Scottcjn/claude-code-g4) - Runs on a PowerPC G4 via a QuickJS runtime and a Python TLS shim.
+  - [Claude Code on macOS Monterey](https://github.com/Scottcjn/claude-code-monterey) - Compatibility notes for older Intel Macs on macOS Monterey.
 
 ### Browser Extensions
 
