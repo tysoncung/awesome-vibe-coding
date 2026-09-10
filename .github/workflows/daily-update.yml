@@ -33,7 +33,7 @@ jobs:
         DATE=$(date +'%B %d, %Y')
         # Add or update the last updated line
         if grep -q "Last updated:" README.md; then
-          sed -i "s/Last updated: .*/Last updated: $DATE/" README.md
+          sed -i "s/^\*Last updated: .*\*$/*Last updated: $DATE*/" README.md
         else
           echo -e "\n---\n\n*Last updated: $DATE*" >> README.md
         fi
@@ -45,10 +45,10 @@ jobs:
         echo "Found $TOOL_COUNT tools"
         
         # Update the tool count in the header
-        sed -i "s/🔥 \*\*[0-9]\+\+ AI coding tools\*\*/🔥 **$TOOL_COUNT+ AI coding tools**/" README.md
+        sed -i "s/🔥 \*\*[0-9][0-9]*+ AI coding tools\*\*/🔥 **$TOOL_COUNT+ AI coding tools**/" README.md
 
     - name: Create Pull Request
-      uses: peter-evans/create-pull-request@v5
+      uses: peter-evans/create-pull-request@v7
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         commit-message: '🤖 Daily update'
@@ -62,5 +62,5 @@ jobs:
           - ✅ Checked for broken links
           
           Please review and merge if everything looks good!
-        branch: daily-update-${{ github.run_number }}
+        branch: daily-update
         delete-branch: true
