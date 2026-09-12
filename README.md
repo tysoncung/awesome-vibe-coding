@@ -2,7 +2,7 @@
 
 > A curated list of AI-powered coding assistants, tools, and resources for enhancing the modern developer experience
 
-🔥 **250+ AI coding tools** | 🆓 **Free alternatives included** | 📊 **Cost comparisons** | 🚀 **Updated weekly**
+🔥 **251+ AI coding tools** | 🆓 **Free alternatives included** | 📊 **Cost comparisons** | 🚀 **Updated weekly**
 
 ⭐ **Star this repo** to keep up with the AI coding revolution!
 
@@ -1060,4 +1060,4 @@ To the extent possible under law, [Tyson Cung](https://github.com/tysoncung) has
 
 ---
 
-*Last updated: September 07, 2026*
+*Last updated: September 12, 2026*
