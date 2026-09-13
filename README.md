@@ -321,6 +321,10 @@ The future of coding is here - AI assistants that understand context, generate c
   - Rename, move, and safe-delete refactors with cross-file references
   - MIT licensed
 
+- [ContextStream](https://contextstream.io) - Shared project context MCP for Cursor, Claude Code, Codex, and Grok. Intelligence isn’t the bottleneck. Context is.
+  - Hosted MCP: https://mcp.contextstream.io/mcp
+  - OSS server: https://github.com/contextstream/mcp-server
+
 - [Sillage](https://github.com/MarlBurroW/sillage) - Self-hosted, mobile-first web UI that drives the native Claude Code and Codex CLIs on your own machine.
   - Sessions that outlive the client, with full-text search across every conversation
   - IDE panel (file explorer, editor, diffs, terminal) and a board agents read through its own MCP server
