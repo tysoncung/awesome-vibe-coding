@@ -260,6 +260,12 @@ The future of coding is here - AI assistants that understand context, generate c
   - Orchestrates Pi and Codex subagents
   - MIT licensed; install via npm as @yylo/cli
 
+- [Claude Code on Vintage & Exotic Hardware](https://github.com/Scottcjn/claude-code-power8) - Community ports that run Anthropic's Claude Code CLI on platforms it does not officially support, starting with IBM POWER8 / ppc64le. Open source and unofficial, maintained by Elyan Labs.
+  - Pinned to Claude Code v2.1.112; later releases ship platform-specific binaries.
+  - [Claude Code on PowerPC G5](https://github.com/Scottcjn/claude-code-ppc) - Runs natively on a 2007 PowerPC G5 with direct TLS 1.2.
+  - [Claude Code on PowerPC G4](https://github.com/Scottcjn/claude-code-g4) - Runs on a PowerPC G4 via a QuickJS runtime and a Python TLS shim.
+  - [Claude Code on macOS Monterey](https://github.com/Scottcjn/claude-code-monterey) - Compatibility notes for older Intel Macs on macOS Monterey.
+
 ### Browser Extensions
 
 - [Blackbox AI](https://www.blackbox.ai/) - Code autocomplete anywhere.
