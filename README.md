@@ -749,6 +749,11 @@ AI assistants for database queries, schema design, and data analysis.
 - [AI-Enhanced Development Workflow](https://github.blog/2023-06-20-how-to-write-better-prompts-for-github-copilot/) - GitHub's guide.
 - [The Art of AI Coding](https://code.visualstudio.com/docs/editor/artificial-intelligence) - VSCode docs.
 
+- [NextReset](https://nextreset.ai/) - Independent guide to source-linked Codex reset history, usage limits, and official AI service incidents.
+  - Separates public automatic resets from banked credits and personal account schedules
+  - Includes a browser-local timer and links to original sources
+  - Free; forecasts are clearly labeled experimental
+
 ### Security & Privacy
 
 - [AI Code Security Best Practices](https://owasp.org/www-project-machine-learning-security-top-10/) - OWASP.
