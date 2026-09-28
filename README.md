@@ -260,6 +260,13 @@ The future of coding is here - AI assistants that understand context, generate c
   - Orchestrates Pi and Codex subagents
   - MIT licensed; install via npm as @yylo/cli
 
+- [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) - Records a coding-agent run below the harness, then replays it offline from the recording.
+  - `orca record claude` wraps the agent unmodified; nothing is installed into the agent
+  - `orca replay last` re-runs the session against the recording — no network, no tokens, no charge
+  - `orca replay last --from 4 --model <other>` re-runs it from a chosen step on a different model, conversation prefix held fixed
+  - Agent-agnostic: Claude Code, Codex, the Agents SDK, the AI SDK
+  - Apache-2.0, Node 20+; install via npm as orcareplay (the command is `orca`)
+
 ### Browser Extensions
 
 - [Blackbox AI](https://www.blackbox.ai/) - Code autocomplete anywhere.
