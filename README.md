@@ -327,6 +327,11 @@ The future of coding is here - AI assistants that understand context, generate c
   - Installable PWA with push; single Docker container
   - MIT licensed
 
+- [LogNorm](https://lognorm.com) - Hosted MCP server that hands a site's SEO/GEO growth backlog to Claude Code, Codex, and Cursor.
+  - Site audits, fixes, content drafts, and AI-visibility tracking
+  - Remote Streamable HTTP endpoint with OAuth 2.1, no API keys
+  - Free plan for 1 website; MIT-licensed [connector repo](https://github.com/lognorm/lognorm-mcp)
+
 ## AI Agents & Autonomous Coding
 
 Tools that can autonomously build apps, implement features, or complete coding tasks with minimal human intervention.
