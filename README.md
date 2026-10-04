@@ -406,6 +406,11 @@ Tools that can autonomously build apps, implement features, or complete coding t
   - Local-first sessions with journaled resume
   - BSL 1.1 licensed; production use allowed except competing hosted offerings
 
+- [Orbi](https://github.com/orbi-build/orbi) - Open-source agent that works from GitHub issues.
+  - Implements each labeled issue in an isolated worktree and opens a PR
+  - A separate review session checks the diff against the acceptance criteria
+  - Merges only the reviewed head and cuts a tagged release
+
 ## Browser Automation & UI Agents
 
 AI agents that can interact with websites, automate UI tasks, and perform web-based actions.
