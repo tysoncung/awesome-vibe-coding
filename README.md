@@ -1005,6 +1005,12 @@ Direct access to LLMs for building custom coding tools.
   - AI-assisted reviews
   - Free for open source
 
+- [Shipvela](https://github.com/stefanautomateed/shipvela-codex) - Website publishing workflow for coding assistants through an OAuth MCP connector and publishing skill.
+  - Review the target and static files before owner-approved publishing; inspect deployment status and logs afterward
+  - Import supported GitHub repositories or publish prebuilt static output through the CLI
+  - Hosted service requires an account; Hobby includes 3 projects and 20 publishes/month with custom-domain connections and HTTPS
+  - Compatible Next.js SSR requires a paid plan; the public client/plugin bundle is MIT, and the hosting backend is proprietary
+
 ## Community & Resources
 
 ### Blogs & Articles
