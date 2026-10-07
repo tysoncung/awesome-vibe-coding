@@ -351,6 +351,12 @@ Tools that can autonomously build apps, implement features, or complete coding t
   - One-click publishing
   - Custom domains and Playcode Cloud hosting
 
+- [Kleap](https://kleap.co/) - AI website and app builder.
+  - Describe a site or app in chat, then edit and publish it
+  - Hosted MCP server (OAuth) so Claude, Cursor and other agents can create, edit and publish sites
+  - Open-source CLI (`npx kleap-cli`, MIT)
+  - Free plan; paid plans from $9/mo add custom domains
+
 - [Devin](https://devin.ai/) - Cognition's autonomous AI software engineer.
   - Completes entire tasks with its own terminal and browser
   - Self-serve since April 2025
