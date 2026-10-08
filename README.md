@@ -924,6 +924,11 @@ Direct access to LLMs for building custom coding tools.
   - IP protection
   - Code Assistant $39 and Agentic Platform $59 per user per month
 
+- [Tale](https://github.com/tale-project/tale) - Self-hosted project workspace for people and configured AI agents.
+  - Shared task briefs, attachments, and persistent project files
+  - Explicitly start assigned agent work and review its reports and outputs
+  - MIT Community software; infrastructure and model-provider costs are separate
+
 ### Code Review Assistants
 
 - [Codacy](https://www.codacy.com/) - Automated code reviews.
