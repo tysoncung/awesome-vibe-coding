@@ -577,6 +577,12 @@ AI tools for infrastructure as code, cloud management, and DevOps automation.
   - Waits for a verified Preview deployment state
   - Requires interactive confirmation before Production release
 
+- [DropTheHassle](https://dropthehassle.com) - Your AI puts your site live on a free HTTPS link or a .com for €19/$19 with no DNS, from an MCP client or the terminal.
+  - MCP server (`npx -y dropthehassle-mcp@latest`, or remote `https://dropthehassle.com/mcp`) and CLI (`npx -y dropthehassle@latest deploy`)
+  - First deploy works without an account and returns a claim link
+  - Checks domain availability and price and attaches a domain already on the account; no tool can buy anything
+  - Free link; .com domains EUR 19/year; MCP server and CLI are MIT licensed
+
 ## Database & SQL AI Tools
 
 AI assistants for database queries, schema design, and data analysis.
