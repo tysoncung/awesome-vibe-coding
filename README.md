@@ -327,6 +327,12 @@ The future of coding is here - AI assistants that understand context, generate c
   - Installable PWA with push; single Docker container
   - MIT licensed
 
+- [Oh My Android](https://github.com/ateymoori/oh-my-android) - macOS app with a built-in MCP server that lets coding agents see and drive the Android Emulator and adb devices.
+  - Screenshots and UI tree in dp, tap and swipe, logcat
+  - Dark mode, font scale, RTL/locale, TalkBack, network and GPS toggles
+  - Works with Claude Code, Codex, Cursor, VS Code, and Gemini CLI
+  - Free and MIT licensed; macOS 26+ on Apple silicon
+
 ## AI Agents & Autonomous Coding
 
 Tools that can autonomously build apps, implement features, or complete coding tasks with minimal human intervention.
