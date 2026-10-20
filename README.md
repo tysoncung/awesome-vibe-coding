@@ -542,6 +542,12 @@ AI agents that can interact with websites, automate UI tasks, and perform web-ba
   - Custom grammars
   - Developer-focused
 
+- [Yap](https://yapapp.cc/voice-coding) - Hold-to-talk dictation that types into any app, including terminals and AI coding agents.
+  - Works for prompts in Claude Code, Codex and Cursor
+  - Speech recognized on device (NVIDIA Parakeet), 25 European languages
+  - macOS 13+ (Apple Silicon) and Windows 10/11 (x64 and Arm64)
+  - 3 free days with a free account, then a 10-day trial; USD 6.90/month or 69/year
+
 ## Pair Programming with AI
 
 ### Chat-Based Coding
