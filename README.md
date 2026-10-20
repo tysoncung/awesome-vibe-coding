@@ -406,6 +406,11 @@ Tools that can autonomously build apps, implement features, or complete coding t
   - Local-first sessions with journaled resume
   - BSL 1.1 licensed; production use allowed except competing hosted offerings
 
+- [Frink](https://github.com/benord-labs/frink) - Desktop-first, open-source (MIT) application for running parallel agents, and multi-step custom workflows triggered by schedules, webhooks or events from tools like Linear and Sentry, across your already-used providers.
+  - Desktop app for macOS and Linux, with an iPhone companion
+  - Workflows mix agent, command and approval steps
+  - MIT licensed
+
 ## Browser Automation & UI Agents
 
 AI agents that can interact with websites, automate UI tasks, and perform web-based actions.
