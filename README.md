@@ -577,6 +577,12 @@ AI tools for infrastructure as code, cloud management, and DevOps automation.
   - Waits for a verified Preview deployment state
   - Requires interactive confirmation before Production release
 
+- [deed.page](https://deed.page/docs) - Static hosting API and MCP server that coding agents publish to directly.
+  - One curl PUT or MCP tool call returns a permanent HTTPS URL
+  - No account needed; owner token for updates, rollback and delete
+  - Agent skill for Claude Code, Codex, Cursor and Gemini CLI
+  - Free plan with 25 sites
+
 ## Database & SQL AI Tools
 
 AI assistants for database queries, schema design, and data analysis.
