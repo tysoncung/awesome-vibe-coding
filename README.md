@@ -577,6 +577,11 @@ AI tools for infrastructure as code, cloud management, and DevOps automation.
   - Waits for a verified Preview deployment state
   - Requires interactive confirmation before Production release
 
+- [Flisk](https://github.com/flisk-sh/flisk) - Local environment generator for AI-built apps.
+  - One command from an empty folder to a running stack
+  - Autodetects the app and generates the Docker Compose, Tilt and Traefik config around it
+  - Free, open source (MIT)
+
 ## Database & SQL AI Tools
 
 AI assistants for database queries, schema design, and data analysis.
