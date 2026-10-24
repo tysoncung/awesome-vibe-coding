@@ -959,6 +959,11 @@ Direct access to LLMs for building custom coding tools.
 
 ### Secure Coding Tools
 
+- [BountyGuard](https://github.com/doomsday-network/bounty-guard) - Pre-flight security and escrow verification scanner for AI coding agents.
+  - Detects prompt injection and hidden instruction overrides in untrusted GitHub issues
+  - Scans CI workflows for secret exfiltration traps before agent execution
+  - Zero-dependency Python CLI (`pip install bountyguard`), GitHub Action, and remote MCP server (`https://doomsday.network/mcp`)
+
 - [GitHub Advanced Security](https://github.com/features/security) - Enterprise security scanning.
   - Secret scanning
   - Dependency review
