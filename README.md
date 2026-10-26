@@ -260,6 +260,13 @@ The future of coding is here - AI assistants that understand context, generate c
   - Orchestrates Pi and Codex subagents
   - MIT licensed; install via npm as @yylo/cli
 
+- [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) - Records a coding-agent run below the harness, then replays it offline from the recording.
+  - `orca record claude` wraps the agent unmodified; nothing is installed into the agent
+  - `orca replay last` re-runs the session against the recording — no network, no tokens, no charge
+  - `orca replay last --from 4 --model <other>` re-runs it from a chosen step on a different model, conversation prefix held fixed
+  - Agent-agnostic: Claude Code, Codex, the Agents SDK, the AI SDK
+  - Apache-2.0, Node 20+; install via npm as orcareplay (the command is `orca`)
+
 ### Browser Extensions
 
 - [Blackbox AI](https://www.blackbox.ai/) - Code autocomplete anywhere.
@@ -327,6 +334,12 @@ The future of coding is here - AI assistants that understand context, generate c
   - Installable PWA with push; single Docker container
   - MIT licensed
 
+- [Oh My Android](https://github.com/ateymoori/oh-my-android) - macOS app with a built-in MCP server that lets coding agents see and drive the Android Emulator and adb devices.
+  - Screenshots and UI tree in dp, tap and swipe, logcat
+  - Dark mode, font scale, RTL/locale, TalkBack, network and GPS toggles
+  - Works with Claude Code, Codex, Cursor, VS Code, and Gemini CLI
+  - Free and MIT licensed; macOS 26+ on Apple silicon
+
 ## AI Agents & Autonomous Coding
 
 Tools that can autonomously build apps, implement features, or complete coding tasks with minimal human intervention.
@@ -350,6 +363,12 @@ Tools that can autonomously build apps, implement features, or complete coding t
   - Visual editing and AI chat iteration
   - One-click publishing
   - Custom domains and Playcode Cloud hosting
+
+- [Kleap](https://kleap.co/) - AI website and app builder.
+  - Describe a site or app in chat, then edit and publish it
+  - Hosted MCP server (OAuth) so Claude, Cursor and other agents can create, edit and publish sites
+  - Open-source CLI (`npx kleap-cli`, MIT)
+  - Free plan; paid plans from $9/mo add custom domains
 
 - [Devin](https://devin.ai/) - Cognition's autonomous AI software engineer.
   - Completes entire tasks with its own terminal and browser
@@ -406,6 +425,11 @@ Tools that can autonomously build apps, implement features, or complete coding t
   - Local-first sessions with journaled resume
   - BSL 1.1 licensed; production use allowed except competing hosted offerings
 
+- [Orbi](https://github.com/orbi-build/orbi) - Open-source agent that works from GitHub issues.
+  - Implements each labeled issue in an isolated worktree and opens a PR
+  - A separate review session checks the diff against the acceptance criteria
+  - Merges only the reviewed head and cuts a tagged release
+
 - [Frink](https://github.com/benord-labs/frink) - Desktop-first, open-source (MIT) application for running parallel agents, and multi-step custom workflows triggered by schedules, webhooks or events from tools like Linear and Sentry, across your already-used providers.
   - Desktop app for macOS and Linux, with an iPhone companion
   - Workflows mix agent, command and approval steps
@@ -444,6 +468,12 @@ AI agents that can interact with websites, automate UI tasks, and perform web-ba
   - Session management
   - Stealth mode
   - Production-grade reliability
+
+- [CurlShot](https://curlshot.com/) - Screenshot API with a hosted MCP server for coding agents.
+  - Agents call `take_screenshot` to see a page as PNG, JPEG, WebP or PDF
+  - Full page, device presets, dark mode, single element
+  - Plain HTTP API and OpenAPI spec too
+  - Free plan: 100 screenshots/month, no card
 
 ## AI Code Review & Analysis
 
@@ -581,6 +611,11 @@ AI tools for infrastructure as code, cloud management, and DevOps automation.
   - Claude Code and Codex Skill support
   - Waits for a verified Preview deployment state
   - Requires interactive confirmation before Production release
+
+- [Flisk](https://github.com/flisk-sh/flisk) - Local environment generator for AI-built apps.
+  - One command from an empty folder to a running stack
+  - Autodetects the app and generates the Docker Compose, Tilt and Traefik config around it
+  - Free, open source (MIT)
 
 ## Database & SQL AI Tools
 
