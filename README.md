@@ -1013,6 +1013,10 @@ Direct access to LLMs for building custom coding tools.
 - [GitHub Blog AI](https://github.blog/category/ai-and-ml/) - GitHub AI news.
 - [Sourcegraph Blog](https://about.sourcegraph.com/blog) - Developer tools insights.
 
+- [Jvlang AI Codex Setup Guide (Chinese)](https://jvlangai.com/guides/codex) - Practical reference for third-party API configuration and authentication troubleshooting.
+  - Explains configuration precedence and changes that do not take effect.
+  - Includes 401 diagnosis, examples and links to official documentation; free to read without login.
+
 ### YouTube Channels
 
 - [Fireship](https://www.youtube.com/@Fireship) - AI coding tools reviews.
