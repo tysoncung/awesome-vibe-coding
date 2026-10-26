@@ -459,6 +459,12 @@ AI agents that can interact with websites, automate UI tasks, and perform web-ba
   - Stealth mode
   - Production-grade reliability
 
+- [CurlShot](https://curlshot.com/) - Screenshot API with a hosted MCP server for coding agents.
+  - Agents call `take_screenshot` to see a page as PNG, JPEG, WebP or PDF
+  - Full page, device presets, dark mode, single element
+  - Plain HTTP API and OpenAPI spec too
+  - Free plan: 100 screenshots/month, no card
+
 ## AI Code Review & Analysis
 
 - [CodeRabbit](https://coderabbit.ai/) - AI code reviews for PRs.
