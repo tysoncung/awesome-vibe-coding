@@ -608,6 +608,7 @@ AI assistants for database queries, schema design, and data analysis.
 - [Brilliant](https://brilliant.org/) - CS fundamentals with AI.
 - [Wikivibe](https://wikivibe.ru/en/) - Practical knowledge base for AI-assisted development with guides, a glossary, jobs, and a public MCP endpoint.
 - [Vibe Coding with Confidence](https://zalt.me/guides/vibe-coding) - Web handbook on building AI-assisted apps that work beyond the demo: plan, build, debug, harden, ship, operate, and scale.
+- [Hive Coding vs Vibe Coding](https://thehivecode.ai/learn/hive-coding-vs-vibe-coding) - Plain-English guide to how hive coding (many people and many AIs) differs from vibe coding (one person and one AI), and when each fits.
 
 ## Productivity Tools
 
