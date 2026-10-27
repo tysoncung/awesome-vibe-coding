@@ -787,6 +787,7 @@ AI assistants for database queries, schema design, and data analysis.
 - ✅ **Tabby** - Free self-hosted Community edition (up to 5 users)
 - ✅ **Bolt.new** - Free plan with a monthly token allowance
 - ✅ **JetBrains AI** - Free tier included with JetBrains IDEs
+- ✅ **[WhichAICoder](https://whichaicoder.com/)** - Free guide that picks one AI coding tool per use case, with a public scoring rubric and dated, sourced price checks.
 
 ## Best Practices & Guides
 
