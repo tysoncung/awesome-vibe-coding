@@ -370,6 +370,12 @@ Tools that can autonomously build apps, implement features, or complete coding t
   - Open-source CLI (`npx kleap-cli`, MIT)
   - Free plan; paid plans from $9/mo add custom domains
 
+- [AppWizzy](https://appwizzy.com/) - AI-powered business web app builder.
+  - Generate and edit applications from prompts and templates
+  - Dedicated cloud development VMs with PHP, Python, and Node.js runtime options
+  - Git-based source editing and project-dependent GitHub export
+  - Free personal-use plan; Pro from $20/mo, with AI usage, VM hosting, and template fees charged separately
+
 - [Devin](https://devin.ai/) - Cognition's autonomous AI software engineer.
   - Completes entire tasks with its own terminal and browser
   - Self-serve since April 2025
