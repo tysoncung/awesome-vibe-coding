@@ -1017,6 +1017,12 @@ Direct access to LLMs for building custom coding tools.
   - Policy enforcement
   - Free for individuals
 
+- [Ironheights](https://github.com/Frank-Masciopinto/ironheights) - Open-source scanner for AI agent skills (OpenClaw/ClawHub `SKILL.md` bundles) before they are installed into a coding agent.
+  - Flags prompt injection, credential reads, remote-exec installs and persistence
+  - Integrity pinning and quarantine for installed skills
+  - JSON/SARIF output and exit codes for CI gating
+  - Static analysis only, so a clean scan is not a guarantee; Apache-2.0, free
+
 ### Privacy-First Alternatives
 
 - [Tabby](https://github.com/TabbyML/tabby) - Self-hosted AI coding assistant.
