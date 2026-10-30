@@ -435,6 +435,11 @@ Tools that can autonomously build apps, implement features, or complete coding t
   - Workflows mix agent, command and approval steps
   - MIT licensed
 
+- [call-me](https://github.com/radres/call-me) - Lets a coding agent ring or text your phone when it needs a decision.
+  - Claude Code plugin and agent skill, plus a hosted MCP endpoint for any MCP client
+  - Your spoken answer comes back to the agent as text
+  - iPhone and Android app, 3-day free trial then a paid subscription
+
 ## Browser Automation & UI Agents
 
 AI agents that can interact with websites, automate UI tasks, and perform web-based actions.
