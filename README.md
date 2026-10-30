@@ -749,6 +749,7 @@ AI assistants for database queries, schema design, and data analysis.
 
 - [Arena Code Leaderboard](https://arena.ai/leaderboard/code/webdev/) - Community-voted rankings for web development and agentic coding (formerly Chatbot Arena / LMArena).
 - [Artificial Analysis](https://artificialanalysis.ai/) - Speed, price, and quality metrics, including a Coding Agent Index.
+- [VibeToolRank](https://vibetoolrank.com/) - Independent hands-on tests of AI coding tools on the same standard tasks, with scores, free-tier limits and the raw test write-ups.
 
 **Key Metrics to Compare:**
 - Pass@1, Pass@10 (success rates)
