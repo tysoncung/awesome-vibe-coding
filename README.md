@@ -143,6 +143,17 @@ The future of coding is here - AI assistants that understand context, generate c
   - No telemetry
   - GPU/CPU support
 
+- [Volt](https://github.com/LeulAria/volt) - Open-source agentic code editor on the VS Code core, highly inspired by Cursor.
+  - Drives Claude Code, Codex, and Grok (early access) over ACP, plus local models via Ollama
+  - Plan mode, subagents, MCP, and parallel agents in Git worktrees
+  - Hunk-level review of agent edits with a Git checkpoint per turn
+  - MIT licensed, public beta
+
+
+
+
+
+
 ### CLI Tools
 
 - [OpenAI Codex CLI](https://github.com/openai/codex) - OpenAI's open-source terminal coding agent.
