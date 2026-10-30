@@ -149,11 +149,6 @@ The future of coding is here - AI assistants that understand context, generate c
   - Hunk-level review of agent edits with a Git checkpoint per turn
   - MIT licensed, public beta
 
-
-
-
-
-
 ### CLI Tools
 
 - [OpenAI Codex CLI](https://github.com/openai/codex) - OpenAI's open-source terminal coding agent.
