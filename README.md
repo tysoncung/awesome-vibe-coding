@@ -543,6 +543,12 @@ AI agents that can interact with websites, automate UI tasks, and perform web-ba
 
 ## AI Testing
 
+- [agent-qa](https://vostride.com) - AI testing for web, Android, and iOS apps.
+  - CLI and local MCP server for coding agents
+  - memidex persistent memory with validated self-improvement
+  - Reviewable execution evidence and reusable tests
+  - FSL-1.1-ALv2; model/API and external-service costs are separate
+
 - [Testim (Tricentis)](https://www.testim.io/) - AI for test automation.
   - Self-healing tests
   - Smart locators
