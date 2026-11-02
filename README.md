@@ -886,6 +886,7 @@ Real-world examples of AI-assisted development impact.
 - [A quarter of YC W25 startups have mostly AI-generated codebases](https://techcrunch.com/2025/03/06/a-quarter-of-startups-in-ycs-current-cohort-have-codebases-that-are-almost-entirely-ai-generated) - Jared Friedman (YC) on AI-written code in the W25 batch.
 - [Cursor Customer Stories](https://cursor.com/customers) - Attributed case studies from Coinbase, Brex, Nokia, and Vercel.
 - [CodeRabbit Customer Stories](https://coderabbit.ai/customers) - Automated code review results.
+- [VibeShelf](https://vibeshelf.pages.dev/) - Directory of real apps built with AI coding tools, browsable by tool (Cursor, Lovable, Claude Code, Bolt, v0).
 
 ## Model Providers & APIs
 
