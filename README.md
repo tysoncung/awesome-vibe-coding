@@ -1011,6 +1011,12 @@ Direct access to LLMs for building custom coding tools.
   - Code scanning
   - Security advisories
 
+- [npmscan](https://github.com/salemalem/npmscan-mcp-plugin) - MCP server and agent skills that check npm packages before a coding agent installs them.
+  - Flags confirmed malware, including versions npm removed
+  - Known vulnerabilities from OSV, GitHub advisories and NVD
+  - Maintainer-takeover and install-script checks
+  - Free, no API key; plugin is MIT
+
 - [GitGuardian](https://www.gitguardian.com/) - Secrets detection.
   - Real-time alerts
   - Historical scanning
