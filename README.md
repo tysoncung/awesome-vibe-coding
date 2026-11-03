@@ -516,6 +516,12 @@ AI agents that can interact with websites, automate UI tasks, and perform web-ba
   - Bugbot rules
   - 14-day free trial, then paid
 
+- [Ponder](https://github.com/Quinnod345/ponder) - Zero-dependency cognitive verification CLI and agent skill that enforces an 8-stage deliberation protocol and a mathematical convergence gate for code reviews.
+  - Evaluates work units across 4 adversarial lenses (`skeptic`, `builder`, `dreamer`, `empath`) with an append-only ledger in `.ponder/sessions/`
+  - Requires 100% unit coverage and bounded novelty and churn before `ponder verify` exits 0
+  - Works with Claude Code, Cursor, Codex, and OpenClaw (`npx @quinnod345/ponder`, `pip install ponder-cli`)
+  - Free and open source (MIT)
+
 ## AI Debugging & Error Fixing
 
 - [Pieces for Developers](https://pieces.app/) - AI coding workflow tool.
