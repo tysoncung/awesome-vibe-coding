@@ -340,6 +340,11 @@ The future of coding is here - AI assistants that understand context, generate c
   - Works with Claude Code, Codex, Cursor, VS Code, and Gemini CLI
   - Free and MIT licensed; macOS 26+ on Apple silicon
 
+- [Code By AI](https://www.codebyai.net) - Hosted API gateway for coding agents: one API key and one prepaid balance for Claude, GPT/Codex and Gemini models.
+  - Works with Claude Code, Codex CLI, Gemini CLI, Cline and other tools by changing the base URL (OpenAI-compatible endpoint)
+  - Supports Anthropic Messages, OpenAI Responses/Chat Completions and Gemini request formats
+  - Paid, pay-per-token prepaid balance (minimum top-up US$3), no subscription, no free tier
+
 ## AI Agents & Autonomous Coding
 
 Tools that can autonomously build apps, implement features, or complete coding tasks with minimal human intervention.
