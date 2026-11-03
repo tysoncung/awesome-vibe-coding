@@ -214,6 +214,12 @@ The future of coding is here - AI assistants that understand context, generate c
   - Source-available; free plan with limited credits
   - Build $20/mo, Max $200/mo
 
+- [Mel](https://www.openmel.dev) - Agentic terminal with a lead agent that runs worker agents in parallel.
+  - Orchestrates CLI agents like Claude Code and Codex CLI
+  - Diff review and configurable approvals on every change
+  - Mac, Windows, Linux and a VS Code extension; proprietary
+  - Free with your own API key; Pro $20/mo, Max $200/mo
+
 - [codex-profiles](https://github.com/Ducksss/codex-profiles) - Manage named Codex CLI profiles with separate local `CODEX_HOME` state.
   - Run Codex CLI and one-shot commands in a selected profile
   - Supports per-profile login, status, and diagnostics
