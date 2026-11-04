@@ -340,6 +340,11 @@ The future of coding is here - AI assistants that understand context, generate c
   - Works with Claude Code, Codex, Cursor, VS Code, and Gemini CLI
   - Free and MIT licensed; macOS 26+ on Apple silicon
 
+- [CodeI Lab](https://www.codeilab.com) - Third-party GPT API gateway for coding agents, billed with discounted credit instead of official pay-as-you-go rates.
+  - GPT-6 Astra/Sol, GPT-6.1 Sol/Terra and GPT-5.6 Sol/Terra via the GPT API
+  - OpenAI or Claude protocols; configure Claude Code, Codex CLI or OpenCode with one command
+  - Paid usage-based plans: Trial $3/week, Plus $9.90/month, Pro $39.90/month, Ultra $99.90/month; no free plan
+
 ## AI Agents & Autonomous Coding
 
 Tools that can autonomously build apps, implement features, or complete coding tasks with minimal human intervention.
