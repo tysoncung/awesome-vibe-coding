@@ -917,6 +917,12 @@ Direct access to LLMs for building custom coding tools.
   - European data residency
   - Open-source Mistral Vibe CLI
 
+- [UberLLM](https://uberllm.dev) - One OpenAI- and Anthropic-compatible API for GPT, Claude, Gemini, DeepSeek, GLM, Qwen and Kimi models.
+  - Works in Claude Code, Codex CLI, Cline, Cursor and Aider by changing the base URL and key
+  - Image, video, music and speech models on the same key
+  - Failed requests are not billed
+  - Pay as you go from a $5 prepaid balance, no free tier
+
 ### Open Source Model Hosting
 
 - [Together AI](https://www.together.ai/) - Host open source models.
