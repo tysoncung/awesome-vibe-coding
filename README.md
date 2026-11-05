@@ -1017,6 +1017,11 @@ Direct access to LLMs for building custom coding tools.
   - Policy enforcement
   - Free for individuals
 
+- [VibePreflight](https://vibepreflight.com/gh) - Free live-site check for vibe-coded apps: leaked keys in JS, exposed `.env`/`.git`, and Supabase tables readable while logged out, plus a Cursor/Claude Code guardrail pack.
+  - Free outside check (no signup)
+  - Copy-paste fix prompts per finding
+  - Optional paid repo report and Pro Pack hooks
+
 ### Privacy-First Alternatives
 
 - [Tabby](https://github.com/TabbyML/tabby) - Self-hosted AI coding assistant.
