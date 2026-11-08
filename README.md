@@ -267,6 +267,12 @@ The future of coding is here - AI assistants that understand context, generate c
   - Agent-agnostic: Claude Code, Codex, the Agents SDK, the AI SDK
   - Apache-2.0, Node 20+; install via npm as orcareplay (the command is `orca`)
 
+- [Imagera Code](https://imagera.ai/code) - Terminal coding agent built on OpenCode, with many model providers on one subscription.
+  - Reads and edits the project, runs commands and tests, and shows the diff
+  - Claude, GPT, Gemini and hundreds of other models; limits reset every 3 hours plus a weekly limit
+  - Headless mode, ACP and MCP; install with `npm i -g imagera-code`
+  - MIT-licensed CLI; plans from $20/month
+
 ### Browser Extensions
 
 - [Blackbox AI](https://www.blackbox.ai/) - Code autocomplete anywhere.
