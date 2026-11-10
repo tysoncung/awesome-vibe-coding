@@ -674,6 +674,10 @@ AI assistants for database queries, schema design, and data analysis.
 - [Ona (formerly Gitpod)](https://ona.com/) - Cloud development environments and background agents.
 - [Bito Governor](https://bito.ai/) - Model router and cost optimizer for Claude Code, Cursor, and Codex.
 - [ccusage](https://github.com/ryoppippi/ccusage) - Token and cost reports for Claude Code and other coding agents.
+- [who-said-yes](https://github.com/skprasad-korture/who-said-yes) - Counts which of your coding agent's actions you approved yourself, from your Claude Code and Codex logs.
+  - Separates your own yeses at the prompt from approvals by saved rules, the permission mode, auto mode, settings and hooks
+  - Read only, one JavaScript file, no network calls
+  - Free and MIT; run with `npx github:skprasad-korture/who-said-yes` or install as a Claude Code plugin
 
 ## Open Source Projects
 
