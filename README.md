@@ -267,6 +267,12 @@ The future of coding is here - AI assistants that understand context, generate c
   - Agent-agnostic: Claude Code, Codex, the Agents SDK, the AI SDK
   - Apache-2.0, Node 20+; install via npm as orcareplay (the command is `orca`)
 
+- [DESIGN:OS](https://github.com/jangtrinh/design-os) - Design CLI and skills for Claude Code, Codex, Gemini CLI and Antigravity.
+  - Describe a UI in plain words; get web or SwiftUI output
+  - Deterministic checks for spacing, type scale and contrast before handoff
+  - Runs locally with zero telemetry
+  - Free; source-available under PolyForm Shield 1.0.0; install with `npx @easestart/design-os init`
+
 ### Browser Extensions
 
 - [Blackbox AI](https://www.blackbox.ai/) - Code autocomplete anywhere.
