@@ -623,6 +623,11 @@ AI tools for infrastructure as code, cloud management, and DevOps automation.
   - Agent skill for Claude Code, Codex, Cursor and Gemini CLI
   - Free plan with 25 sites
 
+- [BrewPage](https://brewpage.app/) - Free hosting for HTML pages, static sites, Markdown, JSON and files that AI agents publish to over HTTP or MCP.
+  - One POST or MCP tool call returns a shareable HTTPS link; no signup or API key
+  - Remote MCP server (`https://brewpage.app/mcp`), OpenAPI spec, GitHub Action and agent skill
+  - Owner token to update or delete; links expire after up to 30 days (90 with a free account)
+
 ## Database & SQL AI Tools
 
 AI assistants for database queries, schema design, and data analysis.
