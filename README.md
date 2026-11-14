@@ -435,6 +435,12 @@ Tools that can autonomously build apps, implement features, or complete coding t
   - Workflows mix agent, command and approval steps
   - MIT licensed
 
+- [claude-bulkhead](https://github.com/dooly6276/claude-bulkhead) - Hooks that stop coding agents from running destructive shell commands.
+  - PreToolUse hooks for Claude Code, Codex, Gemini CLI, Copilot CLI, Cursor and opencode
+  - Blocks `rm -rf` through an empty variable, `pkill` of other sessions, and `git add -A` of another session's edits
+  - Each block tells the agent the safe command to use instead
+  - MIT licensed, zero dependencies
+
 ## Browser Automation & UI Agents
 
 AI agents that can interact with websites, automate UI tasks, and perform web-based actions.
