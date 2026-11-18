@@ -1017,6 +1017,11 @@ Direct access to LLMs for building custom coding tools.
   - Policy enforcement
   - Free for individuals
 
+- [VibeLocked LeakCheck](https://vibelocked.com/leakcheck/) - Free read only scanner for apps built with AI coding tools.
+  - Live URL check for leaked keys, open Supabase tables, and exposed `.env`, `.git`, and source maps
+  - Free GitHub Action that fails the build on leaked keys
+  - One preview scan needs no account
+
 ### Privacy-First Alternatives
 
 - [Tabby](https://github.com/TabbyML/tabby) - Self-hosted AI coding assistant.
