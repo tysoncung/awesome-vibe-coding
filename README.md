@@ -370,6 +370,12 @@ Tools that can autonomously build apps, implement features, or complete coding t
   - Open-source CLI (`npx kleap-cli`, MIT)
   - Free plan; paid plans from $9/mo add custom domains
 
+- [Ginta](https://ginta.app/) - AI website builder for small businesses.
+  - Describe the business in chat and get a live website in a minute or two
+  - Built-in contact forms, bookings, an online shop (Stripe) and a blog
+  - Remote MCP server (OAuth) so Claude, ChatGPT and Claude Code can build, publish and edit sites
+  - Free plan; paid plans add custom domains
+
 - [Devin](https://devin.ai/) - Cognition's autonomous AI software engineer.
   - Completes entire tasks with its own terminal and browser
   - Self-serve since April 2025
