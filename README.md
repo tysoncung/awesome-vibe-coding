@@ -661,6 +661,7 @@ AI assistants for database queries, schema design, and data analysis.
 
 - [Linear](https://linear.app/) - Issue tracking with AI features.
 - [Notion AI](https://www.notion.so/product/ai) - Docs with AI.
+- [Taskhold](https://taskhold.com/?ref=awesome-vibe-coding) - Hosted task list shared with Claude Code, Cursor and Codex over MCP; agents plan steps, report live progress and ask when stuck. Paid, 7-day trial.
 
 ### Git & Version Control
 
