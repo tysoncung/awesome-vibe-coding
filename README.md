@@ -1058,6 +1058,7 @@ Direct access to LLMs for building custom coding tools.
 - [AI Coding Tools Blog](https://www.cursor.com/blog) - Cursor blog.
 - [GitHub Blog AI](https://github.blog/category/ai-and-ml/) - GitHub AI news.
 - [Sourcegraph Blog](https://about.sourcegraph.com/blog) - Developer tools insights.
+- [Little Cups of Claude](https://littlecupsofclaude.com) - Short tips for Claude Code, the Claude API, the Agent SDK and MCP, one every weekday.
 
 ### YouTube Channels
 
