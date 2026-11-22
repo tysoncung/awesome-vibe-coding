@@ -591,6 +591,7 @@ AI agents that can interact with websites, automate UI tasks, and perform web-ba
 - [Prompt Engineering Guide for Code](https://www.promptingguide.ai/applications/coding) - Best practices.
 - [Vibe-Coding Prompt Template](https://github.com/KhazP/vibe-coding-prompt-template) - Five-step prompt workflow: deep research, PRD, tech design, AGENTS.md, build.
 - [Code Generation Patterns](https://github.com/openai/openai-cookbook/blob/main/examples/How_to_format_inputs_to_ChatGPT_models.ipynb) - OpenAI cookbook.
+- [Sharpen](https://github.com/melthond/sharpen) - Claude Code plugin that, when turned on, rewrites each eligible prompt from the conversation, codebase and installed tools, and shows it for approval.
 
 ## Infrastructure & DevOps AI
 
