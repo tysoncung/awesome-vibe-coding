@@ -91,6 +91,11 @@ The future of coding is here - AI assistants that understand context, generate c
   - Multi-repo context
   - Enterprise only since July 2025; individual users are directed to Amp
 
+- [Valo](https://getvalo.dev/) - Desktop workspace that runs Claude Code, Codex, Gemini, Cursor and GLM side by side.
+  - Windows, macOS and Linux
+  - Per-tool permissions and custom Guards
+  - Closed source with a free plan and optional Pro
+
 - [Windsurf (now Devin Desktop)](https://devin.ai/desktop) - Agentic IDE from Cognition, formerly Codeium.
   - Built on VSCode with the Cascade agent
   - Windsurf Plugin (formerly Codeium) for other editors with unlimited free autocomplete
