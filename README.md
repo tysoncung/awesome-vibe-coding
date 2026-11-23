@@ -623,6 +623,11 @@ AI tools for infrastructure as code, cloud management, and DevOps automation.
   - Agent skill for Claude Code, Codex, Cursor and Gemini CLI
   - Free plan with 25 sites
 
+- [OmniForge VibeShield & Checklist](https://github.com/zColdWater/vibe-security-checklist) - Pre-launch security guardrails, MCP server, and passive 116-check live scanner for AI-built web apps.
+  - MIT `.cursor/rules/security.mdc` guardrails, 8 hardened deployment/RLS templates, and a zero-dependency local bundle secret scanner
+  - Free passive live scanner (`https://vibe-checker.appwrite.network`) and zero-install `curl --fail-below` CI verification gate
+  - Read-only MCP server (`zColdWater/mcp-launch-audit`) exposing security, email DNS, and AI search checks to Claude Code and Cursor
+
 ## Database & SQL AI Tools
 
 AI assistants for database queries, schema design, and data analysis.
