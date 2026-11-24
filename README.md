@@ -293,6 +293,12 @@ The future of coding is here - AI assistants that understand context, generate c
   - Export to Figma or code
   - Free Google Labs product
 
+- [Kite](https://kite.new) - Design canvas that AI coding agents draw into over MCP.
+  - Hosted MCP server for Claude Code, Cursor, Codex and ChatGPT
+  - Editable frames, text, components and auto layout in a shared team file
+  - Copy frames as HTML, React or Tailwind, or copy to Figma
+  - Free plan; Pro from $16/editor/month
+
 - [Butterfish](https://butterfi.sh/) - Shell copilot.
   - AI assistance in terminal
   - Context-aware suggestions
