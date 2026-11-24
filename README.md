@@ -518,6 +518,7 @@ AI agents that can interact with websites, automate UI tasks, and perform web-ba
 
 ## AI Debugging & Error Fixing
 
+- [Runheed](https://runheed.com/?ref=awesome-vibe-coding) - Error tracking with a remote MCP server: Claude Code, Cursor and Codex read production errors with stack traces, fix them and mark them resolved. Paid, 7-day trial.
 - [Pieces for Developers](https://pieces.app/) - AI coding workflow tool.
   - Save and share snippets
   - Context awareness
