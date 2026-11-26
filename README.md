@@ -917,7 +917,7 @@ Direct access to LLMs for building custom coding tools.
   - European data residency
   - Open-source Mistral Vibe CLI
 
-- [UberLLM](https://uberllm.dev) - One OpenAI- and Anthropic-compatible API for GPT, Claude, Gemini, DeepSeek, GLM, Qwen and Kimi models.
+- [MartLLM](https://martllm.com) - One OpenAI- and Anthropic-compatible API for GPT, Claude, Gemini, DeepSeek, GLM, Qwen and Kimi models. Formerly UberLLM.
   - Works in Claude Code, Codex CLI, Cline, Cursor and Aider by changing the base URL and key
   - Image, video, music and speech models on the same key
   - Failed requests are not billed
