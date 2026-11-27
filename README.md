@@ -623,6 +623,12 @@ AI tools for infrastructure as code, cloud management, and DevOps automation.
   - Agent skill for Claude Code, Codex, Cursor and Gemini CLI
   - Free plan with 25 sites
 
+- [Sandscale](https://sandscale.dev/) - Firecracker microVM sandboxes and cloud workspaces for AI coding agents.
+  - One microVM per agent run
+  - Remote MCP server (Streamable HTTP, OAuth 2.1), CLI and REST API
+  - Per-tool allow/ask/deny policy, approvals and an audit log
+  - Free plan; Pro $25/mo billed monthly
+
 ## Database & SQL AI Tools
 
 AI assistants for database queries, schema design, and data analysis.
