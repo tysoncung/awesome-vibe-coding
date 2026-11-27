@@ -729,6 +729,7 @@ AI assistants for database queries, schema design, and data analysis.
 - [PrivateGPT](https://github.com/zylon-ai/private-gpt) - Local document analysis.
 - [GPT4All](https://gpt4all.io/) - Local LLM runner.
 - [MCP Inspector](https://github.com/modelcontextprotocol/inspector) - Reference tool for testing and debugging MCP servers.
+- [MuseCodeIcon](https://github.com/yourbossdonpely/musecodeicon) - Free, MIT-licensed desktop GUI (Windows, macOS, Linux) for Meta's Muse Code CLI: coding threads, approvals, diffs and plan meters. Unofficial, not affiliated with Meta.
 
 ## Benchmarks & Evaluation
 
