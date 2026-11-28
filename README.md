@@ -339,6 +339,11 @@ The future of coding is here - AI assistants that understand context, generate c
   - Dark mode, font scale, RTL/locale, TalkBack, network and GPS toggles
   - Works with Claude Code, Codex, Cursor, VS Code, and Gemini CLI
   - Free and MIT licensed; macOS 26+ on Apple silicon
+- [reinwatch](https://github.com/sofumel/reinwatch) - Claude Code plugin that makes subagents, teammates, and workflow agents visible and stoppable.
+  - Per-agent new-token counts (cache reads excluded) and active-time tracking, with turn summaries and 30-day totals
+    - Configurable warnings with notifications for long runs, heavy token use, repeated tool calls, failure streaks, and agent bursts
+      - Stop a single agent, including one inside a workflow; nothing is stopped automatically
+        - Free and open source, MIT licensed
 
 ## AI Agents & Autonomous Coding
 
